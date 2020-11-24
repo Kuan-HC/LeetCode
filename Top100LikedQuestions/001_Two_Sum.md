@@ -17,7 +17,8 @@ Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 # Solution
 ## C
 * Brute Force
-<img src="img/001.JPG" width = "500"/>
+<img src="img/001.JPG" width = "500"/>  
+
 ```
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 0;
