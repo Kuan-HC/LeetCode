@@ -15,7 +15,9 @@ Output: Because nums[0] + nums[1] == 9, we return [0, 1].
 你可以假設每種輸入只會對應一個答案。但是，數組中同一個元素不能使用兩遍。
 
 # Solution
-## C Brute Force
+## C
+* Brute Force
+<img src="img/001.JPG" width = "500"/>
 ```
 int* twoSum(int* nums, int numsSize, int target, int* returnSize){
     *returnSize = 0;
