@@ -4,7 +4,8 @@ Given a string s containing just the characters '(', ')', '{', '}', '[' and ']',
 An input string is valid if:  
 
 1. Open brackets must be closed by the same type of brackets.
-2. Open brackets must be closed in the correct order.
+2. Open brackets must be closed in the correct order.  
+
 [LeetCode](https://leetcode.com/problems/valid-parentheses/)  
 
 ### Example 1:
@@ -17,6 +18,15 @@ Output: true
 Input: s = "([)]"
 Output: false
 ```
+
+#
+給定一個只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判斷字符串是否有效。  
+
+有效字符串需滿足：  
+
+左括號必須用相同類型的右括號閉合。  
+左括號必須以正確的順序閉合。  
+注意空字符串可被認為是有效字符串。  
 
 # Solution
 ## C
@@ -53,4 +63,5 @@ bool isValid(char * s){
         return true;
     else
         return false;
+ }
 ```
