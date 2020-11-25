@@ -53,7 +53,7 @@ bool isValid(char * s){
                        || (s[i] == ']' && stack[stack_i-1] =='[') 
                        || (s[i] == '}' && stack[stack_i-1] =='{')
                     )                             
-            stack_i --; 
+                stack_i --; 
             else
                 return false;
         }           
