@@ -33,8 +33,10 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 }
 ```
 ### Illustration
-<img src="img/021.JPG" width = "500"/>
+<img src="img/021.JPG" width = "600"/>
 * Note:  
+
 1. 使用遞歸recursion 時需特別注意邊界的情況，本題的邊界狀況即為 next = Null  
+
 2. Misra C 中禁止使用recursion 及鍊表，猜想是因為新的資料一直在生成，使用recursion沒有辦法終止  
-   如果是固定的資料，也不應該每次啟動時重新計算
+   如果是固定的資料，也不應該每次啟動時重新計算 
