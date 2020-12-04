@@ -71,3 +71,4 @@ int maxDepth(struct TreeNode* root){
 
 2. Misra C 中禁止使用recursion 及鍊表，猜想是因為新的資料一直在生成，使用recursion沒有辦法終止  
    如果是固定的資料，也不應該每次啟動時重新計算 
+ㄒ
