@@ -22,8 +22,9 @@ Output: 1
 给定一个整数数组 nums ，找到一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。  
 
 # Solution
-## C
+<img src="img/053.JPG" width = "500"/>
 
+## C
 ```
 int maxSubArray(int* nums, int numsSize){
     
@@ -40,7 +41,7 @@ int maxSubArray(int* nums, int numsSize){
     return tmp_max;
 }
 ```
-<img src="img/053.JPG" width = "500"/>
+
 
 
 

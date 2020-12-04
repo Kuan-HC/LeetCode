@@ -17,6 +17,8 @@ Output: []
 新鍊表是通過拼接給定的兩個鍊表的所有節點組成的  
 
 # Solution
+<img src="img/021.JPG" width = "600"/>
+
 ## C
 
 ```
@@ -35,8 +37,7 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
      }
 }
 ```
-### Illustration
-<img src="img/021.JPG" width = "600"/>
+
 * Note:  
 
 1. 使用遞歸recursion 時需特別注意邊界的情況，本題的邊界狀況即為 next = Null  
