@@ -25,8 +25,7 @@ Output:
 
 
 # Solution  
-## iteration
-
+## recursion
 
 ## C
 
