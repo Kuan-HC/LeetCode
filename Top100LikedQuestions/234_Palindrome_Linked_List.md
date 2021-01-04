@@ -1,7 +1,7 @@
 #  Palindrome Linked List
 Given a singly linked list, determine if it is a palindrome.
 
-[LeetCode](https://leetcode.com/problems/invert-binary-tree/)
+[LeetCode](https://leetcode.com/problems/palindrome-linked-list/)
 
 ### Example 1:
 ```

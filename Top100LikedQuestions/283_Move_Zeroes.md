@@ -1,7 +1,7 @@
 #  Move Zeroes
 Given an array nums, write a function to move all 0's to the end of it while maintaining the relative order of the non-zero elements.
 
-[LeetCode](https://leetcode.com/problems/invert-binary-tree/)
+[LeetCode](https://leetcode.com/problems/move-zeroes/)
 
 ### Example :
 ```
@@ -16,8 +16,8 @@ Minimize the total number of operations.
 给定一个数组 nums，编写一个函数将所有 0 移动到数组的末尾，同时保持非零元素的相对顺序。
 
 ### 說明：
-必须在原数组上操作，不能拷贝额外的数组。
-尽量减少操作次数
+必須在原數組上操作，不能拷貝額外的數組。
+盡量減少操作次數
 
 # Solution  
 ## two pointers
