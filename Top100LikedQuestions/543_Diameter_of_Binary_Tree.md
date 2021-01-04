@@ -5,12 +5,16 @@ Given a binary tree, you need to compute the length of the diameter of the tree.
 
 ### Example :
 ```
-         1
+          1
          / \
         2   3
        / \     
       4   5    
 ```
+
+### Note
+The length of path between two nodes is represented by the number of edges between them.
+
 
 #  漢明距離
 兩個整數之間的漢明距離指的是這兩個數字對應二進制位不同的位置的數目。
