@@ -1,4 +1,4 @@
-#  Invert Binary Tree
+# 226. Invert Binary Tree
 Invert a binary tree.
 
 [LeetCode](https://leetcode.com/problems/invert-binary-tree/)

@@ -1,7 +1,7 @@
-#  543. Diameter of Binary Tree
+# 543. Diameter of Binary Tree
 Given a binary tree, you need to compute the length of the diameter of the tree. The diameter of a binary tree is the length of the longest path between any two nodes in a tree. This path may or may not pass through the root.
 
-[LeetCode](https://leetcode.com/problems/hamming-distance/)
+[LeetCode](https://leetcode.com/problems/diameter-of-binary-tree/)
 
 ### Example :
 ```
@@ -16,30 +16,39 @@ Given a binary tree, you need to compute the length of the diameter of the tree.
 The length of path between two nodes is represented by the number of edges between them.
 
 
-#  漢明距離
-兩個整數之間的漢明距離指的是這兩個數字對應二進制位不同的位置的數目。
-
-給出兩個整數 x 和 y，計算它們之間的漢明距離。
-
+#  二叉樹的直徑
+給定一棵二叉樹，你需要計算它的直徑長度。一棵二叉樹的直徑長度是任意兩個結點路徑長度中的最大值。這條路徑可能穿過也可能不穿過根結點。
 
 # Solution  
 
 ## C
 
 ```
-int hammingDistance(int x, int y)
+#define MAX(x, y) (x > y ? x : y)
+
+int depth(struct TreeNode *root, int *length)
 {
-    x = x ^ y;
-    y = 0;
+    if (root == NULL)
+        return 0;
 
-    while (x)
-    {
-        if (x & 0x1)
-            ++y;
-        x >>= 1;
-    }
+    int left = depth(root->left, length);
+    int right = depth(root->right, length);
+    
+    if((left + right) > *length)
+        *length = left + right;
+    
+    return (MAX(left, right) + 1);
+}
 
-    return y;
+int diameterOfBinaryTree(struct TreeNode *root)
+{
+    if (root == NULL)
+        return 0;
+
+    int max_length = 0;
+    (void)depth(root, &max_length);
+
+    return max_length;
 }
 ```
 

@@ -1,4 +1,4 @@
-# Symmetric Tree
+# 101. Symmetric Tree
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).  
 
 ### Example 1:
