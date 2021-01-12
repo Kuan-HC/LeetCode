@@ -35,7 +35,7 @@ Output: 2
 
 
 # Solution  
-<img src="img/011.JPG" width = "950"/>
+<img src="img/011.jpg" width = "950"/>
 
 ## C
 
