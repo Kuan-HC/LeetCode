@@ -16,10 +16,10 @@ Output: []
 將兩個有序鍊表合併為一個新的升序鍊表並反回  
 新鍊表是通過拼接給定的兩個鍊表的所有節點組成的  
 
-# Solution
+## Solution
 <img src="img/021.JPG" width = "600"/>
 
-## C
+### C
 
 ```
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){

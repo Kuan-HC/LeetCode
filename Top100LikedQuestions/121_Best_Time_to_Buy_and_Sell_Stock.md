@@ -25,10 +25,10 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 如果你最多只允許完成一筆交易（即買入和賣出一支股票一次），設計一個算法來計算你所能獲取的最大利潤。  
 注意：你不能在買入股票前賣出股票。
 
-# Solution
+## Solution
 <img src="img/121.JPG" width = "500"/>  
 
-## C
+### C
 
 ```
 int maxProfit(int* prices, int pricesSize){

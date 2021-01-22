@@ -37,8 +37,8 @@ Explanation: There are three ways to climb to the top.
 通常許多子問題非常相似，為此動態規劃法試圖僅僅解決每個子問題一次，從而減少計算量：一旦某個給定子問題的解已經算出，則將其記憶化儲存，  
 以便下次需要同一個子問題解之時直接查表。這種做法在重複子問題的數目關於輸入的規模呈指數增長時特別有用
 
-# Solution
-## C
+## Solution
+### C
 
 ```
 int climbStairs(int n){

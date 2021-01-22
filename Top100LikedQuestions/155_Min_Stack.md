@@ -37,13 +37,13 @@ top() —— 獲取棧頂元素。
 getMin() —— 檢索棧中的最小元素。
 
 
-# Solution  
+## Solution  
 As shown in figure below, minumun value stored in Obj is the min value stored in the top instance.
 Each time a new instance is pushed, a new instance is inserted into the handle Obj and top instance.  
 <img src="img/155.JPG" width = "650"/>
 
 
-## C
+### C
 
 ```
 typedef struct MinStack{

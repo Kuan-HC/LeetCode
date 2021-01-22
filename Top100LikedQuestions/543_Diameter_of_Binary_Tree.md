@@ -19,9 +19,9 @@ The length of path between two nodes is represented by the number of edges betwe
 #  二叉樹的直徑
 給定一棵二叉樹，你需要計算它的直徑長度。一棵二叉樹的直徑長度是任意兩個結點路徑長度中的最大值。這條路徑可能穿過也可能不穿過根結點。
 
-# Solution  
+## Solution  
 
-## C
+### C
 
 ```
 #define MAX(x, y) (x > y ? x : y)

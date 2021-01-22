@@ -33,8 +33,8 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 給定一個代表每個房屋存放金額的非負整數數組，計算你 不觸動警報裝置的情況下 ，一夜之內能夠偷竊到的最高金額。
 
 
-# Solution  
-## Dynamic Programming
+## Solution  
+### Dynamic Programming
   
 [Wiki](https://zh.m.wikipedia.org/zh-tw/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92)
 動態規劃背後的基本思想非常簡單。大致上，若要解一個給定問題，我們需要解其不同部分（即子問題），再根據子問題的解以得出原問題的解。  
@@ -42,7 +42,7 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 通常許多子問題非常相似，為此動態規劃法試圖僅僅解決每個子問題一次，從而減少計算量：一旦某個給定子問題的解已經算出，則將其記憶化儲存，  
 以便下次需要同一個子問題解之時直接查表。這種做法在重複子問題的數目關於輸入的規模呈指數增長時特別有用
 
-## C
+### C
 
 ```
 #define MAX(a,b) a > b? a:b

@@ -37,9 +37,9 @@ Output: [8,9,9,9,0,0,0,1]
 
 你可以假設除了數字 0 之外，這兩個數都不會以 0 開頭
 
-# Solution  
+## Solution  
 
-## C
+### C
 
 ```
 struct ListNode *addTwoNumbers(struct ListNode *l1, struct ListNode *l2)

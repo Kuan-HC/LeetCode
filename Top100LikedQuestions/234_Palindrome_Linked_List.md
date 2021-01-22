@@ -17,10 +17,10 @@ Output: true
 請判斷一個鍊表是否為回文鍊表
 
 
-# Solution  
-## Make a new list, do not change the original sequence
+## Solution  
+### Make a new list, do not change the original sequence
 
-## C
+### C
 
 ```
 bool isPalindrome(struct ListNode *head)

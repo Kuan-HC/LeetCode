@@ -24,10 +24,10 @@ Output:
 反轉一個單鍊表
 
 
-# Solution  
-## recursion
+## Solution  
+### recursion
 
-## C
+### C
 
 ```
 struct TreeNode* invertTree(struct TreeNode* root){

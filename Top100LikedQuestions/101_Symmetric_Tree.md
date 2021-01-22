@@ -25,8 +25,8 @@ But the following [1,2,2,null,3,null,3] is not:
 # 對稱二叉樹  
 給定一個二叉樹，檢查它是鏡像對稱的  
 
-# Solution
-## C
+## Solution
+### C
 
 ```
 /**

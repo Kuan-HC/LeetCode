@@ -29,10 +29,12 @@ Output: [1]
 
 進階：你能嘗試使用一趟掃描實現嗎？  
 
-# Solution
-Multiple pointers
+## Solution
+* Multiple pointers
+
 <img src="img/019.png" width = "700"/>
-## C
+
+### C
 
 ```
 struct ListNode *removeNthFromEnd(struct ListNode *head, int n)

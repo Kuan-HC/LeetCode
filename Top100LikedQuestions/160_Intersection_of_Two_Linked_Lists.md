@@ -13,14 +13,14 @@ begin to intersect at node c1.
 編寫一個程序，找到兩個單鍊錶相交的起始節點。
 
 
-# Solution  
+## Solution  
   
 <img src="img/160_1.JPG" width = "650"/>
 
 <img src="img/160_2.JPG" width = "650"/>
 
 
-## C
+### C
 
 ```
 struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *headB) {

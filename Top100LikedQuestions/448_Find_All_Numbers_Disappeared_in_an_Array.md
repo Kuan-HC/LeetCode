@@ -16,7 +16,7 @@ Output:
 [5,6]
 ```
 
-#  找到所有數組中消失的數字
+##  找到所有數組中消失的數字
 給定一個範圍在  1 ≤ a[i] ≤ n ( n = 數組大小 ) 的 整型數組，數組中的元素一些出現了兩次，另一些只出現一次。
 
 找到所有在 [1, n] 範圍之間沒有出現在數組中的數字。
@@ -24,10 +24,10 @@ Output:
 您能在不使用額外空間且時間覆雜度為O(n)的情況下完成這個任務嗎? 你可以假定返回的數組不算在額外空間內
 
 
-# Solution  
+## Solution  
 <img src="img/484.JPG" width = "650"/>
 
-## C
+### C
 
 ```
 int *findDisappearedNumbers(int *nums, int numsSize, int *returnSize)

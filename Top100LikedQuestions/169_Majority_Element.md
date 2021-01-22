@@ -24,7 +24,7 @@ Output: 2
 你可以假設數組是非空的，並且給定的數組總是存在多數元素。
 
 
-# Solution  
+## Solution  
 ## Moore Voting Algorithm
   
 <img src="img/169_1.JPG" width = "500"/>

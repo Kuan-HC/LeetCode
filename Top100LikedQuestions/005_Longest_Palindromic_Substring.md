@@ -28,9 +28,9 @@ Output: "a"
 #  無重覆字符的最長子串
 給定一個字符串，請你找出s中最長的回文子串
 
-# Solution  
+## Solution  
 
-## C
+### C
 
 ```
 char *longestPalindrome(char *s)

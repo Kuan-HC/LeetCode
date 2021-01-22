@@ -13,11 +13,11 @@ Output: 5->4->3->2->1->NULL
 反轉一個單鍊表
 
 
-# Solution  
+## Solution  
 ## iteration
 <img src="img/206.JPG" width = "700"/>  
 
-## C
+### C
 
 ```
 struct ListNode* reverseList(struct ListNode* head){

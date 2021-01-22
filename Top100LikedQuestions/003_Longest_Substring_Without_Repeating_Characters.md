@@ -30,10 +30,10 @@ Output: 0
 #  無重覆字符的最長子串
 給定一個字符串，請你找出其中不含有重覆字符的最長子串的長度
 
-# Solution  
+## Solution  
 <img src="img/003.JPG" width = "700"/>
 
-## C
+### C
 
 ```
 int lengthOfLongestSubstring(char *s)

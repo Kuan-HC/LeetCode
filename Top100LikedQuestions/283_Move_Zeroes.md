@@ -19,10 +19,10 @@ Minimize the total number of operations.
 必須在原數組上操作，不能拷貝額外的數組。
 盡量減少操作次數
 
-# Solution  
-## two pointers
+## Solution  
+### two pointers
 
-## C
+### C
 
 ```
 void moveZeroes(int *nums, int numsSize)

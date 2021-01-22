@@ -28,8 +28,8 @@ Output: false
 左括號必須以正確的順序閉合。  
 注意空字符串可被認為是有效字符串。  
 
-# Solution
-## C
+## Solution
+### C
 
 ```
 bool isValid(char * s){

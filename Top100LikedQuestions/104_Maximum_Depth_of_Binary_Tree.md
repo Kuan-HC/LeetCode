@@ -39,8 +39,8 @@ Output: 0
 
 說明: 葉子節點是指沒有子節點的節點。  
 
-# Solution
-## C
+## Solution
+### C
 
 ```
 /**

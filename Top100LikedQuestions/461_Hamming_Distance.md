@@ -25,9 +25,9 @@ The above arrows point to positions where the corresponding bits are different.
 給出兩個整數 x 和 y，計算它們之間的漢明距離。
 
 
-# Solution  
+## Solution  
 
-## C
+### C
 
 ```
 int hammingDistance(int x, int y)

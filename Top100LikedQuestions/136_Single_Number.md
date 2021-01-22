@@ -20,7 +20,7 @@ Output: 4
 
 你的算法應該具有線性時間覆雜度。 你可以不使用額外空間來實現嗎？
 
-# Solution
+## Solution
 constraints: linear runtime complexity and without using extra memory
 hint: every element appears twice except for one
 
@@ -30,7 +30,7 @@ a ^ 0 = a
 a ^ a = 0
 a ^ b ^ a = b ^ a ^ a = b ^ (a ^ a) = b ^ 0 = b
 
-## C
+### C
 
 ```
 int singleNumber(int* nums, int numsSize){

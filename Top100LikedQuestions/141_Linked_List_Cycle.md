@@ -31,9 +31,9 @@ Explanation: There is a cycle in the linked list, where the tail connects to the
 
 如果鏈表中存在環，則返回 true 。 否則，返回 false 。
 
-# Solution
+## Solution
 
-## C
+### C
 ```
 bool hasCycle(struct ListNode *head) {
     struct ListNode *fast = head;

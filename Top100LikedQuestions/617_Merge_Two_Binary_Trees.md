@@ -36,12 +36,12 @@ The merging process must start from the root nodes of both trees.
 你需要將他們合並為一個新的二叉樹。合並的規則是如果兩個節點重疊，那麽將他們的值相加作為節點合並後的新值，否則不為 NULL 的節點將直接作為新二叉樹的節點。
 
 
-# Solution  
+## Solution  
 <img src="img/617_1.JPG" width = "400"/>
 
 <img src="img/617_2.JPG" width = "400"/>
 
-## C
+### C
 
 ```
 struct TreeNode *mergeTrees(struct TreeNode *t1, struct TreeNode *t2)

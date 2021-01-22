@@ -32,8 +32,9 @@ Output: ["a","b","c"]
 
 
 
-# Solution  
-## Breadth First Search
+## Solution  
+### Breadth First Search
+
 <img src="img/017.png" width = "950"/>
 
 ## C
