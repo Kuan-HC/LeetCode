@@ -27,7 +27,7 @@ Output: 2
 ## Solution  
 ## Moore Voting Algorithm
   
-<img src="img/169_1.JPG" width = "500"/>
+<img src="img/169.png" width = "500"/>
 
 ## C
 
@@ -43,6 +43,7 @@ int majorityElement(int* nums, int numsSize){
 
         if (count <= 0)
             key = nums[i+1];
+            count = 0;
     }
 
     return key;
