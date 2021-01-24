@@ -9,6 +9,7 @@
 005. [017 電話號碼的字母組合 Letter Combinatioon of a Phone Number](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/017_Letter_Combinations_of_a_Phone_Number.md)
 006. [019 刪除鏈表的倒數第 N 個結點 Remove Nth Node From End of List](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/019_Remove_Nth_Node_From_End_of_List.md)
 007. [022 括號生成 Generate Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/022_Generate_Parentheses.md)
+008. [031 下一個排列 Next Permutation](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/031_Next_Permutation.md)
 
 
 
