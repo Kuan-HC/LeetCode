@@ -12,4 +12,5 @@
 008. [022 括號生成 Generate Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/022_Generate_Parentheses.md)
 009. [031 下一個排列 Next Permutation](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/031_Next_Permutation.md)
 010. [033 搜索旋轉排序數組 Search in Rotated Sorted Array](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/033_Search_in_Rotated_Sorted_Array.md)
-011. [034_在排序數組中查找元素的第一個和最後一個位置 Find_First_and_Last_Position_of_Element_in_Sorted_Array](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
+011. [034 在排序數組中查找元素的第一個和最後一個位置 Find_First_and_Last_Position_of_Element_in_Sorted_Array](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
+012. [039 組合總合 Combination Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/039_Combination_Sum.md)
