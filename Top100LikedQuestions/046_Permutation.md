@@ -33,7 +33,7 @@ Output: [[1]]
 
 ## Solution
 Depth First Search
-<img src="img/046.jpg" width = "500"/>
+<img src="img/046.jpg" width = "800"/>
 
 ### C
 
