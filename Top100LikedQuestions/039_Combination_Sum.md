@@ -96,11 +96,10 @@ int **combinationSum(int *candidates, int candidatesSize, int target, int *retur
     qsort(candidates, candidatesSize, sizeof(int), comp);
 
     /*allocate space for storing reslut */
-    unsigned maxLv = (1 + candidatesSize) * candidatesSize / 2;
-    unsigned maxLen = maxLv * (maxLv + 1) * (maxLv + 2) / 6;
+    unsigned maxLen = 1000;   
 
-    *returnColumnSizes = (int *)malloc(sizeof(int *) * maxLen);
-    int **retArray = (int **)malloc(sizeof(int **) * maxLen);
+    *returnColumnSizes = (int *)malloc(sizeof(int) * maxLen);
+    int **retArray = (int **)malloc(sizeof(int *) * maxLen);
 
     /* set initial point */
     int value = 0;

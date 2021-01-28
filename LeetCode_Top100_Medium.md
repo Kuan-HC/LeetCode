@@ -14,3 +14,4 @@
 010. [033 搜索旋轉排序數組 Search in Rotated Sorted Array](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/033_Search_in_Rotated_Sorted_Array.md)
 011. [034 在排序數組中查找元素的第一個和最後一個位置 Find_First_and_Last_Position_of_Element_in_Sorted_Array](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.md)
 012. [039 組合總合 Combination Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/039_Combination_Sum.md)
+013. [046 全排列 Permutation](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/046_Permutation.md)
