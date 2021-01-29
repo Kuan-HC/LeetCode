@@ -38,7 +38,6 @@ Output: [[3,1],[4,2]]
 你必須在 原地 旋轉圖像，這意味著你需要直接修改輸入的二維矩陣。請不要 使用另一個矩陣來旋轉圖像
 
 ## Solution
-Depth First Search
 <img src="img/048.jpg" width = "1050"/>
 
 ### C
