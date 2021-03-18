@@ -41,6 +41,7 @@ Output: 28
 
 ## Solution
 * Dynamic Programming
+<img src="img/062.jpg" width = "890"/>
 
 ### C
 
