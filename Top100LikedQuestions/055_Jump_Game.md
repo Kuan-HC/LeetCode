@@ -33,8 +33,9 @@ Explanation: You will always arrive at index 3 no matter what. Its maximum jump 
 ## Solution
 
 ### C
-* Try different solution than greey algorithm
+* Try different solution than greedy algorithm
 <img src="img/055.jpg" width = "700"/>
+
 ```
 bool canJump(int *nums, int numsSize)
 {
