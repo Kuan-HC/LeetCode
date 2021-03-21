@@ -23,3 +23,4 @@
 019. [064 最小路徑和 Minimum Path Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/064_Minimum_Path_Sum.md)
 020. [075 顏色分類 Sort Colors](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/075_Sort_Colors.md)
 021. [078 子集 Subsets](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/078_Subsets.md)
+022. [079 單詞搜索 Word Search](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/079_Word_Search.md)
