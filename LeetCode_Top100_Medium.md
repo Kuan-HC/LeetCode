@@ -24,3 +24,5 @@
 020. [075 顏色分類 Sort Colors](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/075_Sort_Colors.md)
 021. [078 子集 Subsets](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/078_Subsets.md)
 022. [079 單詞搜索 Word Search](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/079_Word_Search.md)
+023. [094 二叉樹的中序遍歷 Binary Tree Inorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/094_Binary_Tree_Inorder_Traversal.md)
+024. [096 不同的二叉搜索樹 Unique Binary Search Trees](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/096_Unique_Binary_Search_Trees.md)
