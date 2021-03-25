@@ -97,3 +97,64 @@ int main()
     return 0;
 }
 ```
+
+* DFS
+### C
+
+```
+bool DFS(char *s, char **wordDict, int *wordDictSize, int *wordDictLen, bool *map, int lastIndex, int mapLen)
+{
+    if (*s == '\0')
+        return true;
+
+    for (int i = 0; i < *wordDictSize; ++i)
+    {
+        if ((lastIndex + wordDictLen[i] >= mapLen) || (map[lastIndex + wordDictLen[i]] == true))
+            continue;
+
+        if (strncmp(s, wordDict[i], wordDictLen[i]) == 0)
+        {
+            map[lastIndex + wordDictLen[i]] = true;
+            if (DFS(s + wordDictLen[i], wordDict, wordDictSize, wordDictLen, map, lastIndex + wordDictLen[i], mapLen) == true)
+                return true;
+        }
+    }
+
+    return false;
+}
+
+bool wordBreak(char *s, char **wordDict, int wordDictSize)
+{
+    int strLen = strlen(s);
+    bool DP[strLen + 1];
+    memset(DP, 0, sizeof(DP));
+
+    /**
+     *  create an array to store len of each word
+     **/
+    int dictKeyLen[wordDictSize];
+    for (int i = 0; i < wordDictSize; ++i)
+        dictKeyLen[i] = strlen(wordDict[i]);
+
+    return DFS(s, wordDict, &wordDictSize, dictKeyLen, DP, 0, strLen + 1);
+}
+
+int main()
+{
+
+    /* input */
+    char s[] = {"abcd"};
+
+    char A[] = {"a"};
+    char B[] = {"abc"};
+    char C[] = {"b"};
+    char D[] = {"cd"};
+    int size = 4;
+    char *wordDict[size] = {A, B, C, D};
+
+    /* Algorithm */
+    bool ans = wordBreak(s, wordDict, size);
+
+    return 0;
+}
+```

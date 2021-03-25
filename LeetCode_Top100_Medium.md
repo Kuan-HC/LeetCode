@@ -29,3 +29,5 @@
 025. [098 驗證二叉搜索樹 Validate Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/098_Validate_Binary_Search_Tree.md)
 026. [102 二叉樹的層序遍歷 Binary Tree Level Order Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/102_Binary_Tree_Level_Order_Traversal.md)
 027. [105 從前序與中序遍歷序列構造二叉樹 Construct Binary Tree from Preorder and Inorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/105_Construct_Binary_Tree_from_Preorder_and_Inorder_Traversal.md)
+028. [114 二叉樹展開為鍊表 Flatten Binary Tree to Linked List](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/114_Flatten_Binary_Tree_to_Linked_List.md)
+029. [139 單詞拆分 Word Break](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/139_Word_Break.md)
