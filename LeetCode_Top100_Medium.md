@@ -32,3 +32,4 @@
 028. [114 二叉樹展開為鍊表 Flatten Binary Tree to Linked List](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/114_Flatten_Binary_Tree_to_Linked_List.md)
 029. [139 單詞拆分 Word Break](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/139_Word_Break.md)
 030. [142 環形鍊表 II Linked List Cycle II](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/142_Linked_List_Cycle_II.md)
+031. [146 LRU緩存機制 LRU Cache](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/146_LRU_Cache.md)
