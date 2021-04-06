@@ -8,7 +8,7 @@ Notice that you should not modify the linked list.
 [LeetCode](https://leetcode.com/problems/linked-list-cycle-ii)  
 
 ### Example 1:
-<img src="img/142_q1.png" width = "400/>
+<img src="img/142_q1.png" width = "400"/>
 
 ```
 Input: head = [3,2,0,-4], pos = 1
@@ -46,7 +46,7 @@ Explanation: There is no cycle in the linked list.
 ### C
 
 * Fast and slow pointers
-<img src="img/141.jpg" width = "947/>
+<img src="img/141.jpg" width = "947"/>
 
 ```
 struct ListNode

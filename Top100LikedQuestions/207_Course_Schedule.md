@@ -33,7 +33,7 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
 
 ## Solution  
 * Breadth-First Search
-<img src="img/207.gif" width = "1200/>
+<img src="img/207.gif" width = "1200"/>
 
 ### C
 

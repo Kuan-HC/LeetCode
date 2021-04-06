@@ -6,7 +6,7 @@ Follow up: Can you sort the linked list in O(n logn) time and O(1) memory (i.e.
 [LeetCode](https://leetcode.com/problems/sort-list)  
 
 ### Example 1:
-<img src="img/148_q.jpg" width = "400/>
+<img src="img/148_q.jpg" width = "400"/>
 
 ```
 Input: head = [4,2,1,3]
@@ -25,7 +25,7 @@ Output: [1,2,3,4]
 ## Solution
 
 ### C
-<img src="img/148.jpg" width = "580/>
+<img src="img/148.jpg" width = "580"/>
 
 ```
 /**

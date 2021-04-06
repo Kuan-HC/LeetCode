@@ -31,7 +31,7 @@ Explanation: The result cannot be 2, because [-2,-1] is not a subarray.
 
 ### C
 * Dynamic Programming
-<img src="img/152.gif" width = "857/>
+<img src="img/152.gif" width = "857"/>
 
 ```
 int maxProduct(int *nums, int numsSize)
