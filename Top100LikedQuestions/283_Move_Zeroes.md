@@ -23,22 +23,42 @@ Minimize the total number of operations.
 ### two pointers
 
 ### C
+<img src="img/283.gif" width = "881"/>
 
 ```
 void moveZeroes(int *nums, int numsSize)
 {
-    int second = 0;
-    for (int i = 1; i < numsSize; i++)
+  /**
+   *  set two pointers first starts from position 0, second starts from position 1
+   *  when first pointer is 0 and second not 0, swap(first, second)
+   * */
+  int ptrOne = 0;
+  int ptrTwo = 1;
+
+  for (; ptrTwo < numsSize; ++ptrTwo)
+  {
+    if (nums[ptrOne] != 0)
+      ++ptrOne;
+
+    if ((nums[ptrOne] == 0) && (nums[ptrTwo] != 0))
     {
-        if (nums[second] == 0 && nums[i] != 0)
-        {
-            int tmp = nums[i];
-            nums[i] = nums[second];
-            nums[second] = tmp;
-        }
-        if (nums[second] != 0)
-            second++;
+      nums[ptrOne] = nums[ptrTwo];
+      nums[ptrTwo] = 0;
+      ++ptrOne;
     }
+  }
+}
+
+int input[] = {0,1,0,3,12};
+
+int main()
+{
+
+  int returnSize = 0;
+
+  moveZeroes(input, sizeof(input) / sizeof(input[0]));
+
+  return 0;
 }
 ```
 
