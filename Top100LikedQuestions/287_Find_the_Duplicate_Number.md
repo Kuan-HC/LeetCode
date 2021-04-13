@@ -41,7 +41,7 @@ Output: 1
 ### Fast and slow pointers
 
 ### C
-<img src="img/28.jpg" width = "1046"/>
+<img src="img/287.jpg" width = "1046"/>
 
 ```
 int findDuplicate(int *nums, int numsSize)
