@@ -45,28 +45,33 @@ Explanation: Rob house 1 (money = 2), rob house 3 (money = 9) and rob house 5 (m
 ### C
 
 ```
-#define MAX(a,b) a > b? a:b
-
 int rob(int* nums, int numsSize){
-    if( nums == NULL || numsSize == 0)
-        return 0;
 
-    if(numsSize == 1)    
-        return nums[0];
-    else if(numsSize == 2)
-        return MAX(nums[0],nums[1]);
+  int preInclude = 0;
+  int preNotInclude = 0;
+  int include, notInclude;
 
-    int dp_minus_2 = nums[0];
-    int dp_minus_1 = MAX(nums[0], nums[1]);
-    int tmp_dp = 0;
+  for(int i = 0; i < numsSize; ++i)
+  {
+    include = preNotInclude + nums[i];
+    notInclude = preInclude > preNotInclude? preInclude : preNotInclude;
+    preInclude = include;
+    preNotInclude = notInclude;
+  }
 
-    for(int i = 2; i < numsSize; i++){
-        tmp_dp = MAX(dp_minus_2 + nums[i], dp_minus_1);
-        dp_minus_2 = dp_minus_1;
-        dp_minus_1 = tmp_dp;
-    }
+  return include > notInclude? include:notInclude;
 
-    return tmp_dp;
+}
+
+int main()
+{
+  /* input*/
+  int input[] = {1,2,3,1};
+
+  /* Algorithm*/
+  int res = rob(input, sizeof(input)/sizeof(input[0]));
+
+  return 0;
 }
 ```
 
