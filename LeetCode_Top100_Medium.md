@@ -49,3 +49,4 @@
 045. [309 最佳買賣股票時機含冷凍期 Best Time to Buy and Sell Stock with Cooldown](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/309_Best_Time_to_Buy_and_Sell_Stock_with_Cooldown.md)
 046. [322 零錢兌換 Coin Change](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/322_Coin_Change.md)
 047. [337 打家劫舍 III House Robber III](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/337_House_Robber_III.md)
+048. [338 比特位計數 Counting Bits](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/338_Counting_Bits.md)
