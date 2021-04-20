@@ -50,3 +50,4 @@
 046. [322 零錢兌換 Coin Change](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/322_Coin_Change.md)
 047. [337 打家劫舍 III House Robber III](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/337_House_Robber_III.md)
 048. [338 比特位計數 Counting Bits](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/338_Counting_Bits.md)
+049. [348 前 K 个高频元素 Top K Frequent Elements](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/347_Top_K_Frequent_Elements.md)

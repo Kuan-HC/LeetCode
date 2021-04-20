@@ -91,6 +91,7 @@ int main()
 ### Odd Even number
 
 ### C
+```
 int *countBits(int num, int *returnSize)
 {
   /* initialization */
@@ -129,3 +130,4 @@ int main()
 
   return 0;
 }
+```
