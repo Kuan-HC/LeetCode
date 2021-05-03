@@ -44,6 +44,8 @@ Output: [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]]
 
 ## Solution  
 
+<img src="img/406.gif" width = "1061"/>
+
 ### C++
 ```
 #include <vector>
