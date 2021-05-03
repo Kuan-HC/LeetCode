@@ -50,6 +50,7 @@
 046. [322 零錢兌換 Coin Change](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/322_Coin_Change.md)
 047. [337 打家劫舍 III House Robber III](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/337_House_Robber_III.md)
 048. [338 比特位計數 Counting Bits](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/338_Counting_Bits.md)
-049. [348 前 K 个高频元素 Top K Frequent Elements](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/347_Top_K_Frequent_Elements.md)
+049. [347 前 K 个高频元素 Top K Frequent Elements](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/347_Top_K_Frequent_Elements.md)
 050. [394 字符串解碼 Decode String](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/394_Decode_String.md)
 051. [399 除法求值 Evaluate Division](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/399_Evaluate_Division.md)
+052. [406 根據身高重建隊列 Queue Reconstruction by Height](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/406_Queue_Reconstruction_by_Height.md)
