@@ -54,3 +54,4 @@
 050. [394 字符串解碼 Decode String](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/394_Decode_String.md)
 051. [399 除法求值 Evaluate Division](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/399_Evaluate_Division.md)
 052. [406 根據身高重建隊列 Queue Reconstruction by Height](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/406_Queue_Reconstruction_by_Height.md)
+053. [416 分割等合子集 Partition Equal Subset Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/416_Partition_Equal_Subset_Sum.md)
