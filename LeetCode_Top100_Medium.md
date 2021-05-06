@@ -56,4 +56,5 @@
 052. [406 根據身高重建隊列 Queue Reconstruction by Height](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/406_Queue_Reconstruction_by_Height.md)
 053. [416 分割等合子集 Partition Equal Subset Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/416_Partition_Equal_Subset_Sum.md)
 054. [437 路徑總合 III Path Sum III](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/437_Path_Sum_III.md)
-055. [438 找到字符串中所有字母異位詞 Find All Anagrams in a String](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/438_Find_All_Anagrams_in_a_String.md)
+055. [438 找到字符串中所有字母異位詞 Find All Anagrams in a String](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/438_Find_All_Anagrams_in_a_String.md)494_Target_Sum
+056. [494 目標合 Target Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/494_Target_Sum.md)
