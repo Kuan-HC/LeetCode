@@ -28,7 +28,7 @@ Explanation: Six palindromic strings: "a", "a", "a", "aa", "aa", "aaa".
 * 1 <= s.length <= 1000
 * s consists of lowercase English letters.
 
-#  621. 回文子串
+#  647. 回文子串
 給定一個字符串，你的任務是計算這個字符串中有多少個回文子串。
 
 具有不同開始位置或結束位置的子串，即使是由相同的字符組成，也會被視作不同的子串。
