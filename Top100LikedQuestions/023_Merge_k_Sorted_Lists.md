@@ -124,9 +124,72 @@ int main()
 }
 ```
 
-* Note:  
+* Divide-and-conquer algorithm
 
-1. 使用遞歸recursion 時需特別注意邊界的情況，本題的邊界狀況即為 next = Null  
+### C++
+```
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
 
-2. Misra C 中禁止使用recursion 及鍊表，猜想是因為新的資料一直在生成，使用recursion沒有辦法終止  
-   如果是固定的資料，也不應該每次啟動時重新計算 
+class Solution
+{
+private:
+    ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
+    {
+        if (l1 == nullptr || l2 == nullptr)
+            return l1 == nullptr ? l2 : l1;
+
+        if (l1->val <= l2->val)
+        {
+            l1->next = mergeTwoLists(l1->next, l2);
+            return l1;
+        }
+        else
+        {
+            l2->next = mergeTwoLists(l1, l2->next);
+            return l2;
+        }
+    }
+
+    ListNode *split(vector<ListNode *> &lists, int lId, int rId)
+    {
+        if (lId == rId)
+            return lists[lId];
+        else if (lId > rId)
+            return nullptr;
+
+        int mid = (lId + rId) / 2;
+
+        return mergeTwoLists(split(lists, lId, mid), split(lists, mid + 1, rId));
+    }
+
+public:
+    ListNode *mergeKLists(vector<ListNode *> &lists)
+    {
+        int len = lists.size();
+
+        return split(lists, 0, len - 1);
+    }
+};
+
+int main()
+{
+    /* Input*/
+    ListNode C(5), F(4), I(6);
+    ListNode B(4, &C), E(3, &F), H(2, &I);
+    ListNode A(1, &B), D(1, &E);
+    vector<ListNode *> input = {&A, &D, &H};    
+
+    /* unit test*/
+    Solution test;
+    ListNode *res = test.mergeKLists(input);
+
+    return 0;
+}
+```
