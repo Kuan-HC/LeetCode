@@ -1,9 +1,9 @@
 # 023. Merge k Sorted Lists
+
 You are given an array of k linked-lists lists, each linked-list is sorted in ascending order.
 
 Merge all the linked-lists into one sorted linked-list and return it.
 
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 [LeetCode](https://leetcode.com/problems/erge-k-sorted-lists)  
 
 ### Example 1:

@@ -35,7 +35,6 @@ Output: 0.00000
 
 ```
 #include <vector>
-#include <stack>
 #include <cmath>
 
 using namespace std;
