@@ -6,3 +6,4 @@
 002. [010 正則表達式匹配 Regular Expression Matching](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/010_Regular_Expression_Matchingy.md)
 003. [023 合並K個升序鏈表 Merge k Sorted Lists](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/023_Merge_k_Sorted_Lists.md)
 004. [032 最長有效括號 Longest Valid Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/032_Longest_Valid_Parentheses.md)
+005. [042 接雨水 Trapping Rain Water](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/042_Trapping_Rain_Water.md)
