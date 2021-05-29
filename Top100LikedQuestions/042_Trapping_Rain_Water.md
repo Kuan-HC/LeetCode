@@ -21,9 +21,9 @@ Output: 9
 
 ### Constraints:
 
-n == height.length
-0 <= n <= 3 * 10^4
-0 <= height[i] <= 10^5
+* n == height.length
+* 0 <= n <= 3 * 10^4
+* 0 <= height[i] <= 10^5
 
 # 接雨水
 
