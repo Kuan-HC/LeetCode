@@ -30,6 +30,66 @@ Output: "a"
 
 ## Solution  
 
+### C++
+
+```
+#include <string>
+
+using namespace std;
+
+class Solution
+{
+public:
+    string longestPalindrome(string s)
+    {
+        int sLen = s.size();
+        int maxLen = 0;
+        int start = 0;
+
+        for (int i = 0; i < sLen; ++i)
+        {
+            int left = i;
+            int right = i;
+            int tmpLen = 0;
+
+            /* locate the core */
+            while (right + 1 < sLen && s[i] == s[right + 1])
+            {
+                ++right;
+            }
+
+            /* expand from core s[i] */
+            while (left >= 0 && right < sLen && s[left] == s[right])
+            {
+                tmpLen = right - left + 1;
+                if (tmpLen > maxLen)
+                {
+                    maxLen = tmpLen;
+                    start = left;
+                }
+                --left;
+                ++right;
+            }
+        }
+
+        return s.substr(start, maxLen);
+    }
+};
+
+int main()
+{
+    /* Input*/
+    string input = "bbbc";
+
+    /* unit test*/
+    Solution test;
+    string res = test.longestPalindrome(input);
+
+    return 0;
+}
+
+```
+
 ### C
 
 ```
