@@ -8,3 +8,4 @@
 004. [032 最長有效括號 Longest Valid Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/032_Longest_Valid_Parentheses.md)
 005. [042 接雨水 Trapping Rain Water](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/042_Trapping_Rain_Water.md)
 006. [072 編輯距離 Edit Distance](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/072_Edit_Distance.md)
+007. [076 最小覆蓋子串 Minimum Window Substring](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/076_Minimum_Window_Substring.md)
