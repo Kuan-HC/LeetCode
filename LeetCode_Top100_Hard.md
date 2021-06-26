@@ -9,3 +9,4 @@
 005. [042 接雨水 Trapping Rain Water](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/042_Trapping_Rain_Water.md)
 006. [072 編輯距離 Edit Distance](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/072_Edit_Distance.md)
 007. [076 最小覆蓋子串 Minimum Window Substring](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/076_Minimum_Window_Substring.md)
+008. [084 柱狀圖中最大的矩形 Largest Rectangle in Histogram](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/084_Largest_Rectangle_in_Histogram.md)
