@@ -17,7 +17,7 @@ The largest rectangle is shown in the red area, which has an area = 10 units.
 
 ### Example 2:
 
-<img src="img/084_q2.jpg" width = "400"/>
+<img src="img/084_q2.jpg" width = "300"/>
 
 ```
 Input: heights = [2,4]
@@ -40,6 +40,8 @@ Output: 4
 
 ### C++
 * stack
+<img src="img/084.jpg" width = "600"/>
+
 ```
 #include <vector>
 #include <stack>
@@ -64,8 +66,7 @@ private:
             tmpArea = tmp.first * id;
 
         if( tmpArea > maxArea)
-            maxArea = tmpArea;
-        
+            maxArea = tmpArea;        
     }
 
 public:
