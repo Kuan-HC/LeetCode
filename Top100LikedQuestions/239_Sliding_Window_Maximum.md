@@ -113,4 +113,61 @@ int main()
 }
 ```
 
+```
+#include <vector>
+#include <deque>
 
+using namespace std;
+
+class Solution
+{
+
+public:
+    vector<int> maxSlidingWindow(vector<int> &nums, int k)
+    {
+        int len = nums.size();
+        if (len == 1)
+            return nums;
+
+        deque<int> dq;
+
+        int idx = 0;
+        /* build first window*/
+        for (idx = 0; idx < k; ++idx)
+        {
+            while ((dq.empty() != true) && (nums[dq.back()] < nums[idx]))
+                dq.pop_back();
+            dq.push_back(idx);
+        }
+
+        vector<int> ret;
+        ret.push_back(nums[dq.front()]);
+
+        for (idx = k; idx < len; ++idx)
+        {
+            while ((dq.empty() != true) && (nums[dq.back()] < nums[idx]))
+                dq.pop_back();
+            dq.push_back(idx);
+
+            while (dq.front() <= idx - k)
+                dq.pop_front();
+
+            ret.push_back(nums[dq.front()]);            
+        }
+
+        return ret;
+    }
+};
+
+int main()
+{
+    /* Input*/
+    vector<int> input = {1, 3, -1, -3, 5, 3, 6, 7};
+
+    /* unit test*/
+    Solution test;
+    vector<int> res = test.maxSlidingWindow(input, 3);
+
+    return 0;
+}
+```
