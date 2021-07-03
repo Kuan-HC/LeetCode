@@ -13,3 +13,4 @@
 009. [085 最大矩形 Maximal Rectangle](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/085_Maximal_Rectangle.md)
 010. [124 二叉樹中的最大路徑和 Binary Tree Maximum Path Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/124_Binary_Tree_Maximum_Path_Sum.md)
 011. [239 滑動窗口的最大值 Sliding Window Maximum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/239_Sliding_Window_Maximum.md)
+012. [297 二叉樹的序列化與反序列化 Serialize and Deserialize Binary Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/297_Serialize_and_Deserialize_Binary_Tree.md)
