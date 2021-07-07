@@ -15,3 +15,4 @@
 011. [239 滑動窗口的最大值 Sliding Window Maximum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/239_Sliding_Window_Maximum.md)
 012. [297 二叉樹的序列化與反序列化 Serialize and Deserialize Binary Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/297_Serialize_and_Deserialize_Binary_Tree.md)
 013. [301 刪除無效的括號 Remove Invalid Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/301_Remove_Invalid_Parentheses.md)
+014. [312 戳氣球 Burst Balloons](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/312_Burst_Balloons.md)
