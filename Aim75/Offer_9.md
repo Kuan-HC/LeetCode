@@ -7,11 +7,73 @@
 [LeetCode](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof)
 
 ## Solution  
-* stack
-
-<img src="img/739.gif" width = "800"/>
 
 ### C++
+* stack
+
+<img src="img/09.gif" width = "400"/>
+
+* sort stack when delete()
+
+```
+#include <stack>
+
+using namespace std;
+
+class CQueue
+{
+private:
+    stack<int> output;
+    stack<int> add;
+
+public:
+    CQueue(){};
+
+    void appendTail(int value)
+    {
+        add.push(value);
+    }
+
+    int deleteHead()
+    {
+        
+        if (output.empty() == true)
+        {
+            while (add.empty() != true)
+            {
+                output.push(add.top());
+                add.pop();
+            }
+        }
+
+        if(output.empty() == true)
+            return -1;
+
+        int tmp = output.top();
+        output.pop();
+
+        return tmp;
+    }
+};
+
+int main()
+{
+    /**
+     * Your CQueue object will be instantiated and called as such:
+     */
+    CQueue *obj = new CQueue();
+    int a = obj->deleteHead();
+    obj->appendTail(1);
+    obj->appendTail(2);
+    int b = obj->deleteHead();
+    obj->appendTail(3);
+    int c = obj->deleteHead();
+
+    return 0;
+}
+```
+
+* sort stack when add()
 
 ```
 #include <stack>
