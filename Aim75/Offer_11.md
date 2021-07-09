@@ -47,13 +47,11 @@ public:
 
             if (numbers[mid] > numbers[right])
                 left = mid + 1;
-            else
+            else if(numbers[mid] < numbers[right])
                 right = mid ;
+            else
+                right--;
         }
-
-        return numbers[left];
-    }
-};
 
 int main()
 {
