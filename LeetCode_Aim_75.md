@@ -7,6 +7,7 @@
 004. [04 二維數組中的查找](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_04.md)
 004. [10-2 青蛙跳台階問題](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_10_2.md)
 005. [11 旋转数组的最小数字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_11.md)
+006. [12 矩陣中的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_12.md)
 
 
 
