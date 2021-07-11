@@ -10,6 +10,8 @@
 006. [12 矩陣中的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_12.md)
 007. [05 替換空格](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_05.md)
 008. [13 機器人的運動範圍](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_13.md)
+009. [06 從頭到尾打印鍊](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_06.md)
+010. [07 重建二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_07.md)
 
 
 
