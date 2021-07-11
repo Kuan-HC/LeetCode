@@ -1,19 +1,14 @@
 # 劍指 Offer 03 數組中重覆的數字
 
-找出數組中重覆的數字。
+請實現一個函數，把字符串`s`中的每個空格替換成`%20`
 
-
-在一個長度為 n 的數組 nums 里的所有數字都在 0～n-1 的範圍內。數組中某些數字是重覆的，但不知道有幾個數字重覆了，
-也不知道每個數字重覆了幾次。請找出數組中任意一個重覆的數字。
-
-[LeetCode](https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/)
+[LeetCode](https://leetcode-cn.com/problems/ti-huan-kong-ge-lcof/)
 
 ### Example
 
 ```
-輸入：
-[2, 3, 1, 0, 2, 5, 3]
-輸出：2 或 3 
+輸入：s = "We are happy."
+輸出："We%20are%20happy."
 ```
 
 ### 提示

@@ -9,7 +9,7 @@
 005. [11 旋转数组的最小数字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_11.md)
 006. [12 矩陣中的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_12.md)
 007. [05 替換空格](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_05.md)
-007. [13 機器人的運動範圍](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_13.md)
+008. [13 機器人的運動範圍](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_13.md)
 
 
 
