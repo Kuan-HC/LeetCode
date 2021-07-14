@@ -16,7 +16,8 @@
 013. [14-2 剪繩子 II](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_14_2.md)
 014. [25 合併兩個排序的鍊表](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_25.md)
 015. [26 樹的子結構](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_26.md)
-016. [26 二叉樹的鏡像](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_27.md)
+016. [27 二叉樹的鏡像](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_27.md)
+017. [28 對稱的二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_28.md)
 
 
 
