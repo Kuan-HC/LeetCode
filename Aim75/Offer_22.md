@@ -27,6 +27,15 @@
 
 
 ```
+/*
+  Definition for singly-linked list.*/
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(NULL) {}
+};
+
 class Solution
 {
 private:
@@ -56,4 +65,19 @@ public:
         return second;
     }
 };
+
+int main()
+{
+    /* input*/
+    ListNode A(1), B(2), C(3), D(4);
+    A.next = &B;
+    B.next = &C;
+    C.next = &D;
+
+    /* Test*/
+    Solution test;
+    ListNode *res = test.getKthFromEnd(&A, 2);
+
+    return 0;
+}
 ```
