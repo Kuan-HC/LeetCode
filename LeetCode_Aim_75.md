@@ -22,6 +22,7 @@
 019. [15 二進制中1的個數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_15.md)
 020. [22 鏈表中倒數第k個節點](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_22.md)
 021. [16 數值的整數次方](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_16.md)
+022. [17 數值的整數次方](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_17.md)
 
 
 
