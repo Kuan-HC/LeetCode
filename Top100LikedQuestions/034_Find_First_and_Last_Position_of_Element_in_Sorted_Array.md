@@ -33,7 +33,7 @@ Output: [-1,-1]
 
 進階：
 
-你可以設計並實現時間覆雜度為 O(log n) 的算法解決此問題嗎？
+你可以設計並實現時間複雜度為 O(log n) 的算法解決此問題嗎？
 
 ## Solution
 Binary search

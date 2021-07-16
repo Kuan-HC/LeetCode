@@ -20,8 +20,8 @@ F(N) = F(N - 1) + F(N - 2), 其中 N > 1.
 ### C++
 * Dynammic Programming
 
-* 時間覆雜度：o(n)
-* 空間覆雜度：o(n)
+* 時間複雜度：o(n)
+* 空間複雜度：o(n)
 
 ```
 #include <vector>
@@ -64,8 +64,8 @@ int main()
 
 * Iteration
 
-* 時間覆雜度：o(n)
-* 空間覆雜度：o(1)
+* 時間複雜度：o(n)
+* 空間複雜度：o(1)
 ```
 #include <vector>
 

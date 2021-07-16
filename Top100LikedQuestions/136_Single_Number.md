@@ -18,7 +18,7 @@ Output: 4
 # 只出現一次的數字
 給定一個非空整數數組，除了某個元素只出現一次以外，其余每個元素均出現兩次。找出那個只出現了一次的元素。  
 
-你的算法應該具有線性時間覆雜度。 你可以不使用額外空間來實現嗎？
+你的算法應該具有線性時間複雜度。 你可以不使用額外空間來實現嗎？
 
 ## Solution
 constraints: linear runtime complexity and without using extra memory
