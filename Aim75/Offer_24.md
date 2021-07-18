@@ -1,46 +1,33 @@
-# 206. Reverse Linked List
-Reverse a singly linked list.
+# 劍指 Offer 24 反轉鍊表
 
-[LeetCode](https://leetcode.com/problems/reverse-linked-list/)
+定義一個函數，輸入一個鍊表的頭節點，反轉該鍊表並輸出反轉曲鍊表的頭節點。
 
-### Example :
+ 
+[LeetCode](https://leetcode-cn.com/problems/fan-zhuan-lian-biao-lcof/)
+
+
+### Example 1
+
 ```
-Input: 1->2->3->4->5->NULL
-Output: 5->4->3->2->1->NULL
+輸入: 1->2->3->4->5->NULL
+輸出: 5->4->3->2->1->NULL
 ```
 
-# 反轉鍊表
-反轉一個單鍊表
+* 0 <= 節點個數 <= 5000
 
 
 ## Solution  
-## iteration
-<img src="img/206.gif" width = "800"/>  
 
-### C
-
-```
-struct ListNode* reverseList(struct ListNode* head){
-    if (head == NULL)
-        return NULL;
-        
-    struct ListNode* tmp = NULL;
-    struct ListNode* tmp_later = NULL;
-
-    while(head != NULL){
-        tmp_later = tmp;
-        tmp = head;
-        head = head->next;
-        tmp->next = tmp_later;
-    }
-
-    return tmp;
-}
-```
+<img src="img/24.gif" width = "800"/>
 
 ### C++
+
+* 時間複雜度：O(n) 其中n是鍊表的長度，需要遍曆鍊表一次。
+
+* 空間複雜度：O(1) 
+
+
 ```
-/* Definition for singly-linked list. */
 struct ListNode
 {
     int val;
@@ -83,4 +70,3 @@ int main()
     return 0;
 }
 ```
-
