@@ -25,6 +25,7 @@
 022. [17 打印從1到最大的n位數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_17.md)
 023. [24 反轉鍊表](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_24.md)
 024. [18 刪除鏈表的節點](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_18.md)
+025. [35 複雜鏈表的複製](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_35.md)
 
 
 
