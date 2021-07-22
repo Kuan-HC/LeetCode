@@ -29,6 +29,7 @@
 026. [40 最小的k個數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_40.md)
 027. [19 正則表達式匹配](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_19.md)
 028. [30 包含min函数的棧](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_30.md)
+029. [41 數據流中的中位數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_41.md)
 
 
 
