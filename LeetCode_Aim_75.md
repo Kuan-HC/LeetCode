@@ -31,6 +31,8 @@
 028. [30 包含min函数的棧](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_30.md)
 029. [41 數據流中的中位數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_41.md)
 030. [42 連續子數組的最大和](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_42.md)
+031. [36 二叉搜索樹與雙向鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_36.md)
+032. [31 棧的壓入、彈出序列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_31.md)
 
 
 
