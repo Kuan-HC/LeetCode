@@ -34,6 +34,7 @@
 031. [36 二叉搜索樹與雙向鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_36.md)
 032. [31 棧的壓入、彈出序列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_31.md)
 033. [38 字符串的排列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_38.md)
+034. [39 數組中出現次數超過一半的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_39.md)
 
 
 
