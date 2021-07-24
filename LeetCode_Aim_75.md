@@ -33,6 +33,7 @@
 030. [42 連續子數組的最大和](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_42.md)
 031. [36 二叉搜索樹與雙向鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_36.md)
 032. [31 棧的壓入、彈出序列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_31.md)
+033. [38 字符串的排列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_38.md)
 
 
 
