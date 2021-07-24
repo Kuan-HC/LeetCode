@@ -44,7 +44,54 @@ Output: [1]
 
 <img src="img/031.png" width = "600"/>
 
+### C++
+
+* 時間複雜度：O(N)，其中 N 為給定序列的長度。我們至多只需要掃描兩次序列，以及進行一次反轉操作。
+
+* 空間複雜度：O(1)，只需要常數的空間存放若幹變量。
+
+```
+class Solution
+{
+public:
+    void nextPermutation(vector<int> &nums)
+    {
+        int len = nums.size();
+        if (len <= 1)
+            return;
+
+        /* searh the number shall be swap later*/
+        int i = len - 2;
+        for (; i >= 0; --i)
+        {
+            if (nums[i] < nums[i + 1])
+                break;
+        }
+
+        int targetId = i;
+        if (i >= 0)
+        {
+            int target = nums[i];
+            /* searh the number greater than target from the right end - range (i, end]*/
+
+            for (i = len - 1; i > targetId; --i)
+            {
+                if (nums[i] > target)
+                {
+                    swap(nums[targetId], nums[i]);
+                    break;
+                }
+            }
+        }
+        
+        sort(nums.begin() + targetId + 1, nums.end());
+    }
+};
+```
+
 ### C
+
+
 
 ```
 #define SWAP(a, b) \
