@@ -4,6 +4,7 @@
 
 你可以假設數組是非空的，並且給定的數組總是存在多數元素。
 
+[LeetCode](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)
 
 ### Example 1
 
@@ -14,7 +15,6 @@
 
 * 1 <= 數組長度 <= 50000
 
-[LeetCode](https://leetcode-cn.com/problems/shu-zu-zhong-chu-xian-ci-shu-chao-guo-yi-ban-de-shu-zi-lcof/)
 
 ## Solution  
 
@@ -26,43 +26,55 @@
 
 ```
 #include <vector>
+#include <algorithm>
 
 using namespace std;
 
 class Solution
 {
-public:
-    int majorityElement(vector<int> &nums)
+private:
+    bool checkTree(vector<int> &nums, int root, int end)
     {
-        int key = nums[0];
-        int count = 0;
+        if (end - root + 1 <= 2)
+            return true;
 
-        for (const int &num : nums)
+        int leftStart = root + 1;
+
+        while (leftStart <= end && nums[leftStart] > nums[root])
+            ++leftStart;
+
+        for (int i = leftStart; i <= end; ++i)
         {
-            if (key == num)
-                count++;
-            else
-                count--;
-
-            if (count == 0)
-            {
-                key = num;
-                count = 1;
-            }
+            if (nums[i] > nums[root])
+                return false;
         }
+        bool rightCheck = checkTree(nums, root + 1, leftStart - 1);
+        bool leftCheck = checkTree(nums, leftStart, end);
 
-        return key;
+        return rightCheck && leftCheck;
+    }
+
+public:
+    bool verifyPostorder(vector<int> &postorder)
+    {
+        int len = postorder.size();
+        if (len <= 2)
+            return true;
+
+        reverse(postorder.begin(), postorder.end());
+
+        return checkTree(postorder, 0, len - 1);
     }
 };
 
 int main()
 {
     /* input*/
-    vector<int> input = {1, 2, 3, 2, 2, 2, 5, 4, 2};
+    vector<int> input = {5, 4, 3, 2, 1};
 
     /* Test*/
     Solution test;
-    int res = test.majorityElement(input);
+    bool res = test.verifyPostorder(input);
 
     return 0;
 }

@@ -37,7 +37,8 @@
 034. [39 數組中出現次數超過一半的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_39.md)
 035. [32-2 從上到下打印二叉樹 II](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_32_2.md)
 036. [32-1 從上到下打印二叉樹 I](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_32_1.md)
-036. [32-3 從上到下打印二叉樹 III](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_32_3.md)
+037. [32-3 從上到下打印二叉樹 III](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_32_3.md)
+038. [39 數組中出現次數超過一半的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_39.md)
 
 
 
