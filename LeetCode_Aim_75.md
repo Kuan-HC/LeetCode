@@ -39,6 +39,10 @@
 036. [32-1 從上到下打印二叉樹 I](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_32_1.md)
 037. [32-3 從上到下打印二叉樹 III](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_32_3.md)
 038. [39 數組中出現次數超過一半的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_39.md)
+039. [50 第一個只出現一次的字符](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_50.md)
+040. [55-1 二叉樹的深度](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_55_1.md)
+041. [57-1 和為s的兩個數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_57.md)
+042. [57-2 和為s的連續正數序列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_57_2.md)
 
 
 
