@@ -1,6 +1,6 @@
 # 劍指Offer 75
 
-### Difficulty: Easy
+
 001. [09 用兩個棧實現隊列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_9.md)
 002. [10-1 斐波那契數列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_10.md)
 003. [03 數組中重覆的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_03.md)
@@ -43,6 +43,9 @@
 040. [55-1 二叉樹的深度](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_55_1.md)
 041. [57-1 和為s的兩個數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_57.md)
 042. [57-2 和為s的連續正數序列](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_57_2.md)
+043. [52 兩個鏈表的第一個公共節點](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_52.md)
+044. [45 把數組排成最小的數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_45.md)
+045. [34 二叉樹中和為某一值的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_34.md)
 
 
 
