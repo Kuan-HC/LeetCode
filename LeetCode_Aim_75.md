@@ -53,6 +53,7 @@
 050. [53-1 在排序數組中查找數字 I](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_53_1.md)
 051. [58-2 左旋轉字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_58_2.md)
 052. [53-2 0～n-1中缺失的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_53_2.md)
+053. [54 二叉搜索樹的第k大節點](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_54.md)
 
 
 
