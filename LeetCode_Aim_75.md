@@ -49,6 +49,8 @@
 046. [56 數組中數字出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_56.md)
 047. [56-2 數組中數字出現的次數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_56_2.md)
 048. [44 數字序列中某一位的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_44.md)
+049. [58-1 翻轉單詞順序](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_58_1.md)
+050. [53-1 在排序數組中查找數字 I](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_53_1.md)
 
 
 

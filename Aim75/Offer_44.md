@@ -4,7 +4,7 @@
 
 請寫一個函數，求任意第n位對應的數字。
 
- [LeetCode](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)
+[LeetCode](https://leetcode-cn.com/problems/shu-zi-xu-lie-zhong-mou-yi-wei-de-shu-zi-lcof/)
 
 ### Example 1
 
