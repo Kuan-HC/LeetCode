@@ -51,6 +51,8 @@
 048. [44 數字序列中某一位的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_44.md)
 049. [58-1 翻轉單詞順序](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_58_1.md)
 050. [53-1 在排序數組中查找數字 I](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_53_1.md)
+051. [58-2 左旋轉字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_58_2.md)
+052. [53-2 0～n-1中缺失的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_53_2.md)
 
 
 
