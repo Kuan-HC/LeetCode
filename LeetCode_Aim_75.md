@@ -46,6 +46,9 @@
 043. [52 兩個鏈表的第一個公共節點](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_52.md)
 044. [45 把數組排成最小的數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_45.md)
 045. [34 二叉樹中和為某一值的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_34.md)
+046. [56 數組中數字出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_56.md)
+047. [56-2 數組中數字出現的次數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_56_2.md)
+048. [44 數字序列中某一位的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_44.md)
 
 
 
