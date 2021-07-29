@@ -1,0 +1,154 @@
+# 劍指 Offer 68-1 二叉搜索樹的最近公共祖先
+
+給定一個二叉搜索樹, 找到該樹中兩個指定節點的最近公共祖先。
+例如，給定如下二叉搜索樹:
+
+<img src="img/68_q.png" width = "400"/>
+
+root = [6,2,8,0,4,7,9,null,null,3,5]
+
+[LeetCode](https://leetcode-cn.com/problems/er-cha-sou-suo-shu-de-zui-jin-gong-gong-zu-xian-lcof/)
+
+### Example 1
+```
+輸入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 8
+輸出: 6 
+解釋: 節點 2 和節點 8 的最近公共祖先是 6。
+```
+
+### Example 2
+```
+輸入: root = [6,2,8,0,4,7,9,null,null,3,5], p = 2, q = 4
+輸出: 2
+解釋: 節點 2 和節點 4 的最近公共祖先是 2, 因為根據定義最近公共祖先節點可以為節點本身。
+``` 
+
+
+* 所有節點的值都是唯一的。
+* p、q 為不同節點且均存在於給定的二叉搜索樹中。
+
+
+
+## Solution  
+
+### C++
+
+* 時間複雜度：O(n) : 其中 N 為二叉樹節點數；每循環一輪排除一層，二叉搜索樹的層數最小為 log N （滿二叉樹），最大為 N （退化為鏈表）。
+ 
+* 空間複雜度：O(n) 最差情況下，即樹退化為鏈表時，遞歸深度達到樹的層數 N 。
+
+```
+class Solution
+{
+private:
+    enum branchSelect
+    {
+        LEFT,
+        RIGHT
+    };
+
+    TreeNode *ret{nullptr};
+    void DFS(TreeNode *root, const int &target_A, const int &target_B)
+    {
+        /* this is a binary search tree, all values in right brach bigger than root and vice versa */
+        int currValue = root->val;
+        if (currValue == target_A || currValue == target_B)
+        {
+            ret = root;
+            return;
+        }
+        branchSelect pathA = target_A > currValue ? RIGHT : LEFT;
+        branchSelect pathB = target_B > currValue ? RIGHT : LEFT;
+
+        if (pathA != pathB)
+        {
+            ret = root;
+            return;
+        }
+        else
+        {
+            TreeNode *next = pathA == LEFT ? root->left : root->right;
+            DFS(next, target_A, target_B);
+        }
+    }
+
+public:
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        int value_A = p->val;
+        int value_B = q->val;
+
+        static_cast<void>(DFS(root, value_A, value_B));
+
+        return ret;
+    }
+};
+```
+### C++
+
+* 時間複雜度：O(n) : n 二叉樹的深度
+
+* 空間複雜度：O(n) 最糟狀況，二叉樹為鍊錶，n為鍊表長度
+
+```
+/* Definition for a binary tree node. */
+struct TreeNode
+{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+class Solution
+{
+
+private:
+    TreeNode *ret{nullptr};
+    bool found{false};
+
+    bool DFS(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        if (root == nullptr || found == true)
+            return false;
+
+        /* left branch*/
+        bool left = DFS(root->left, p, q);
+        bool right = DFS(root->right, p, q);
+
+        bool curr = false;
+        if (root == p || root == q)
+            curr = true;
+
+        if ((left == true && right == true) || (curr == true && (left == true || right == true)))
+        {
+            ret = root;
+            found = true;
+        }
+
+        return left || right || curr;
+    }
+
+public:
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        static_cast<void>(DFS(root, p,q));
+
+        return ret;
+    }
+};
+
+int main()
+{
+    /* input*/
+    TreeNode A(6), B(2), C(8);
+    A.left = &B;
+    A.right = &C;
+
+    /* Test*/
+    Solution test;
+    TreeNode *res = test.lowestCommonAncestor(&A, &B, &C);
+
+    return 0;
+}
+```
