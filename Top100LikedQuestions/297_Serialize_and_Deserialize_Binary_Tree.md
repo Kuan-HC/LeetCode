@@ -67,56 +67,66 @@ struct TreeNode
 
 class Codec
 {
+private:
+    void dfsSerialize(TreeNode *root, string &ret)
+    {
+        if (root == nullptr)
+        {
+            ret += "-,";
+            return;
+        }
+
+        ret += to_string(root->val) + ',';
+
+        dfsSerialize(root->left, ret);
+        dfsSerialize(root->right, ret);
+    }
+
+    TreeNode *dfsDeserialize(queue<string> &data)
+    {
+        string test = data.front();
+        data.pop();
+
+        TreeNode *root = nullptr;
+        if (test != "-")
+        {
+            root = new TreeNode(stoi(test));
+            /* left branch*/
+            root->left = dfsDeserialize(data);
+            /* right branch*/
+            root->right = dfsDeserialize(data);
+        }
+
+        return root;
+    }
+
 public:
     // Encodes a tree to a single string.
     string serialize(TreeNode *root)
     {
-        if (root == nullptr)
-            return "-|";
-
-        /* current node*/
-        //char curr = root->val + 48;
-        string curr;
-
-        curr = to_string(root->val);
-        curr += "|";
-        /* left branch*/
-        string left = serialize(root->left);
-
-        /* right branch*/
-        string right = serialize(root->right);
-
-        return curr + left + right;
-    }
-
-    TreeNode *buildTree(string &data)
-    {
-        int endId = data.find_first_of("|");
-        string valueStr = data.substr(0, endId);
-        data.erase(0, endId + 1);
-
-        if (valueStr == "-")
-            return nullptr;
-
-        int nodeVal = stoi(valueStr);
-
-        TreeNode *curr = new TreeNode;
-        curr->val = nodeVal;
-
-        curr->left = buildTree(data);
-        curr->right = buildTree(data);
-
-        return curr;
+        string ret;
+        dfsSerialize(root, ret);
+        return ret;
     }
 
     // Decodes your encoded data to tree.
     TreeNode *deserialize(string data)
     {
-        string input = data;
+        queue<string> stringInput;
+        string tmp;
+        for (const auto &c : data)
+        {
+            if (c == ',')
+            {
+                stringInput.emplace(tmp);
+                tmp.clear();
+                continue;
+            }
+            tmp += c;
+        }
 
-        TreeNode *ret = buildTree(input);
-
-        return ret;
+        TreeNode *root = dfsDeserialize(stringInput);
+        return root;
     }
 };
 

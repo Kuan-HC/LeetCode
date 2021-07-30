@@ -59,6 +59,7 @@
 056. [68-1 二叉搜索樹的最近公共祖先](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_68_1.md)
 057. [61 撲克牌中的順子](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_61.md)
 058. [65 不用加减乘除做加法](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_65.md)
+059. [37 二叉樹的序列化與反序列化](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_37.md)
 
 
 
