@@ -19,8 +19,9 @@
 
 * 1 <= n < 2^31
 
-
 ## Solution  
+
+<img src="img/43.jpg" width = "1000"/>
 
 ### C++
 
