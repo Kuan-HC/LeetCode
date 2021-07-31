@@ -60,6 +60,7 @@
 057. [61 撲克牌中的順子](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_61.md)
 058. [65 不用加减乘除做加法](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_65.md)
 059. [37 二叉樹的序列化與反序列化](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_37.md)
+060. [43 1～n 整數中 1 出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_43.md)
 
 
 
