@@ -57,8 +57,10 @@ public:
 
         /* initiate dp*/
         for (int i = 2; i < dpLen; ++i)
-            dp[i] = (nums[i - 1] * 10 + nums[i]) > 25 ? dp[i - 1] : dp[i - 1] + dp[i - 2];
-        
+        {
+            int tmp = nums[i - 1] * 10 + nums[i];
+            dp[i] = (tmp > 25 || tmp < 10)  ? dp[i - 1] : dp[i - 1] + dp[i - 2];
+        }
 
         return dp[dpLen - 1];
     }
