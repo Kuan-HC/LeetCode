@@ -63,6 +63,7 @@
 060. [43 1～n 整數中 1 出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_43.md)
 061. [51 數組中的逆序對](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_51.md)
 062. [46 把數字翻譯成字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_46.md)
+063. [47 禮物的最大價值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_47.md)
 
 
 
