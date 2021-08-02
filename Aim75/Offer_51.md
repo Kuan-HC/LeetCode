@@ -14,7 +14,7 @@
 
 ## Solution  
 
-<img src="img/43.jpg" width = "1000"/>
+<img src="img/51.jpg" width = "600"/>
 
 ### C++
 

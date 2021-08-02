@@ -62,6 +62,7 @@
 059. [37 二叉樹的序列化與反序列化](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_37.md)
 060. [43 1～n 整數中 1 出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_43.md)
 061. [51 數組中的逆序對](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_51.md)
+062. [46 把數字翻譯成字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_46.md)
 
 
 
