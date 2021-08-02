@@ -60,5 +60,60 @@ int lengthOfLongestSubstring(char *s)
     return max_len;
 }
 ```
+### C++
 
+* 時間複雜度：O(n)  其中 N 為字符串長度
+
+* 空間複雜度：O(1) ： 字符的 ASCII 碼範圍為 0 ~ 127 ，哈希表 dic 最多使用 O(128) = O(1) 大小的額外空間。
+
+```
+#include <string>
+#include <unordered_map>
+
+using namespace std;
+
+class Solution
+{
+public:
+    int lengthOfLongestSubstring(string s)
+    {
+        int len = s.size();
+        if (len <= 1)
+            return len;
+
+        int left = 0;
+        int right = left;
+        int maxLen = 0;
+
+        unordered_map<char, int> letterMap;
+
+        for (; right < len; ++right)
+        {
+            if (letterMap.find(s[right]) != letterMap.end() && letterMap[s[right]] != -1)
+            {
+                while (left < letterMap[s[right]] + 1 ) // left move to s[right] last position + 1
+                    letterMap[s[left++]] = -1;
+            }
+
+            letterMap[s[right]] = right;
+
+            maxLen = right - left + 1 > maxLen ? right - left + 1 : maxLen;
+        }
+
+        return maxLen;
+    }
+};
+
+int main()
+{
+    /* input*/
+    string input = "dvdf";
+    /* Test*/
+    Solution test;
+    int res = test.lengthOfLongestSubstring(input);
+
+    return 0;
+}
+
+```
 
