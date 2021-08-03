@@ -65,6 +65,8 @@
 062. [46 把數字翻譯成字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_46.md)
 063. [47 禮物的最大價值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_47.md)
 064. [48 最長不含重覆字符的子字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_48.md)
+065. [49 醜數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_49.md)
+066. [59-2 隊列的最大值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_59_2.md)
 
 
 
