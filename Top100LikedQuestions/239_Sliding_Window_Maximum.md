@@ -46,7 +46,7 @@ Output: [1,-1]
 ## Solution  
 
 
-### C
+### C++
 
 * heap
 

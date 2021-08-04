@@ -67,6 +67,7 @@
 064. [48 最長不含重覆字符的子字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_48.md)
 065. [49 醜數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_49.md)
 066. [59-2 隊列的最大值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_59_2.md)
+067. [59-1 滑動窗口的最大值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_59_1.md)
 
 
 
