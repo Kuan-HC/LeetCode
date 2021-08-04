@@ -69,6 +69,7 @@
 066. [59-2 隊列的最大值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_59_2.md)
 067. [59-1 滑動窗口的最大值](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_59_1.md)
 068. [66 構建乘積數組](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_66.md)
+069. [60 n個骰子的點數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_60.md)
 
 
 
