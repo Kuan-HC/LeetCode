@@ -71,6 +71,7 @@
 068. [66 構建乘積數組](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_66.md)
 069. [60 n個骰子的點數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_60.md)
 070. [67 把字符串轉換成整數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_67.md)
+071. [64 求1+2+…+n](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_64.md)
 
 
 
