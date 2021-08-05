@@ -72,6 +72,7 @@
 069. [60 n個骰子的點數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_60.md)
 070. [67 把字符串轉換成整數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_67.md)
 071. [64 求1+2+…+n](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_64.md)
+072. [63 股票的最大利率](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_63.md)
 
 
 

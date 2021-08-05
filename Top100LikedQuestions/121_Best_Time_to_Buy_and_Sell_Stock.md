@@ -28,6 +28,41 @@ Explanation: In this case, no transaction is done, i.e. max profit = 0.
 ## Solution
 <img src="img/121.JPG" width = "500"/>  
 
+### C++
+``
+class Solution
+{
+public:
+    int maxProfit(vector<int> &prices)
+    {
+        int buy = prices[0];
+        int profit = 0;
+
+        for (const auto &price : prices)
+        {
+            if (price - buy <= 0)
+                buy = price;
+            
+            profit = price - buy > profit? price - buy: profit;
+        }
+
+        return profit;
+    }
+};
+
+int main()
+{
+    /* input*/
+    vector<int> input = {7, 1, 5, 3, 6, 4};
+    /* Test*/
+    Solution test;
+    int res = test.maxProfit(input);
+    ;
+
+    return 0;
+}
+``
+
 ### C
 
 ```
