@@ -16,9 +16,6 @@
 
 ```
 
-
-
-
 ## Solution  
 
 ### C++
@@ -26,8 +23,6 @@
 * 時間複雜度：O(n) 
 
 * 空間複雜度：O(1)
-
-* 在各個鍊表的最末加上一個 nullptr
 
 ```
 /*  Definition for singly-linked list. */
