@@ -1,4 +1,6 @@
-# 面試金典 0206 編寫一個函數，檢查輸入的鏈表是否是回文的。
+# 面試金典 0206 回文鍊表
+
+編寫一個函數，檢查輸入的鏈表是否是回文的。
 
 [LeetCode](https://leetcode-cn.com/problems/palindrome-linked-list-lcci/)
 
