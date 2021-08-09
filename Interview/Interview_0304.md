@@ -1,0 +1,106 @@
+# 面試金典 0304 化棧為隊
+
+實現一個MyQueue類，該類用兩個棧來實現一個隊列。
+
+[LeetCode](https://leetcode-cn.com/problems/implement-queue-using-stacks-lcci/)
+
+
+### example
+```
+MyQueue queue = new MyQueue();
+
+queue.push(1);
+queue.push(2);
+queue.peek();  // 返回 1
+queue.pop();   // 返回 1
+queue.empty(); // 返回 false
+```
+說明：
+
+* 你只能使用標準的棧操作 -- 也就是只有 push to top, peek/pop from top, size 和 is empty 操作是合法的。
+* 你所使用的語言也許不支持棧。你可以使用 list 或者 deque（雙端隊列）來模擬一個棧，只要是標準的棧操作即可。
+* 假設所有操作都是有效的 （例如，一個空的隊列不會調用 pop 或者 peek 操作）。
+
+## Solution  
+
+### C++
+
+* 時間複雜度：O(n ) 棧的插入和刪除 需O(n), 每個元素都會分別進入每個棧一次
+
+* 空間複雜度：O(n) n 為輸入的數量
+
+```
+#include <stack>
+
+using namespace std;
+
+class MyQueue
+{
+
+private:
+    stack<int> pushStack;
+    stack<int> popStack;
+
+    inline void moveStack()
+    {
+        if (popStack.empty() == true)
+        {
+            while (pushStack.empty() != true)
+            {
+                popStack.push(pushStack.top());
+                pushStack.pop();
+            }
+        }
+    }
+
+public:
+    /** Initialize your data structure here. */
+    MyQueue() {}
+
+    /** Push element x to the back of queue. */
+    void push(int x)
+    {
+        pushStack.push(x);
+    }
+
+    /** Removes the element from in front of queue and returns that element. */
+    int pop()
+    {
+        moveStack();
+
+        int ret = popStack.top();
+        popStack.pop();
+
+        return ret;
+    }
+
+    /** Get the front element. */
+    int peek()
+    {
+        moveStack();
+
+        return popStack.top();
+    }
+
+    /** Returns whether the queue is empty. */
+    bool empty()
+    {
+        return popStack.empty() == true && pushStack.empty() == true;
+    }
+};
+
+int main()
+{
+    /* input*/
+
+    /* Test*/
+    MyQueue test;
+    test.push(1);
+    test.push(2);
+    test.peek();  // 返回 1
+    test.pop();   // 返回 1
+    test.empty(); // 返回 false
+
+    return 0;
+}
+```
