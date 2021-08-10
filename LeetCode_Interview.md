@@ -12,6 +12,8 @@
 009. [0208 環路檢測](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0208.md)
 010. [0302 棧的最小值](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0302.md)
 011. [0304 化棧為隊](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0304.md)
+012. [0401 節點間通路](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0401.md)
+013. [0301 三合一](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0301.md)
 
 
 
