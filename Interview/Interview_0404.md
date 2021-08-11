@@ -85,7 +85,7 @@ int main()
     /* input*/
     TreeNode A(0), B(1), C(2), D(3), E(4);
     A.left = &B;
-    //A.right = &C;
+    A.right = &C;
     B.left = &D;
     C.left = &E;
 
