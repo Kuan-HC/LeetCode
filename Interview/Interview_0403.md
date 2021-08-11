@@ -4,7 +4,7 @@
 
 [LeetCode](https://leetcode-cn.com/problems/list-of-depth-lcci/)
 
-### example
+### Example
 
 ```
 輸入：[1,2,3,4,5,null,7,8]

@@ -16,6 +16,8 @@
 013. [0301 三合一](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0301.md)
 014. [0402 最小高度樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0402.md)
 015. [0403 特定深度節點鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0403.md)
+016. [0404 檢查平衡性](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0404.md)
+017. [0405 合法二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0405.md)
 
 
 

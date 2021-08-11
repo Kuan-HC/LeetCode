@@ -28,10 +28,6 @@
 返回 false 。
 ```
 
-來源：力扣（LeetCode）
-鏈接：https://leetcode-cn.com/problems/check-balance-lcci
-著作權歸領扣網絡所有。商業轉載請聯系官方授權，非商業轉載請注明出處。
-
 ## Solution  
 
 ### C++
