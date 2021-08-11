@@ -34,6 +34,56 @@
 ## Solution  
 
 ### C++
+* 使用一個二維數組
+```
+class TripleInOne
+{
+private:
+    int **stackPtr{nullptr};
+    int id[3] = {0, 0, 0};
+    int maxNum;
+
+public:
+    TripleInOne(int stackSize) : maxNum(stackSize)
+    {
+        stackPtr = new int *[3];
+        for (int i = 0; i < 3; ++i)
+            stackPtr[i] = new int[stackSize];
+    }
+
+    void push(int stackNum, int value)
+    {
+        if (id[stackNum] < maxNum)
+        {
+            stackPtr[stackNum][id[stackNum]] = value;
+            id[stackNum]++;
+        }
+    }
+
+    int pop(int stackNum)
+    {
+        if (id[stackNum] == 0)
+            return -1;
+
+        id[stackNum]--;
+        return stackPtr[stackNum][id[stackNum]];
+        
+    }
+
+    int peek(int stackNum)
+    {
+        if (id[stackNum] == 0)
+            return -1;
+
+        return stackPtr[stackNum][id[stackNum]-1];
+    }
+
+    bool isEmpty(int stackNum)
+    {
+        return id[stackNum] == 0;
+    }
+};
+```
 
 ```
 #include <vector>
