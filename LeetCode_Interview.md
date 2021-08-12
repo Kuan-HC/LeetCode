@@ -18,7 +18,8 @@
 015. [0403 特定深度節點鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0403.md)
 016. [0404 檢查平衡性](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0404.md)
 017. [0405 合法二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0405.md)
-
+018. [0306 棧排序](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
+019. [0406 後繼者](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0406.md)
 
 
 
