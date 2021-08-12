@@ -20,6 +20,9 @@
 017. [0405 合法二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0405.md)
 018. [0306 棧排序](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
 019. [0406 後繼者](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0406.md)
+020. [0408 首個共同祖先](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0408.md)
+021. [0501 插入](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0501.md)
+022. [0506 整數轉換](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0506.md)
 
 
 
