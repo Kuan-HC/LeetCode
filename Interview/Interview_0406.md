@@ -42,8 +42,6 @@
 * 空間複雜度 O(n) 當最糟的情形，樹退化成鍊表時
 
 ```
-#include <algorithm>
-
 using namespace std;
 
 /* Definition for a binary tree node. */
