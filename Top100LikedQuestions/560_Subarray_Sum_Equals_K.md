@@ -47,7 +47,7 @@ public:
     {
         unordered_map<int, int> prefix;
 
-        /* set first prefix prefix[0] = 1 by choosing nothing*/
+        /* set first prefix prefix[0] = 1 we got one zero"0*/
         prefix[0]++;
         int sum = 0;
         int ret = 0;
