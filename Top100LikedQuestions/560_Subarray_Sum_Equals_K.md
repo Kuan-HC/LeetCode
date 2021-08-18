@@ -43,25 +43,23 @@ using namespace std;
 class Solution
 {
 public:
-    int subarraySum(vector<int> &nums, int k)
+  int subarraySum(vector<int> &nums, int k)
+  {
+    unordered_map<int, int> prefixCount;
+    prefixCount[0] = 1; // We have one Zero"0" 
+
+    int sum = 0;
+    int count = 0;
+    for (const auto &num : nums)
     {
-        unordered_map<int, int> prefix;
-
-        /* set first prefix prefix[0] = 1 we got one zero"0*/
-        prefix[0]++;
-        int sum = 0;
-        int ret = 0;
-        for (const auto &number : nums)
-        {
-            sum += number;
-            if (prefix.count(sum - k) != 0)
-                ret += prefix[sum - k];
-
-            prefix[sum]++;
-        }
-
-        return ret;
+      sum += num;
+      if (prefixCount.find(sum - k) != prefixCount.end() )
+        count += prefixCount[sum - k];
+      prefixCount[sum]++;
     }
+
+    return count;
+  }
 };
 
 int main()
