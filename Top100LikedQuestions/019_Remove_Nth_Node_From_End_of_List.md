@@ -34,6 +34,63 @@ Output: [1]
 
 <img src="img/019.png" width = "700"/>
 
+### C++
+```
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+class Solution
+{
+public:
+    ListNode *removeNthFromEnd(ListNode *head, int n)
+    {
+        int count = 0; // how many times has moved
+        ListNode *ret = head;
+        ListNode *second = head;
+
+        while(head != nullptr)
+        {
+            head = head->next;
+
+            if( count > n)     
+                second = second->next;
+            
+            count++;
+        }
+
+        // second node is now at n+1  start from right end
+        if(count <= n)
+            return second->next;
+
+        second->next = second->next->next;        
+
+        return ret;
+    }
+};
+
+int main()
+{
+    /* Input*/
+    ListNode A(1), B(2), C(3), D(4), E(5);
+    A.next = &B;
+    B.next = &C;
+    C.next = &D;
+    D.next = &E;
+    
+    /* unit test*/
+    Solution test;
+    ListNode* res = test.removeNthFromEnd(&A,1);
+
+    return 0;
+}
+```
+
 ### C
 
 ```
