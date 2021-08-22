@@ -1,4 +1,4 @@
-# 338. Counting Bits
+# 338. Counting Bits - need improvement
 Given an integer num, return an array of the number of 1's in the binary representation of every number in the range [0, num].
 
 [LeetCode](https://leetcode.com/problems/counting-bits)
