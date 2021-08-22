@@ -10,4 +10,4 @@
 
 ## LeetCode 程序員面試金典
 
-* [劍指Offer](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Interview.md)
+* [面試金典](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Interview.md)
