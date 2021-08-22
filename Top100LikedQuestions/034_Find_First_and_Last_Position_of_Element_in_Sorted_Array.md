@@ -38,6 +38,59 @@ Output: [-1,-1]
 ## Solution
 Binary search
 
+### C++
+
+* 時間複雜度 O(log n)
+
+* 空間複雜度 O(1)
+
+```
+class Solution
+{
+public:
+    vector<int> searchRange(vector<int> &nums, int target)
+    {
+        int len = nums.size();
+        if (len == 0)
+            return vector<int>(-1, -1);
+
+        /*binary search*/
+        int left = 0;
+        int right = len - 1;
+        int mid = 0;
+        while (left < right)
+        {
+            mid = left + (right - left) / 2;
+
+            if (nums[mid] >= target)
+                right = mid;
+            else
+                left = mid + 1;
+        }
+
+        if (nums[left] != target)
+            return vector<int>(-1, -1);
+
+        right = left;
+        while (right < len && nums[right] == nums[left])
+            right++;
+
+        return vector<int>(left, right - 1);
+    }
+};
+
+int main()
+{
+    /* Input*/
+    vector<int> input = {5, 7, 7, 8, 8, 10};
+    /* unit test*/
+    Solution test;
+    vector<int> res = test.searchRange(input, 7);
+
+    return 0;
+}
+```
+
 ### C
 * This code is dirty, shall be improved
 ```
