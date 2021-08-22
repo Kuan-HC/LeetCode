@@ -5,7 +5,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 
 [LeetCode](https://leetcode.com/problems/add-two-numbers/)
 
-<img src="img/002.JPG" width = "400"/>
+<img src="img/002.jpg" width = "400"/>
 
 ### Example 1:
 ```
