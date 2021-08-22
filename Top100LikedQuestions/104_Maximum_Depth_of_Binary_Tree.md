@@ -40,28 +40,60 @@ Output: 0
 說明: 葉子節點是指沒有子節點的節點。  
 
 ## Solution
-### C
+### C++
 
 ```
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     struct TreeNode *left;
- *     struct TreeNode *right;
- * };
- */
+#include <algorithm>
 
-int maxDepth(struct TreeNode* root){
-    if(root == NULL)
-        return 0;
-    else if ((root->left == NULL) && (root->right == NULL))
-        return 1;
-    
-    int left = maxDepth(root->left);
-    int right = maxDepth(root->right);
-    
-    return 1 + (left > right? left:right);
+using namespace std;
+
+/*  Definition for a binary tree node. */
+struct TreeNode
+{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+class Solution {
+public:
+
+    int maxDepth(TreeNode* root) {
+
+        if (root == nullptr)
+            return 0;
+        
+        /* left branch*/
+        int leftDepth = maxDepth(root->left);
+        /* right branch*/
+        int rightDepth = maxDepth(root->right);
+
+        return max(leftDepth, rightDepth) + 1;
+    }
+};
+
+int main()
+{
+    /* Input*/
+    TreeNode A(1), B(2), C(3), D(4), E(5), F(6), G(7);
+    A.left = &B;
+    A.right = &C;
+    B.left = &D;
+    B.right = &G;
+    C.left = &E;
+    C.right = &F;
+
+    /* unit test*/
+    Solution test;
+    int res = test.maxDepth(&A);
+
+    int test1 = 7 % 2;
+    int test2 = 7 & (2 - 1);
+
+    return 0;
 }
 ```
 
