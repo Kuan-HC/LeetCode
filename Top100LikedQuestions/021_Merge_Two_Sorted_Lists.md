@@ -39,7 +39,47 @@ struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2){
 }
 ```
 
-### C++
+### C++ 1
+
+```
+class Solution
+{
+public:
+    ListNode *mergeTwoLists(ListNode *l1, ListNode *l2)
+    {
+        if (l1 == nullptr || l2 == nullptr)
+            return l1 == nullptr ? l2 : l1;
+
+        ListNode root(0);
+        ListNode *tail = &root;
+        ListNode* tmp = nullptr;
+        while (l1 != nullptr && l2 != nullptr)
+        {
+            if (l1->val < l2->val)
+            {
+                tmp = l1;
+                l1 = l1->next;
+            }
+            else
+            {
+                tmp = l2;
+                l2 = l2->next;
+            }
+            tail->next = tmp;
+            tail = tail->next;
+        }
+
+        tail->next = l1 == nullptr ? l2 : l1;
+
+        return root.next;
+
+
+    }
+};
+```
+
+
+### C++ 2
 
 ```
 struct ListNode
