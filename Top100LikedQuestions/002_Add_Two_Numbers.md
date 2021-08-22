@@ -39,6 +39,77 @@ Output: [8,9,9,9,0,0,0,1]
 
 ## Solution  
 
+### C++
+
+* 時間複雜度 O(n) 鍊表的長度
+
+* 空間複雜度 O(n) 需要建立額外長度n的節點
+
+
+```
+struct ListNode
+{
+    ListNode *next;
+    int value;
+
+    ListNode(int a) : next(nullptr), value(a){};
+};
+
+class Solution
+{
+public:
+    ListNode *addTwoNumbers(ListNode *l1, ListNode *l2)
+    {
+        ListNode head(0);
+        ListNode *tail = &head;
+
+        int digit = 0;
+        int overTen = 0;
+        while (l1 != nullptr || l2 != nullptr)
+        {
+            digit = overTen;
+
+            if (l1 != nullptr)
+            {
+                digit += l1->value;
+                l1 = l1->next;
+            }
+            if (l2 != nullptr)
+            {
+                digit += l2->value;
+                l2 = l2 -> next;
+            }
+
+            ListNode *tmp = new ListNode(digit % 10);
+            tail->next = tmp;
+            tail = tail->next;
+
+            overTen = digit / 10;
+        }
+
+        return head.next;
+    }
+};
+
+int main()
+{
+    /*input*/
+    ListNode A(2), B(4), C(3);
+    A.next = &B;
+    B.next = &C;
+
+    ListNode D(5), E(6), F(4);
+    D.next = &E;
+    E.next = &F;
+
+    /* unit test*/
+    Solution test;
+    ListNode *res = test.addTwoNumbers(&A, &D);
+
+    return 0;
+}
+```
+
 ### C
 
 ```
