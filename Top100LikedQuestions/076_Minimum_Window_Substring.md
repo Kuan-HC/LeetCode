@@ -37,7 +37,7 @@ Output: "a"
 ## Solution
 * Sliding window
 
-<img src="img/076.gif" width = "600"/>
+<img src="img/76.gif" width = "600"/>
 
 [Leetcode Solution](https://leetcode-cn.com/problems/minimum-window-substring/solution/zui-xiao-fu-gai-zi-chuan-by-leetcode-solution/)
 
