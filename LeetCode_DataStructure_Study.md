@@ -7,7 +7,7 @@
 004. [ Easy ] [088 合併兩有個有序數組](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/088.md)
 005. [ Easy ] [350 兩個數組的交集 II Intersection of Two Arrays II](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/350.md)
 006. [ Easy ] [121 買賣股票的最佳時機 Best Time to Buy and Sell Stock](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/121.md)
-
+007. [ Easy ] [566 重塑矩阵 Reshape the Matrix](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/566.md)
 
 
 
