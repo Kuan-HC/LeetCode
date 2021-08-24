@@ -8,6 +8,10 @@
 
 * [劍指Offer](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Aim_75.md)
 
+## LeetCode 數據結構 學習計劃
+
+* [數據結構](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_DataStructure_Study.md)
+
 ## LeetCode 程序員面試金典
 
 * [面試金典](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Interview.md)
