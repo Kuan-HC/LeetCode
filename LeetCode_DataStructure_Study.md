@@ -20,7 +20,7 @@
 
 ### Linked List
 013. [  Easy  ] [141 環形鍊表 Linked List Cycle](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/141_Linked_List_Cycle.md)
-
+014. [  Easy  ] [203 移除鏈表元素 Remove Linked List Elements](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/203.md)
 
 
 
