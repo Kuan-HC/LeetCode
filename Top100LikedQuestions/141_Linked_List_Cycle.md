@@ -5,6 +5,16 @@ There is a cycle in a linked list if there is some node in the list that can be 
 
 Return true if there is a cycle in the linked list. Otherwise, return false.
 
+# 環形鍊表
+給定一個鏈表，判斷鏈表中是否有環。
+
+如果鏈表中有某個節點，可以通過連續跟蹤 next 指針再次到達，則鏈表中存在環。 為了表示給定鏈表中的環，  
+我們使用整數 pos 來表示鏈表尾連接到鏈表中的位置（索引從 0 開始）。 如果 pos 是 -1，則在該鏈表中沒有環。  
+
+注意：pos 不作為參數進行傳遞，僅僅是為了標識鏈表的實際情況。
+
+如果鏈表中存在環，則返回 true 。 否則，返回 false 。
+
 
 
 [LeetCode](https://leetcode.com/problems/linked-list-cycle/)  
@@ -21,17 +31,41 @@ Input: head = [1,2], pos = 0
 Output: true
 Explanation: There is a cycle in the linked list, where the tail connects to the 0th node.
 ```
-# 環形鍊表
-給定一個鏈表，判斷鏈表中是否有環。
 
-如果鏈表中有某個節點，可以通過連續跟蹤 next 指針再次到達，則鏈表中存在環。 為了表示給定鏈表中的環，  
-我們使用整數 pos 來表示鏈表尾連接到鏈表中的位置（索引從 0 開始）。 如果 pos 是 -1，則在該鏈表中沒有環。  
-
-注意：pos 不作為參數進行傳遞，僅僅是為了標識鏈表的實際情況。
-
-如果鏈表中存在環，則返回 true 。 否則，返回 false 。
 
 ## Solution
+
+### C++
+
+```
+class Solution
+{
+public:
+    bool hasCycle(ListNode *head)
+    {
+        /* use two pointer, one fast and one slow
+        if there is a circle, these two pointer will meet again*/
+
+        ListNode *fast = head;
+        ListNode *slow = head;
+
+        while (fast != nullptr)
+        {
+            if(fast -> next != nullptr)
+                fast = fast->next->next;
+            else
+                fast = fast->next;
+
+            slow = slow->next;
+
+            if(fast == slow)
+                break;
+        }
+
+        return fast != nullptr;
+    }
+};
+```
 
 ### C
 ```

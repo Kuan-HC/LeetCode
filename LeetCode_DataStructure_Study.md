@@ -19,6 +19,7 @@
 012. [  Easy  ] [242 有效的字母異位詞 Valid Anagram](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/242.md)
 
 ### Linked List
+013. [  Easy  ] [141 環形鍊表 Linked List Cycle](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/141_Linked_List_Cycle.md)
 
 
 
