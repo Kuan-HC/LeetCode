@@ -1,6 +1,10 @@
 # 021. Merge Two Sorted Lists
 Merge two sorted linked lists and return it as a new sorted list. The new list should be made by splicing together the nodes of the first two lists.
 
+## 合併兩個有序鍊表  
+將兩個有序鍊表合併為一個新的升序鍊表並反回  
+新鍊表是通過拼接給定的兩個鍊表的所有節點組成的  
+
 [LeetCode](https://leetcode.com/problems/merge-two-sorted-lists)  
 
 ### Example 1:
@@ -13,9 +17,7 @@ Output: [1,1,2,3,4,4]
 Input: l1 = [], l2 = []
 Output: []
 ```
-# 合併兩個有序鍊表  
-將兩個有序鍊表合併為一個新的升序鍊表並反回  
-新鍊表是通過拼接給定的兩個鍊表的所有節點組成的  
+
 
 ## Solution
 <img src="img/021.JPG" width = "600"/>
@@ -72,7 +74,6 @@ public:
         tail->next = l1 == nullptr ? l2 : l1;
 
         return root.next;
-
 
     }
 };
