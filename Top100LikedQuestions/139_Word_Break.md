@@ -41,6 +41,69 @@ Output: false
 
 <img src="img/139.jpg" width = "715"/>
 
+### C++
+
+```
+#include <vector>
+#include <string>
+
+using namespace std;
+
+class Solution
+{
+public:
+    bool wordBreak(string s, vector<string> &wordDict)
+    {
+        /* dynamic programmin, record position can be reach */
+        /* example : leetcode, create dp space with sizeof(leetcode)+1
+         * set dp[0] = 1 mean we can start search after 1*/
+
+        int len = s.size();
+
+        /* allocate dp space and initiazlie it */
+        vector<bool> dp(len + 1, false);
+        dp[0] = true;
+        int foundId = 0;
+        int nextStart = 0;
+        /* dynammic programming*/
+        for (int i = 1; i <= len; ++i)
+        {
+            if (dp[i - 1] != true)
+                continue;
+            for (const string &word : wordDict)
+            {
+                foundId = s.find(word, i - 1); /* for debug*/
+                if (foundId == i - 1)
+                {
+                    nextStart = i + word.size() - 1;
+                    dp[nextStart] = true;
+                    if (nextStart == len)
+                        return true;
+                }
+            }
+        }
+
+        return dp[len];
+    }
+};
+
+int main()
+{
+    /* Input*/
+    string input = "applepenapple";
+
+    vector<string> wordDict = {"apple", "pen"};
+
+    /* unit test*/
+    Solution test;
+    test.wordBreak(input, wordDict);
+
+    int test2 = input.find("leet", 2);
+
+    return 0;
+}
+```
+
 ### C
 
 ```
