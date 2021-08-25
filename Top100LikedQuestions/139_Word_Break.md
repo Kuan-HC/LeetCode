@@ -38,7 +38,8 @@ Output: false
 
 ## Solution
 * DP
-<img src="img/139.jpg" width = "715/>
+
+<img src="img/139.jpg" width = "715"/>
 
 ### C
 

@@ -16,6 +16,9 @@
 
 010. [  Easy  ] [387 字符串中的第一個唯一字符 First Unique Character in a String](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/387.md)
 011. [  Easy  ] [383 贖金信 Ransom Note](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/383.md)
+012. [  Easy  ] [242 有效的字母異位詞 Valid Anagram](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/242.md)
+
+### Linked List
 
 
 
