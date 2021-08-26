@@ -24,8 +24,101 @@ Output: [1,2,3,4]
 
 ## Solution
 
-### C
 <img src="img/148.jpg" width = "580"/>
+
+### C++
+```
+#include <vector>
+
+using namespace std;
+
+/**  Definition for singly-linked list. */
+struct ListNode
+{
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
+class Solution
+{
+private:
+    ListNode *merge(ListNode *a, ListNode *b)
+    {
+        if (a == nullptr || b == nullptr)
+            return a == nullptr ? b : a;
+
+        if (a->val < b->val)
+        {
+            a->next = merge(a->next, b);
+            return a;
+        }
+        else
+        {
+            b->next = merge(a, b->next);
+            return b;
+        }
+    }
+
+    ListNode *splitMerge(ListNode *head)
+    {
+        if (head->next == nullptr)
+            return head;
+        /*split the list into two with fast slow pointer*/
+        ListNode *fast = head;
+        ListNode *slow = head;
+        ListNode *preSlow = nullptr;
+
+        while (fast != nullptr)
+        {
+            preSlow = slow;
+            slow = slow->next;
+            fast = fast->next;
+            if (fast != nullptr)
+                fast = fast->next;
+        }
+        /* cut the list*/
+        preSlow->next = nullptr;
+
+        /* continue split the lists*/
+        head = splitMerge(head);
+        slow = splitMerge(slow);
+
+        /* merge two list*/
+        ListNode *tmp = merge(head, slow);
+        return tmp;
+    }
+
+public:
+    ListNode *sortList(ListNode *head)
+    {
+        if (head == nullptr)
+            return nullptr;
+
+        return splitMerge(head);
+    }
+};
+
+int main()
+{
+    /* Input*/
+    ListNode A(4), B(3), C(2), D(1);
+    // A.next = &B;
+    // B.next = &C;
+    // C.next = &D;
+
+    /* unit test*/
+    Solution test;
+    ListNode *res = test.sortList(&A);
+
+    return 0;
+}
+```
+
+### C
+
 
 ```
 /**
