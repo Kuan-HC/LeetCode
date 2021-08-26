@@ -2,7 +2,10 @@
 
 Given the root of a binary tree, return the inorder traversal of its nodes' values.
 
-[LeetCode](https://leetcode.com/problems/binary-tree-inorder-traversal)  
+##  二叉樹的中序遍歷
+給定一個二叉樹的根節點 root，反回它的中序遍曆
+
+[LeetCode](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/)  
 
 ### Example 1:
 <img src="img/094_q.jpg" width = "250"/>
@@ -23,11 +26,42 @@ Input: root = [1]
 Output: [1]
 ```
 
-#  二叉樹的中序遍歷
-給定一個二叉樹的根節點 root，反回它的中序遍曆
+
 
 ## Solution
 * Dpeth First Search
+
+### C+++
+
+* 時間複雜度 O(n)
+
+* 空間複雜度 O(n) 當樹為鍊表時
+
+```
+class Solution {
+private:
+    vector<int> ret;
+    void dfs(TreeNode* root)
+    {
+        if(root == nullptr)
+            return;
+            
+        /* left branch*/
+        dfs(root->left);
+        /* inorder */
+        ret.push_back(root->val);
+        /* right branch*/
+        dfs(root->right);
+    }
+public:
+    vector<int> inorderTraversal(TreeNode* root) {
+
+        dfs(root);
+        
+        return ret;
+    }
+};
+```
 
 ### C
 

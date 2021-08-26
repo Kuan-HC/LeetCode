@@ -30,6 +30,8 @@
 
 ### Tree
 019. [  Easy  ] [二叉樹的前序遍歷 Binary Tree Preorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/144.md)
+020. [  Easy  ] [二叉樹的中序遍歷 Binary Tree Inorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/094_Binary_Tree_Inorder_Traversal.md)
+021. [  Easy  ] [二叉樹的後序遍歷 Binary Tree Postorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/145.md)
 
 
 
