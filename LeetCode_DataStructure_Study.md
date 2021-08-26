@@ -26,7 +26,7 @@
 
 ### Stack/Queue
 017. [  Easy  ] [020 有效的括號 Valid Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/020_Valid_Parentheses.md)
-
+018. [  Easy  ] [232 用棧實現隊列 Implement Queue using Stacks](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/232.md)
 
 ### Tree
 019. [  Easy  ] [二叉樹的前序遍歷 Binary Tree Preorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/144.md)
