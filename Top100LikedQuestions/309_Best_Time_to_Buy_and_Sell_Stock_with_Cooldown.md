@@ -33,6 +33,39 @@ Output: 0
 ## Solution  
 ### Dynamic Programming
 
+### C++
+```
+class Solution
+{
+public:
+    int maxProfit(vector<int> &prices)
+    {
+        /* three states dynammic programming
+           1. have stock: could be bought today, or we already have
+           2. have no stock - not sold today
+           3. have no stock = sol today
+        */
+        int len = prices.size();
+        if (len == 0)
+            return 0;
+        /* initiate dp space*/
+        vector<vector<int>> dp(3, vector<int>(len, 0));
+        dp[0][0] = -prices[0];
+        /* dynammic programming*/
+
+        for (int i = 1; i < len; ++i)
+        {
+            dp[0][i] = max(dp[0][i - 1], dp[2][i - 1] - prices[i]);
+            dp[1][i] = dp[0][i - 1] + prices[i];
+            dp[2][i] = max(dp[1][i - 1], dp[2][i - 1]);
+        }
+
+        return max(max(dp[0][len-1], dp[1][len-1]), dp[2][len-1]);
+    }
+};
+
+```
+
 ### C
 
 ```

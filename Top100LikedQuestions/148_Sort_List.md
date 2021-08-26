@@ -3,6 +3,14 @@ Given the head of a linked list, return the list after sorting it in ascending o
 
 Follow up: Can you sort the linked list in O(n logn) time and O(1) memory (i.e. constant space)?
 
+## 排序鍊表
+
+給你鏈表的頭結點 head ，請將其按 升序 排列並返回 排序後的鏈表 。
+
+進階：
+
+你可以在 O(n log n) 時間複雜度和常數級空間複雜度下，對鏈表進行排序嗎？
+
 [LeetCode](https://leetcode.com/problems/sort-list)  
 
 ### Example 1:
@@ -12,15 +20,6 @@ Follow up: Can you sort the linked list in O(n logn) time and O(1) memory (i.e.
 Input: head = [4,2,1,3]
 Output: [1,2,3,4]
 ```
-
-
-# 排序鍊表
-
-給你鏈表的頭結點 head ，請將其按 升序 排列並返回 排序後的鏈表 。
-
-進階：
-
-你可以在 O(n log n) 時間複雜度和常數級空間複雜度下，對鏈表進行排序嗎？
 
 ## Solution
 
