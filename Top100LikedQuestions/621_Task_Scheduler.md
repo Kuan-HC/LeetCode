@@ -76,7 +76,7 @@ public:
 
         sort(counter.rbegin(), counter.rend());
 
-        int lastContainerLength = 1;
+        int lastContainerLength = 1; // 最後一個預設任務數量 1
         int MaxContainer = counter[0];
 
         for (int i = 1; i < 26; ++i)
@@ -87,9 +87,10 @@ public:
                 break;
         }
 
-        int coolDownInclude = (MaxContainer - 1) * (n + 1) + lastContainerLength;
-        int noCoolDown = tasks.size();      
+        int coolDownInclude = (MaxContainer - 1) * (n + 1) + lastContainerLength; // (依最大值所設立的任務數量-1) * 間距 + 最後一個任務
+        int noCoolDown = tasks.size();   //全部的任務數量   
         
+        //當全部的數量 大於最小的必需數量(設立x個任務，間隔n)，就會排得滿滿的
         return coolDownInclude > noCoolDown?coolDownInclude:noCoolDown;
     }
 };
