@@ -29,6 +29,42 @@ Output: false
 注意空字符串可被認為是有效字符串。  
 
 ## Solution
+
+### C++
+
+* 時間複雜度 O(n)需遍曆整個字串
+
+* 空間複雜度 O(n) 最糟的情況下，需要將整個字串存入stack
+
+```
+class Solution
+{
+public:
+    bool isValid(string s)
+    {
+        stack<char> bracket;
+
+        for (const char &c : s)
+        {
+            if (    bracket.empty() != true 
+                 && (    (c == ')' && bracket.top() == '(')
+                      || (c == ']' && bracket.top() == '[')
+                      || (c == '}' && bracket.top() == '{')
+                    )
+                )
+            {
+                bracket.pop();
+                    continue;
+            }
+
+            bracket.push(c);
+        }
+
+        return bracket.empty();
+    }
+};
+```
+
 ### C
 
 ```

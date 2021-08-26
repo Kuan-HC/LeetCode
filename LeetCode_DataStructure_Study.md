@@ -22,7 +22,15 @@
 013. [  Easy  ] [141 環形鍊表 Linked List Cycle](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/141_Linked_List_Cycle.md)
 014. [  Easy  ] [203 移除鏈表元素 Remove Linked List Elements](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/203.md)
 015. [  Easy  ] [206 反轉鍊表 Reverse Linked List](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/206_Reverse_Linked_List.md)
-016. [  Easy  ] [083 移除鏈表元素 Remove Linked List Elements](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/83.md)
+016. [  Easy  ] [083 刪除排序鏈表中的重覆元素 Remove Linked List Elements](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/83.md)
+
+### Stack/Queue
+017. [  Easy  ] [020 有效的括號 Valid Parentheses](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/020_Valid_Parentheses.md)
+
+
+### Tree
+019. [  Easy  ] [二叉樹的前序遍歷 Binary Tree Preorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/144.md)
+
 
 
 
