@@ -29,10 +29,12 @@
 018. [  Easy  ] [232 用棧實現隊列 Implement Queue using Stacks](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/232.md)
 
 ### Tree
-019. [  Easy  ] [二叉樹的前序遍歷 Binary Tree Preorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/144.md)
-020. [  Easy  ] [二叉樹的中序遍歷 Binary Tree Inorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/094_Binary_Tree_Inorder_Traversal.md)
-021. [  Easy  ] [二叉樹的後序遍歷 Binary Tree Postorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/145.md)
-022. [ Medium ] [二叉樹的層序遍歷 Binary Tree Level Order Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/102.md)
+019. [  Easy  ] [144 二叉樹的前序遍歷 Binary Tree Preorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/144.md)
+020. [  Easy  ] [094  二叉樹的中序遍歷 Binary Tree Inorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/094_Binary_Tree_Inorder_Traversal.md)
+021. [  Easy  ] [145 二叉樹的後序遍歷 Binary Tree Postorder Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/145.md)
+022. [ Medium ] [102 二叉樹的層序遍歷 Binary Tree Level Order Traversal](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/102.md)
+023. [  Easy  ] [104 二叉樹的最大深度 Maximum Depth of Binary Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/104_Maximum_Depth_of_Binary_Tree.md)
+024. [  Easy  ] [101 對稱二叉樹 Symmetric Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/101_Symmetric_Tree.md)
 
 
 

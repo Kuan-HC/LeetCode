@@ -1,6 +1,9 @@
 # 101. Symmetric Tree
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).  
 
+## 對稱二叉樹  
+給定一個二叉樹，檢查它是鏡像對稱的  
+
 ### Example 1:
 For example, this binary tree [1,2,2,3,4,4,3] is symmetric: 
 ```
@@ -27,7 +30,45 @@ But the following [1,2,2,null,3,null,3] is not:
 
 ## Solution
 
-### C++
+### C++ 1
+```
+class Solution
+{
+private:
+    bool ret{true};
+
+    void compare(TreeNode *left, TreeNode *right)
+    {
+        if (ret == false)
+            return;
+
+        if (left == nullptr && right == nullptr)
+            return;
+        else if ( (left == nullptr || right == nullptr) || (left->val != right->val) )
+        {
+            ret = false;
+            return;
+        }
+                
+        compare(left->left, right->right);
+        compare(left->right, right->left);
+        
+    }
+
+public:
+    bool isSymmetric(TreeNode *root)
+    {
+        if (root == nullptr)
+            return true;
+
+        compare(root->left, root->right);
+
+        return ret;
+    }
+};
+```
+
+### C++ 2
 ```
 struct TreeNode
 {
@@ -95,9 +136,7 @@ int main()
     Solution test;
     bool res = test.isSymmetric(&A);
 
-    int test1 = 7 % 2;
-    int test2 = 7 & (2 - 1);
-
+    
     return 0;
 }
 ```
