@@ -22,8 +22,39 @@ Minimize the total number of operations.
 ## Solution  
 ### two pointers
 
-### C
+### C++
 <img src="img/283.gif" width = "881"/>
+
+```
+class Solution
+{
+public:
+    void moveZeroes(vector<int> &nums)
+    {
+        /*use two pointers*/
+        int len = nums.size();
+        if (len <= 1)
+            return;
+
+        int left = 0;
+        int right = left + 1;
+        while (right < len)
+        {
+            if (nums[left] == 0 && nums[right] == 0)
+                right++;
+            else if (nums[left] == 0)
+                swap(nums[left++], nums[right++]);
+            else
+            {
+                right++;
+                left++;
+            }
+        }
+    }
+};
+```
+
+### C
 
 ```
 void moveZeroes(int *nums, int numsSize)
