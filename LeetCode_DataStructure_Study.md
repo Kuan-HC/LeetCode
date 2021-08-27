@@ -39,6 +39,8 @@
 026. [  Easy  ] [700 二叉搜索樹中的搜索 Search in a Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/700.md)
 027. [ Medium ] [701 二叉搜索樹中的搜索 Insert into a Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/701.md)
 028. [ Medium ] [098 驗證二叉搜索樹 Validate Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/098_Validate_Binary_Search_Tree.md)
+029. [  Easy  ] [653 兩數之和 IV - 輸入 BST Two Sum IV - Input is a BST](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/653.md)
+030. [  Easy  ] [235 二叉搜索樹的最近公共祖先 Lowest Common Ancestor of a Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/235.md)
 
 
 
