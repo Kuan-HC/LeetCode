@@ -36,6 +36,8 @@
 023. [  Easy  ] [104 二叉樹的最大深度 Maximum Depth of Binary Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/104_Maximum_Depth_of_Binary_Tree.md)
 024. [  Easy  ] [101 對稱二叉樹 Symmetric Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/101_Symmetric_Tree.md)
 025. [  Easy  ] [226 翻轉二叉樹 Invert Binary Tree](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/226_Invert_Binary_Tree.md)
+026. [700 二叉搜索樹中的搜索 Search in a Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/700.md)
+026. [701 二叉搜索樹中的搜索 Insert into a Binary Search Tree](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/701.md)
 
 
 
