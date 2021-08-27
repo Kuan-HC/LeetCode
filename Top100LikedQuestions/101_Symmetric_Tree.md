@@ -36,23 +36,18 @@ class Solution
 {
 private:
     bool ret{true};
-
-    void compare(TreeNode *left, TreeNode *right)
+    void compBranch(TreeNode *left, TreeNode *right)
     {
-        if (ret == false)
+        if ((left == nullptr && right == nullptr) || ret == false)
             return;
-
-        if (left == nullptr && right == nullptr)
-            return;
-        else if ( (left == nullptr || right == nullptr) || (left->val != right->val) )
+        else if ((left == nullptr || right == nullptr) || ( left->val != right->val))
         {
             ret = false;
             return;
         }
-                
-        compare(left->left, right->right);
-        compare(left->right, right->left);
-        
+
+        compBranch(left->right, right->left);
+        compBranch(left->left, right->right);
     }
 
 public:
@@ -61,7 +56,7 @@ public:
         if (root == nullptr)
             return true;
 
-        compare(root->left, root->right);
+        compBranch(root->left, root->right);
 
         return ret;
     }

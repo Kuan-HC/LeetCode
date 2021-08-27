@@ -27,6 +27,37 @@ Output:
 ## Solution  
 ### recursion
 
+### C++
+
+```
+class Solution
+{
+private:
+    void dfs(TreeNode *root)
+    {
+        if(root == nullptr)
+            return;
+
+        TreeNode *tmp = root->left;
+        root->left = root->right;
+        root->right = tmp;
+
+        /*left branch*/
+        dfs(root->left);
+        dfs(root->right);
+
+    }
+public:
+    TreeNode *invertTree(TreeNode *root)
+    {
+        dfs(root);
+
+        return root;
+    }
+};
+```
+
+
 ### C
 
 ```
