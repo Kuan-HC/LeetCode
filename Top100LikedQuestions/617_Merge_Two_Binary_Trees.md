@@ -41,6 +41,53 @@ The merging process must start from the root nodes of both trees.
 
 <img src="img/617_2.JPG" width = "400"/>
 
+### C++
+```
+struct TreeNode
+{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode() : val(0), left(nullptr), right(nullptr) {}
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+class Solution
+{
+public:
+    TreeNode *mergeTrees(TreeNode *root1, TreeNode *root2)
+    {
+        if (root1 == nullptr || root2 == nullptr)
+            return root1 == nullptr ? root2 : root1;
+        /* merge tree 2 into 1*/
+
+        root1->val += root2->val;
+
+        /* left branch*/
+        root1->left = mergeTrees(root1->left, root2->left);
+        root2->right = mergeTrees(root1->right, root2->right);
+
+        return root1;
+    }
+};
+
+int main()
+{
+    /* Input*/
+    TreeNode A(0), B(1), C(2), D(3), E(4);
+    A.left = &B;
+    C.right = &D;
+    D.right = &E;
+
+    /* unit test*/
+    Solution test;
+    TreeNode *res = test.mergeTrees(&A, &C);
+
+    return 0;
+}
+```
+
 ### C
 
 ```
