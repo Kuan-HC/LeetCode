@@ -40,6 +40,59 @@ Explanation: The root node's value is 5 but its right child's value is 4.
 * 使用上下範圍，目的是為了在當前node，處理完該點數字的驗證
 
 
+### C++
+
+```
+### C++
+
+* 時間複雜度 O(n) 需遍曆所有的點
+
+* 空間複雜度 O(n) 當最糟的情形，樹退化成鍊表時
+
+```
+/* Definition for a binary tree node. */
+struct TreeNode
+{
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+class Solution
+{
+private:
+    bool ret{true};
+
+    void dfs(TreeNode *root,  long left, long right)
+    {
+        if (root == nullptr || ret == false)
+            return;
+
+        if (root->val <= left || root->val >= right)
+            ret = false;
+
+        /*left branch*/
+        dfs(root->left, left, root->val);
+        /* right branch*/
+        dfs(root->right, root->val, right);        
+    }
+
+    
+
+public:
+    bool isValidBST(TreeNode *root)
+    {
+        if (root == nullptr)
+            return true;
+
+        dfs(root, LONG_MIN, LONG_MAX);
+        
+        return ret;
+    }
+};
+```
+
 ### C
 
 ```
