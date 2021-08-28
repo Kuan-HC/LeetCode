@@ -4,6 +4,11 @@ You are given an n x n 2D matrix representing an image, rotate the image by 90 d
 
 You have to rotate the image in-place, which means you have to modify the input 2D matrix directly. DO NOT allocate another 2D matrix and do the rotation.
 
+##  旋轉圖像
+給定一個 n × n 的二維矩陣 matrix 表示一個圖像。請你將圖像順時針旋轉 90 度。
+
+你必須在 原地 旋轉圖像，這意味著你需要直接修改輸入的二維矩陣。請不要 使用另一個矩陣來旋轉圖像
+
 [LeetCode](https://leetcode.com/problems/rotate-image)  
 
 ### Example 1:
@@ -31,11 +36,6 @@ Output: [[1]]
 Input: matrix = [[1,2],[3,4]]
 Output: [[3,1],[4,2]]
 ```
-
-#  旋轉圖像
-給定一個 n × n 的二維矩陣 matrix 表示一個圖像。請你將圖像順時針旋轉 90 度。
-
-你必須在 原地 旋轉圖像，這意味著你需要直接修改輸入的二維矩陣。請不要 使用另一個矩陣來旋轉圖像
 
 ## Solution
 <img src="img/048.jpg" width = "1050"/>
