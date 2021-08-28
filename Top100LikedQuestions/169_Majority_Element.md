@@ -3,6 +3,11 @@ Given an array of size n, find the majority element. The majority element is the
 
 You may assume that the array is non-empty and the majority element always exist in the array.
 
+## 多數元素
+給定一個大小為 n 的數組，找到其中的多數元素。多數元素是指在數組中出現次數 大於 ⌊ n/2 ⌋ 的元素。
+
+你可以假設數組是非空的，並且給定的數組總是存在多數元素。
+
 [LeetCode](https://leetcode.com/problems/majority-element/)
 
 ### Example 1:
@@ -16,13 +21,6 @@ Output: 3
 Input: [2,2,1,1,1,2,2]
 Output: 2
 ```
-
-
-# 多數元素
-給定一個大小為 n 的數組，找到其中的多數元素。多數元素是指在數組中出現次數 大於 ⌊ n/2 ⌋ 的元素。
-
-你可以假設數組是非空的，並且給定的數組總是存在多數元素。
-
 
 ## Solution  
 ## Moore Voting Algorithm

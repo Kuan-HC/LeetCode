@@ -4,6 +4,11 @@ Given an array nums with n objects colored red, white, or blue, sort them in-pla
 
 We will use the integers 0, 1, and 2 to represent the color red, white, and blue, respectively.
 
+##  顏色分類
+給定一個包含紅色、白色和藍色，一共 n 個元素的數組，原地對它們進行排序，使得相同顏色的元素相鄰，並按照紅色、白色、藍色順序排列。
+
+此題中，我們使用整數 0、 1 和 2 分別表示紅色、白色和藍色
+
 [LeetCode](https://leetcode.com/problems/sort-colors)  
 
 ### Example 1:
@@ -24,15 +29,68 @@ Input: nums = [0]
 Output: [0]
 ```
 
-#  顏色分類
-給定一個包含紅色、白色和藍色，一共 n 個元素的數組，原地對它們進行排序，使得相同顏色的元素相鄰，並按照紅色、白色、藍色順序排列。
-
-此題中，我們使用整數 0、 1 和 2 分別表示紅色、白色和藍色
-
 ## Solution
 * Dynamic Programming
 <img src="img/075.gif" width = "606"/>
 
+### C++
+
+```
+#include <vector>
+#include <algorithm>
+
+using namespace std;
+
+class Solution
+{
+public:
+  void sortColors(vector<int> &nums)
+  {
+    /* we only have three different types*/
+    /* try build a small algorithm*/
+    int len = nums.size();
+    if (len <= 1)
+      return;
+
+    int ptrForTwo = len - 1;
+    int ptrForZero = 0;
+
+    while (ptrForTwo >= 0 && nums[ptrForTwo] == 2)
+      ptrForTwo--;
+    while (ptrForZero < len && nums[ptrForZero] == 0)
+      ptrForZero++;
+
+    int currPtr = ptrForZero;
+
+    while (currPtr < len && currPtr <= ptrForTwo)
+    {
+      if (nums[currPtr] == 0)
+      {
+        if (currPtr == ptrForZero)
+          currPtr++;
+        else
+          swap(nums[currPtr], nums[ptrForZero++]);
+      }
+      else if (nums[currPtr] == 1)
+        currPtr++;
+      else
+        swap(nums[currPtr], nums[ptrForTwo--]);
+    }
+  }
+};
+
+int main()
+{
+  /* input*/
+  vector<int> input{0,0};
+
+  /* test*/
+  Solution test;
+  test.sortColors(input);
+
+  return 0;
+}
+```
 
 ### C
 

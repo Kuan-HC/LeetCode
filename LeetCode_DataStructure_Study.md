@@ -11,6 +11,11 @@
 007. [  Easy  ] [566 重塑矩阵 Reshape the Matrix](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/566.md)
 008. [  Easy  ] [118 楊輝三角 Pascal's Triangle](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/118.md)
 009. [ Medium ] [036 有效的數獨 Valid Sudoku](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/036.md)
+010. [  Easy  ] [136 只出現一次的數字 Single Number](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/136_Single_Number.md)
+011. [  Easy  ] [169 多數元素 Majority Element](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/169_Majority_Element.md)
+012. [ Medium ] [015 三數之合 3Sum](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/015_3Sum.md)
+013. [ Medium ] [075 顏色分類 Sort Colors](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/075_Sort_Colors.md)
+014. [ Medium ] [056 合併區間 Merge Intervals](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/056_Merge_Intervals.md)
 
 ### String
 

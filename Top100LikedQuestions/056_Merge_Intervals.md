@@ -2,6 +2,9 @@
 
 Given an array of intervals where intervals[i] = [starti, endi], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
 
+##  合併區間
+給出一個區間的集合，請合併所有重疊的區間
+
 [LeetCode](https://leetcode.com/problems/merge-intervals)  
 
 ### Example 1:
@@ -19,10 +22,80 @@ Output: [[1,5]]
 Explanation: Intervals [1,4] and [4,5] are considered overlapping
 ```
 
-#  合併區間
-給出一個區間的集合，請合併所有重疊的區間
-
 ## Solution
+
+### C++
+
+* 時間複雜度 排序 O(n log n) + 遍曆排序後的list O(n) 
+
+* 空間複雜度 O (n)
+
+
+```
+class Solution
+{
+private:
+  enum bracket
+  {
+    LEFT,
+    RIGHT
+  };
+
+static bool comp( pair<int, bracket> &left, pair<int, bracket> &right)
+{
+    if(left.first == right.first)
+      return left.second < right.second;
+
+    return left < right;
+
+}
+
+public:
+  vector<vector<int>> merge(vector<vector<int>> &intervals)
+  {
+    int len = intervals.size();
+    if (len == 1)
+      return intervals;
+
+    vector<vector<int>> ret;
+    /* store element as bracket in a vector*/
+    vector<pair<int, bracket>> bracketList;
+
+    for (int i = 0; i < len; ++i)
+    {
+      bracketList.emplace_back(make_pair(intervals[i][0], LEFT));
+      bracketList.emplace_back(make_pair(intervals[i][1], RIGHT));
+    }
+
+    sort(bracketList.begin(), bracketList.end(), comp);
+
+    /* use stack to remove bracket */
+    stack<pair<int, bracket>> bracketStack;
+
+    for (int i = 0; i < 2 * len; ++i)
+    {
+      if (bracketStack.empty() == true)
+      {
+        bracketStack.push(bracketList[i]);
+        continue;
+      }
+
+      if (bracketStack.top().second == LEFT && bracketList[i].second == RIGHT)
+      {
+        if (bracketStack.size() == 1)
+        {
+          ret.push_back(vector<int>{bracketStack.top().first, bracketList[i].first});
+        }
+        bracketStack.pop();
+      }
+      else
+        bracketStack.push(bracketList[i]);
+    }
+
+    return ret;
+  }
+};
+```
 
 ### C
 
