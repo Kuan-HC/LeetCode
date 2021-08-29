@@ -40,99 +40,78 @@ Output: 3
 
 ## Solution
 
-### C
+### C++
+
 * Breadth*First Search
 
 ```
-#include <vector>
-#include <deque>
-using std::deque;
-using std::vector;
-
 class Solution
 {
 private:
-  struct position
-  {
-    position() : x(0), y(0){};
-    position(int _x, int _y) : x(_x), y(_y){};
-    int x;
-    int y;
-  };
-
-  int rowNum;
-  int colNum;
-  deque<position> open;
-  vector<vector<int>> deltaList = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
-  int inselValue{0};
-
-  /** TODO: Breadth-First Algorithm*/
-  void BFS(vector<vector<char>> &grid, vector<vector<bool>> &visted)
-  {
-    while (open.empty() != true)
-    {
-      auto expand = open.front();
-      open.pop_front();
-
-      position next;
-      for (auto &move : deltaList)
-      {
-        next.x = expand.x + move[0];
-        next.y = expand.y + move[1];
-
-        if ((next.x < 0) || (next.x >= rowNum) || (next.y < 0) || (next.y >= colNum))
-          continue;
-
-        if ((visted[next.x][next.y] != true) && (grid[next.x][next.y] == '1'))
-        {
-          open.emplace_back(next);
-          visted[next.x][next.y] = true;
-        }
-      }
-    }
-    ++inselValue;
-  }
+  vector<vector<int>> movement = {{0,1}, {1,0}, {0,-1},{-1,0}};  // right, down, left, up
 
 public:
   int numIslands(vector<vector<char>> &grid)
   {
-    /** 
-     * TODO: create a map record spots has been visted*
-     */
-    rowNum = grid.size();
-    colNum = grid[0].size();
-    vector<vector<bool>> visted(rowNum, vector<bool>(colNum, 0));
+    /**
+     *  Breadth Firsth Search
+     *  Go through every position, if that one is explorable ( 1 && not visted),
+     *  use BFS, when BFS finish, one island complete
+     * */
+    int rowNum = grid.size();
+    int colNum = grid[0].size();
+    int islandCount = 0;
 
-    for (int i = 0; i < rowNum; ++i)
+    vector<vector<bool>> visted(rowNum, vector<bool>(colNum, false));
+
+    for (int row = 0; row < rowNum; ++row)
     {
-      for (int j = 0; j < colNum; ++j)
+      for (int col = 0; col < colNum; ++col)
       {
-        /**
-         * TODO: Set the initial point for BFS algorithm
-         * */
-        if ((grid[i][j] == '1') && visted[i][j] != true)
+
+        if (grid[row][col] == '1' && visted[row][col] == false)
         {
-          visted[i][j] = true;
-          open.emplace_back(position(i, j));
-          /** TODO: Breadth-First Search*/
-          BFS(grid, visted);
+          /* find a possible place, start BFS*/
+          queue<pair<int, int>> front;
+          front.push(make_pair(row, col));
+
+          while (front.empty() != true)
+          {
+            pair<int, int> tmpRowCol = front.front();
+            front.pop();
+            visted[tmpRowCol.first][tmpRowCol.second] = true;
+
+            for(int move = 0; move < 4; ++move)
+            {
+              int nextRow = tmpRowCol.first + movement[move][0];
+              int nextCol = tmpRowCol.second + movement[move][1];
+
+              if(nextRow >= 0 && nextRow < rowNum && nextCol >= 0 && nextCol < colNum && visted[nextRow][nextCol] == false && grid[nextRow][nextCol] == '1')
+              {
+                front.push(make_pair(nextRow, nextCol));
+              }
+            }
+          }
+          islandCount++;
         }
       }
     }
 
-    return inselValue;
+    return islandCount;
   }
 };
 
 int main()
 {
-  vector<vector<char>> input = {{'1', '1', '0', '0', '0'},
+  /* input*/
+  vector<vector<char>> input = {{'1', '1', '1', '1', '0'},
+                                {'1', '1', '0', '1', '0'},
                                 {'1', '1', '0', '0', '0'},
-                                {'0', '0', '1', '0', '0'},
-                                {'0', '0', '0', '1', '1'}};
+                                {'0', '0', '0', '0', '0'}};
 
+  /* test*/
   Solution test;
-  int ans = test.numIslands(input);
+  int ret = test.numIslands(input);
 
   return 0;
 }
