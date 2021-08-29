@@ -5,6 +5,11 @@ Besides the root, each house has one and only one parent house. After a tour, th
 
 Given the root of the binary tree, return the maximum amount of money the thief can rob without alerting the police.
 
+##  打家劫舍
+在上次打劫完一條街道之後和一圈房屋後，小偷又发現了一個新的可行竊的地區。這個地區只有一個入口，我們稱之為“根”。 除了“根”之外，每棟房子有且只有一個“父“房子與之相連。一番偵察之後，聰明的小偷意識到“這個地方的所有房屋的排列類似於一棵二叉樹”。 如果兩個直接相連的房子在同一天晚上被打劫，房屋將自動報警。
+
+計算在不觸動警報的情況下，小偷一晚能夠盜取的最高金額。
+
 [LeetCode](https://leetcode.com/problems/house-robber-iii)
 
 ### Example 1:
@@ -24,15 +29,71 @@ Input: root = [3,4,5,1,3,null,1]
 Output: 9
 Explanation: Maximum amount of money the thief can rob = 4 + 5 = 9.
 ```
-
-#  打家劫舍
-在上次打劫完一條街道之後和一圈房屋後，小偷又发現了一個新的可行竊的地區。這個地區只有一個入口，我們稱之為“根”。 除了“根”之外，每棟房子有且只有一個“父“房子與之相連。一番偵察之後，聰明的小偷意識到“這個地方的所有房屋的排列類似於一棵二叉樹”。 如果兩個直接相連的房子在同一天晚上被打劫，房屋將自動報警。
-
-計算在不觸動警報的情況下，小偷一晚能夠盜取的最高金額。
-
-
 ## Solution  
 ### Dynamic Programming
+
+### C++
+
+* 時間複雜度 O(n) 需遍歷每一個節點
+
+* 空間複雜度 O(n) 最糟情形二叉樹退化成鍊表
+
+```
+/*  Definition for a binary tree node. */
+struct TreeNode
+{
+  int val;
+  TreeNode *left;
+  TreeNode *right;
+  TreeNode() : val(0), left(nullptr), right(nullptr) {}
+  TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+  TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+};
+
+class Solution
+{
+private:
+  pair<int, int> postOrder(TreeNode *root)
+  {
+    if (root == nullptr)
+      return make_pair(0, 0);
+
+    pair<int, int>left = postOrder(root->left);
+    pair<int, int>right = postOrder(root->right);
+
+    int steal = left.second + right.second + root->val;
+    int stealNot = max(left.first, left.second) + max(right.first, right.second);
+
+    return make_pair(steal, stealNot);
+
+  }
+
+public:
+  int rob(TreeNode *root)
+  {
+    /* dynammic programming initial state*/
+    
+    pair<int, int>ret = postOrder(root);
+
+    return max(ret.first, ret.second);
+  }
+};
+
+int main()
+{
+  /* input*/
+  TreeNode A(4), B(1), C(2), D(3);
+  A.left = &B;
+  B.left = &C;
+  C.left = &D;
+
+  /* test*/
+  Solution test;
+  int ret = test.rob(&A);
+
+  return 0;
+}
+```
 
 ### C
 
