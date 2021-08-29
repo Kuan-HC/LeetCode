@@ -22,6 +22,10 @@ Note: The length of temperatures will be in the range [1, 30000]. Each temperatu
 
 ### C++
 
+* 時間複雜度 O(n)
+
+* 空間複雜度 O(n)
+
 ```
 #include <vector>
 #include <stack>
@@ -31,33 +35,38 @@ using namespace std;
 class Solution
 {
 public:
-    vector<int> dailyTemperatures(vector<int> &Temp)
-    {
-        int len = Temp.size();
-        stack<int> day;
-        vector<int>ret(len, 0);
+  vector<int> dailyTemperatures(vector<int> &temperatures)
+  {
+    stack<pair<int, int>> valuIdStack;
 
-        for (int i = 0; i < len; ++i)
-        {
-            while ((day.empty() != true) && (Temp[i] > Temp[day.top()]))
-            {
-                int tmp = day.top();
-                day.pop();
-                ret[tmp] = i-tmp;
-            }
-            day.push(i);
-        }
-        return ret;
+    int len = temperatures.size();
+    vector<int> ret(len, 0);
+
+    for (int i = 0; i < len; ++i)
+    {
+
+      while (valuIdStack.empty() != true && temperatures[i] > valuIdStack.top().first)
+      {
+        ret[valuIdStack.top().second] = i - valuIdStack.top().second;
+        valuIdStack.pop();
+      }
+
+      valuIdStack.push(make_pair(temperatures[i], i));
     }
+
+    return ret;
+  }
 };
 
 int main()
 {
-    vector<int> input = {89, 62, 70, 58, 47, 47, 46, 76, 100, 70};
+  /* input*/
+  vector<int> input = {30,40,50,60};
 
-    Solution test;
-    vector<int> res = test.dailyTemperatures(input);
+  /* test*/
+  Solution test;
+  vector<int> ret = test.dailyTemperatures(input);
 
-    return 0;
+  return 0;
 }
 ```
