@@ -33,8 +33,6 @@ Output: [-1]
 ## Solution
 * Depth-First Search
 
-<img src="img/105.jpg" width = "800"/>
-
 ### C
 
 ```
