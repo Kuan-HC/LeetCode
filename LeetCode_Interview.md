@@ -23,6 +23,8 @@
 020. [0408 首個共同祖先](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0408.md)
 021. [0501 插入](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0501.md)
 022. [0506 整數轉換](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0506.md)
+023. [0504 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0504.md)
+024. [0104 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0104.md)
 
 
 
