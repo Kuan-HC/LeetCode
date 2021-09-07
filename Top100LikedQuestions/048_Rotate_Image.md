@@ -40,6 +40,53 @@ Output: [[3,1],[4,2]]
 ## Solution
 <img src="img/048.jpg" width = "1050"/>
 
+### C++
+```
+#include <vector>
+
+using namespace std;
+
+class Solution
+{
+public:
+    void rotate(vector<vector<int>> &matrix)
+    {
+        int rowNum = matrix.size();
+        int colNum = matrix[0].size();
+
+        /* swap elements diagnoaly*/
+        for (int row = 0; row < rowNum - 1; ++row)
+        {
+            for (int col = 0; col < colNum - 1 - row; ++col)
+            {
+                swap(matrix[row][col],matrix[colNum - col - 1][rowNum - row - 1]);
+            }
+        }
+
+        int top = 0;
+        int bottom = rowNum-1;
+        while (top < bottom)
+        {
+            swap(matrix[top++], matrix[bottom--]);
+        }
+    }
+};
+
+int main()
+{
+    vector<vector<int>> input = {{5, 1, 9, 11},
+                                 {2, 4, 8, 10},
+                                 {13, 3, 6, 7},
+                                 {15, 14, 12, 16}};
+
+    /* unit test*/
+    Solution test;
+    test.rotate(input);
+
+    return 0;
+}
+```
+
 ### C
 
 ```

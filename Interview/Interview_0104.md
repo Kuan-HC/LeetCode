@@ -28,6 +28,7 @@ A permutation is a rearrangement of letters. The palindrome does not need to be 
 ### C++ 
 
 * 時間複雜度 O(n)
+
 * 空間複雜度 O(1)
 ```
 class Solution
