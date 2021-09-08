@@ -69,8 +69,81 @@ Output: [0.50000,2.00000,-1.00000,-1.00000]
 
 3. Depth first search 
 
+### C++ BFS
+```
+class Solution
+{
+public:
+    vector<double> calcEquation(vector<vector<string>> &equations, vector<double> &values, vector<vector<string>> &queries)
+    {
+        int len = equations.size();
+        int queryLen = queries.size();
+        vector<double> ret(queryLen, -1.0);
+        /*build map*/
+        unordered_map<string, vector<pair<string, double>>> routeMap;
+        for (int i = 0; i < len; i++)
+        {
+            pair<string, double> next = make_pair(equations[i][1], values[i]);
+            pair<string, double> reverse = make_pair(equations[i][0], 1 / values[i]);
+            routeMap[equations[i][0]].push_back(next);
+            routeMap[equations[i][1]].push_back(reverse);
+        }
 
-### C++
+        /* find the path from start to target*/
+        for(int i = 0; i < queryLen; ++i)
+        {
+            vector<string> query = queries[i];
+        
+            string target = query[1];
+            pair<string, double> start = make_pair(query[0], 1.0);
+
+            queue<pair<string, double>> frontier;
+            unordered_set<string> visted;
+
+            /* use breadth first search to find the route between start and target*/
+            frontier.push(start);
+            bool found = false;
+            while (frontier.empty() != true && found == false)
+            {
+                pair<string, double> temp = frontier.front();
+                frontier.pop();
+                visted.insert(temp.first);
+                /* next possible point*/
+                for (const pair<string, double> &next : routeMap[temp.first])
+                {
+                    if(next.first == target)   
+                    { 
+                        ret[i] = temp.second* next.second;
+                        found = true;
+                        break;
+                    }
+
+                    if (visted.find(next.first) == visted.end()) /* theis next have not been visted*/
+                    {
+                        frontier.push(make_pair(next.first, temp.second* next.second));
+                    }
+                }
+            }
+        }
+
+        return ret;
+    }
+};
+
+int main()
+{
+    vector<vector<string>> equations = {{"a", "b"}, {"b", "c"}, {"bc", "cd"}};
+    vector<double> values = {2.0, 3.0, 5.0};
+    vector<vector<string>> queries = {{"a", "c"}, {"bc", "cd"}};
+
+    Solution test;
+    vector<double> res = test.calcEquation(equations, values, queries);
+
+    return 0;
+}
+```
+
+### C++ DFS
 
 ```
 #include <string>

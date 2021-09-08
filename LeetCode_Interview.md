@@ -27,6 +27,7 @@
 024. [  Easy  ] [0104 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0104.md)
 025. [ Medium ] [048 旋轉圖像 Rotate Image](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/048_Rotate_Image.md)
 026. [ Medium ] [0108 零矩陣 Set Matrix Zeroes](https://github.com/Kuan-HC/LeetCode/blob/main/DS_Study/073.md)
+027. [  Easy  ] [0203 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0203.md)
 
 
 
