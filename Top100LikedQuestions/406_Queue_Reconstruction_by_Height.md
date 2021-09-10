@@ -1,4 +1,12 @@
-# 406. Queue Reconstruction by Height
+# 406. 根據身高重建隊列
+
+假設有打亂順序的一群人站成一個隊列，數組 people 表示隊列中一些人的屬性（不一定按順序）。每個 people[i] = [hi, ki] 表示第 i 個人的身高為 hi ，
+前面 正好 有 ki 個身高大於或等於 hi 的人。
+
+請你重新構造並返回輸入數組 people 所表示的隊列。返回的隊列應該格式化為數組 queue ，其中 queue[j] = [hj, kj]
+是隊列中第 j 個人的屬性（queue[0] 是排在隊列前面的人）。
+
+## Queue Reconstruction by Height
 You are given an array of people, people, which are the attributes of some people in a queue (not necessarily in order). Each people[i] = [hi, ki] represents the ith person of height hi with exactly ki other people in front who have a height greater than or equal to hi.
 
 Reconstruct and return the queue that is represented by the input array people. The returned queue should be formatted as an array queue, where queue[j] = [hj, kj] is the attributes of the jth person in the queue (queue[0] is the person at the front of the queue).
@@ -33,13 +41,6 @@ Output: [[4,0],[5,0],[2,2],[3,2],[1,4],[6,0]]
 * 0 <= hi <= 10^6
 * 0 <= ki < people.length
 * It is guaranteed that the queue can be reconstructed.
-
-#  根據身高重建隊列
-假設有打亂順序的一群人站成一個隊列，數組 people 表示隊列中一些人的屬性（不一定按順序）。每個 people[i] = [hi, ki] 表示第 i 個人的身高為 hi ，
-前面 正好 有 ki 個身高大於或等於 hi 的人。
-
-請你重新構造並返回輸入數組 people 所表示的隊列。返回的隊列應該格式化為數組 queue ，其中 queue[j] = [hj, kj]
-是隊列中第 j 個人的屬性（queue[0] 是排在隊列前面的人）。
 
 
 ## Solution  

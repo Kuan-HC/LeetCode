@@ -33,6 +33,42 @@ Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of 
 
 <img src="img/236.jpg" width = "988"/>
 
+### C++
+
+* 時間複雜度 O(n)
+
+* 空間複雜度 O(n)
+
+```
+class Solution
+{
+private:
+    TreeNode *ret{nullptr};
+    bool dfs(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        if (root == nullptr || ret != nullptr)
+            return false;
+
+        bool left = dfs(root->left, p, q);
+        bool right = dfs(root->right, p, q);
+
+        bool curr = (root == p || root == q);
+        if( (left == true && right == true) || (curr == true && (left == true || right == true)))
+            ret = root;
+
+        return curr || left || right;    
+    }
+
+public:
+    TreeNode *lowestCommonAncestor(TreeNode *root, TreeNode *p, TreeNode *q)
+    {
+        (void)dfs(root, p, q);
+
+        return ret;
+    }
+};
+```
+
 ### C
 
 ```

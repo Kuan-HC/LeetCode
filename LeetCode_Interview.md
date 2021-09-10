@@ -30,5 +30,7 @@
 027. [  Easy  ] [0203 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0203.md)
 028. [ Medium ] [0303 堆盤子](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0303.md)
 029. [ Medium ] [0508 繪制直線](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0508.md)
+030. [  Easy  ] [0801 三步問題](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0801.md)
+031. [ Medium ] [0804 冪集](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0804.md)
 
 
