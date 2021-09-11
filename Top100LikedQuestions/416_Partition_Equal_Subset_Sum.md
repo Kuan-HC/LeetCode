@@ -26,6 +26,50 @@ Explanation: The array cannot be partitioned into equal sum subsets.
 Dynammic Programming
 <img src="img/416.gif" width = "832"/>
 
+### C++
+```
+class Solution
+{
+public:
+    bool canPartition(vector<int> &nums)
+    {
+        int len = nums.size();
+        if (len == 0)
+            return true;
+
+        int targetSum = 0;
+        for (const int &num : nums)
+            targetSum += num;
+
+        if ((targetSum & 1) == 1)
+            return false;
+
+        targetSum /= 2;
+        /* can not use prefix in this case due to the the result is not subarray */
+        /* use dynamic programming here*/
+        vector<bool> prevDp(targetSum + 1, false);
+        prevDp[0] = true;
+        vector<bool> dpSpace(targetSum + 1, false);
+        dpSpace[0] = true;
+
+        for (int i = 0; i < len; ++i)
+        {
+            for (int j = 0; j <= targetSum; ++j)
+            {
+                if (j - nums[i] >= 0 && prevDp[j - nums[i]] == true)
+                    dpSpace[j] = true;
+
+                if (dpSpace[targetSum] == true)
+                    return true;
+            }
+            prevDp = dpSpace;
+        }
+
+        return false;
+    }
+};
+```
+
 ### C
 
 ```
