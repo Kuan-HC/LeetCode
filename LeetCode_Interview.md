@@ -32,7 +32,10 @@
 029. [ Medium ] [0508 繪制直線](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0508.md)
 030. [  Easy  ] [0801 三步問題](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0801.md)
 031. [ Medium ] [0804 冪集](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0804.md)
-031. [ Medium ] [0805 遞歸乘法](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0805.md)
+032. [ Medium ] [0805 遞歸乘法](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0805.md)
+033. [  Easy  ] [0810 顏色填充](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0810.md)
+034. [  Hard  ] [0813 堆箱子](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0813.md)
+
 
 
 

@@ -22,9 +22,38 @@ Output: [0,0,9,0,0]
 ## Solution  
 
 
-### C
+### C++
+```
+class Solution
+{
+public:
+    vector<int> productExceptSelf(vector<int> &nums)
+    {
+        int len = nums.size();
+        if (len == 0)
+            return vector<int>(0);
+
+        vector<int> ret(len, 1);
+
+        /* first time interate from left -> right*/
+        for (int i = 1; i < len; ++i)
+            ret[i] = ret[i - 1] * nums[i - 1];
+
+        int temp = 1;
+        for(int i = len -2; i >= 0; --i)
+        {
+            temp = temp * nums[i+1];
+            ret[i] = ret[i] *temp;
+        }
+
+        return ret;
+    }
+};
+```
 
 <img src="img/238.jpg" width = "800"/>
+
+### C
 
 ```
 int *productExceptSelf(int *nums, int numsSize, int *returnSize)
