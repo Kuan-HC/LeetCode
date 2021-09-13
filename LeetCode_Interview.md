@@ -35,6 +35,8 @@
 032. [ Medium ] [0805 遞歸乘法](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0805.md)
 033. [  Easy  ] [0810 顏色填充](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0810.md)
 034. [  Hard  ] [0813 堆箱子](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0813.md)
+032. [ Medium ] [0502 二進制數轉字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0502.md)
+033. [  Easy  ] [0306 動物收容所](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
 
 
 
