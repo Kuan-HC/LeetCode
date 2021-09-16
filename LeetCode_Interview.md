@@ -37,6 +37,9 @@
 034. [  Hard  ] [0813 堆箱子](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0813.md)
 032. [ Medium ] [0502 二進制數轉字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0502.md)
 033. [  Easy  ] [0306 動物收容所](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
+034. [ Medium ] [0410 檢查子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0410.md)
+035. [  Easy  ] [0503 翻轉數位](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
+036. [ Medium ] [0811 硬幣](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0811.md) 
 
 
 
