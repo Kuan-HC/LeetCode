@@ -1,6 +1,5 @@
 # 面試金典
 
-### Difficulty: Easy
 001. [  Easy  ] [0101 判定字符是否唯一](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0101.md)
 002. [  Easy  ] [0102 判定是否互為字符重排](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0102.md)
 003. [  Easy  ] [0103 URL化](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0103.md)
@@ -35,13 +34,16 @@
 032. [ Medium ] [0805 遞歸乘法](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0805.md)
 033. [  Easy  ] [0810 顏色填充](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0810.md)
 034. [  Hard  ] [0813 堆箱子](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0813.md)
-032. [ Medium ] [0502 二進制數轉字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0502.md)
-033. [  Easy  ] [0306 動物收容所](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
-034. [ Medium ] [0410 檢查子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0410.md)
-035. [  Easy  ] [0503 翻轉數位](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0503.md)
-036. [ Medium ] [0811 硬幣](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0811.md) 
-037. [  Easy  ] [0803 魔術索引](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0803.md)
-038. [ Medium ] [0807 無重覆字符串的排列組合](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0807.md) 
+035. [ Medium ] [0502 二進制數轉字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0502.md)
+036. [  Easy  ] [0306 動物收容所](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0306.md)
+037. [ Medium ] [0410 檢查子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0410.md)
+038. [  Easy  ] [0503 翻轉數位](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0503.md)
+039. [ Medium ] [0811 硬幣](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0811.md) 
+040. [  Easy  ] [0803 魔術索引](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0803.md)
+041. [ Medium ] [0807 無重覆字符串的排列組合](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0807.md) 
+042. [ Medium ] [1005 稀疏數組搜索](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1005.md) 
+043. [ Medium ] [1601 交換數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1601.md) 
+044. [ Medium ] [1602 單詞頻率](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1602.md) 
 
 
 
