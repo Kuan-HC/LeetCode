@@ -16,8 +16,8 @@ You should implement following methods:
 * WordsFrequency(book) constructor, parameter is a array of strings, representing the book.
 * get(word) get the frequency of word in the book. 
 
-[LeetCode](https://leetcode-cn.com/problems/words-frequency-lcci/)
 
+[LeetCode](https://leetcode-cn.com/problems/words-frequency-lcci/)
 
 ### Example 1
 
