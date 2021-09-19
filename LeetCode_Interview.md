@@ -44,6 +44,7 @@
 042. [ Medium ] [1005 稀疏數組搜索](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1005.md) 
 043. [ Medium ] [1601 交換數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1601.md) 
 044. [ Medium ] [1602 單詞頻率](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1602.md) 
+045. [ Medium ] [1604 井字遊戲](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1604.md) 
 
 
 
