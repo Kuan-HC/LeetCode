@@ -45,6 +45,11 @@
 043. [ Medium ] [1601 交換數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1601.md) 
 044. [ Medium ] [1602 單詞頻率](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1602.md) 
 045. [ Medium ] [1604 井字遊戲](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1604.md) 
+046. [ Medium ] [1606 最小差](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1606.md) 
+047. [ Medium ] [0808 有重覆字符串的排列組合](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0808.md) 
+048. [ Medium ] [1610 生存人數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1610.md) 
+049. [  Easy  ] [1611 跳水板](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1611.md)
+
 
 
 
