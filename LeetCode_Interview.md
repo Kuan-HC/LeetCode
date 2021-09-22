@@ -49,6 +49,7 @@
 047. [ Medium ] [0808 有重覆字符串的排列組合](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0808.md) 
 048. [ Medium ] [1610 生存人數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1610.md) 
 049. [  Easy  ] [1611 跳水板](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1611.md)
+050. [ Medium ] [1613 平分正方形](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1613.md) 
 
 
 
