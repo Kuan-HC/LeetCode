@@ -51,6 +51,8 @@
 049. [  Easy  ] [1611 跳水板](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1611.md)
 050. [ Medium ] [1613 平分正方形](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1613.md) 
 051. [  Easy  ] [1615 珠璣妙算](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1615.md)
+052. [ Medium ] [1616 部份排序](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1616.md) 
+053. [  Easy  ] [1617 連續數列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1617.md)
 
 
 
