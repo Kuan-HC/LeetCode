@@ -1,4 +1,4 @@
-# 面試金典 1613 平分正方形\
+# 面試金典 1613 平分正方形
 
 給定兩個正方形及一個二維平面。請找出將這兩個正方形分割成兩半的一條直線。假設正方形頂邊和底邊與 x 軸平行。
 
@@ -18,10 +18,6 @@ square1 = {-1, -1, 2}
 square2 = {0, -1, 2}
 Output: {-1,0,2,0}
 Explanation: y = 0 is the line that can cut these two squares in half.
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/bisect-squares-lcci
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
 ```
 
 
