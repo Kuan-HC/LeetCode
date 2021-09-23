@@ -53,6 +53,7 @@
 051. [  Easy  ] [1615 珠璣妙算](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1615.md)
 052. [ Medium ] [1616 部份排序](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1616.md) 
 053. [  Easy  ] [1617 連續數列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1617.md)
+054. [ Medium ] [1618 模式匹配](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1618.md) 
 
 
 
