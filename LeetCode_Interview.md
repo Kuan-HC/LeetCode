@@ -54,6 +54,8 @@
 052. [ Medium ] [1616 部份排序](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1616.md) 
 053. [  Easy  ] [1617 連續數列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1617.md)
 054. [ Medium ] [1618 模式匹配](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1618.md) 
+055. [ Medium ] [1619 水域大小](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1619.md) 
+056. [ Medium ] [0105 一次編輯](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0105.md) 
 
 
 
