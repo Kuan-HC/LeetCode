@@ -60,7 +60,9 @@
 058. [ Medium ] [0412 求合路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0412.md)
 059. [  Hard  ] [0409 二叉搜索樹序列](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0409.md)
 060. [ Medium ] [0802 迷路的機器人](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0802.md)
-
+061. [  Easy  ] [1001 合並排序的數組](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1001.md)
+062. [ Medium ] [1011 峰與谷](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1011.md)
+060. [  Easy  ] [0806 漢諾塔](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/0806.md)
 
 
 
