@@ -69,6 +69,7 @@
 067. [ Medium ] [1714 最小K個數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1714.md)
 068. [ Medium ] [1713 恢復空格](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1713.md)
 069. [ Medium ] [1715 最長單詞](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1715.md)
+070. [  Easy  ] [1716 按摩師](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1716.md)
 
 
 
