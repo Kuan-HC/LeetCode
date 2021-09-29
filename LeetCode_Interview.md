@@ -64,6 +64,11 @@
 062. [ Medium ] [1011 峰與谷](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1011.md)
 063. [  Easy  ] [0806 漢諾塔](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_0806.md)
 064. [ Medium ] [1009 排序矩陣查找](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1009.md)
+065. [  Easy  ] [1605 階層尾數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1605.md)
+066. [  Easy  ] [1712 BiNode](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1712.md)
+067. [ Medium ] [1714 最小K個數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1714.md)
+068. [ Medium ] [1713 恢復空格](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1713.md)
+069. [ Medium ] [1715 最長單詞](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1715.md)
 
 
 
