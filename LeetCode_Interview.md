@@ -70,6 +70,9 @@
 068. [ Medium ] [1713 恢復空格](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1713.md)
 069. [ Medium ] [1715 最長單詞](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1715.md)
 070. [  Easy  ] [1716 按摩師](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1716.md)
+071. [ Medium ] [1717 多次搜索](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1717.md)
+072. [  Easy  ] [1701 不用加號的加法](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_65.md)
+073. [ Medium ] [1625 LRU 缓存](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/146_LRU_Cache.md)
 
 
 

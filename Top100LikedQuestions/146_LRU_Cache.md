@@ -63,106 +63,80 @@ using std::unordered_map;
 
 struct Node
 {
-    int key;
-    int value;
-    Node *prev;
-    Node *next;
-    Node() : key(0), value(0), prev(nullptr), next(nullptr){};
-    Node(int _key, int _value) : key(_key), value(_value), prev(nullptr), next(nullptr){};
+    int key{0};
+    int value{0};
+    Node *prev{nullptr};
+    Node *next{nullptr};
+    Node(){};
+    Node(int x, int y) : key(x), value(y){};
 };
 
 class LRUCache
 {
-private:
-    int _capacity;
-    int _size;
-    Node *_head;
-    Node *_tail;
-    unordered_map<int, Node *> _map;
+public:
+    int volumeMax{0};
+    int volume{0};
+    Node *start{nullptr};
+    Node *tail{nullptr};
+    unordered_map<int, Node *> keyMap;
 
 public:
-    LRUCache(int capacity) : _capacity(capacity), _size(0)
+    LRUCache(int capacity) : volumeMax(capacity)
     {
-        _head = new Node();
-        _tail = new Node();
-        _head->next = _tail;
-        _tail->prev = _head;
+        start = new Node(-1, -1);
+        tail = start;
     }
 
     int get(int key)
     {
-        if (_map.count(key) == 0)
+        if (keyMap.find(key) == keyMap.end())
             return -1;
+        int ret = keyMap[key]->value;
 
-        /** TODO: move it to the head*/
-        Node *tmp = _map[key];
-        moveToHead(tmp);
+        Node *temp = keyMap[key];
+        //Node *temp = nullptr;
 
-        return tmp->value;
+        if (temp != tail)
+        {
+            //remove it from current node and add to tail
+            temp->prev->next = temp->next;
+            temp->next->prev = temp->prev;
+            tail->next = temp;
+            temp->prev = tail;
+            temp->next = nullptr;
+            tail = tail->next;
+        }
+
+        return ret;
     }
 
     void put(int key, int value)
     {
-        if (_map.count(key) == 0)
-        {
-            /** TODO: creat new node*/
-            Node *tmp = new Node(key, value);
-            _map[key] = tmp;
-            /** TODO: insert it to head */
-            insertNode(tmp);
-            ++_size;
-            /** TODO: check if the size > capacity*/
-            if (_size > _capacity)
-            {
-                /** TODO: remove the last node */
-                removeLastNode();
-                --_size;
-            }
+        if (keyMap.find(key) != keyMap.end())
+        { // this key already in the chain
+            keyMap[key]->value = value;
+            (void) get(key);
+            return;
         }
-        else
+
+        volume++;
+        Node *temp = new Node(key, value);
+        keyMap[key] = temp;
+        // add it to the tail*/
+        tail->next = temp;
+        temp->prev = tail;
+        tail = tail->next;
+
+        if (volume > volumeMax)
         {
-            Node *tmp = _map[key];
-            tmp->value = value;
-            /** TODO: move it to the head*/
-            moveToHead(tmp);
+            //remove first node;
+            temp = start->next;
+            start->next = start->next->next;
+            start->next->prev = start;
+            keyMap.erase(temp->key);
+            delete temp;
+            volume--;
         }
-    }
-
-    void insertNode(Node *node)
-    {
-        node->next = _head->next;
-        node->prev = _head;
-        _head->next = node;
-        node->next->prev = node;
-    }
-
-    void moveToHead(Node *node)
-    {
-        /* remove that node from current position*/
-        node->prev->next = node->next;
-        node->next->prev = node->prev;
-        /* insert it to head */
-        insertNode(node);
-    }
-
-    void removeLastNode()
-    {
-        Node *last = _tail->prev;
-        _tail->prev = last->prev;
-        _tail->prev->next = _tail;
-        _map.erase(last->key);
-        delete last;
     }
 };
-
-int main()
-{
-    LRUCache *obj = new LRUCache(2);
-    obj->put(1, 1);
-    obj->put(2, 2);
-    obj->put(3, 3);
-    int ans = obj->get(2);
-
-    return 0;
-}
 ```

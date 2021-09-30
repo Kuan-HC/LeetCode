@@ -32,18 +32,16 @@ class Solution
 public:
     int add(int a, int b)
     {
-        int computeXor = a ^ b;
-        int computeAnd = (unsigned)(a & b) << 1;
-        int tmp = 0;
-
-        while (computeAnd != 0)
+        int temp = a;
+        
+        while (b != 0)
         {
-            tmp =  computeXor ^ computeAnd;
-            computeAnd = (unsigned)(computeXor & computeAnd) << 1;
-            computeXor = tmp;
+            temp = a;
+            a = a ^ b;
+            b = (unsigned)(temp & b) << 1;
         }
 
-        return computeXor;
+        return a;
     }
 };
 
