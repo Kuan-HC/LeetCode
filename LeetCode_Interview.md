@@ -73,6 +73,8 @@
 071. [ Medium ] [1717 多次搜索](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1717.md)
 072. [  Easy  ] [1701 不用加號的加法](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_65.md)
 073. [ Medium ] [1625 LRU 缓存](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/146_LRU_Cache.md)
+074. [  Hard  ] [1720 連續中值](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1720.md)
+075. [  Hard  ] [1721 直方圖的水量](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1721.md)
 
 
 
