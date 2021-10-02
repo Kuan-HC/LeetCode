@@ -75,7 +75,9 @@
 073. [ Medium ] [1625 LRU 缓存](https://github.com/Kuan-HC/LeetCode/blob/main/Top100LikedQuestions/146_LRU_Cache.md)
 074. [  Hard  ] [1720 連續中值](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1720.md)
 075. [  Hard  ] [1721 直方圖的水量](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1721.md)
-
+076. [ Medium ] [1722 單詞轉換](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1722.md)
+077. [  Easy  ] [1704 消失的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1704.md)
+078. [ Medium ] [1705 字母與數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1705.md)
 
 
 
