@@ -78,6 +78,8 @@
 076. [ Medium ] [1722 單詞轉換](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1722.md)
 077. [  Easy  ] [1704 消失的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1704.md)
 078. [ Medium ] [1705 字母與數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1705.md)
+079. [  Hard  ] [1706 出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_43.md)
+080. [ Medium ] [1707 嬰兒名字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1707.md)
 
 
 
