@@ -40,6 +40,52 @@ Output: 1
 ## Solution  
 ### Dynamic Programming
 
+### C++
+
+* 時間複雜度 O( n log n)
+
+* 空間複雜度 O ( n )
+```
+class Solution
+{
+public:
+    int lengthOfLIS(vector<int> &nums)
+    {
+
+        int len = nums.size();
+        if (len == 1)
+            return 1;
+
+        vector<int> list;
+        list.push_back(nums[0]);
+        int listLen = 0;
+        for (int i = 1; i < len; i++)
+        {
+            if (nums[i] > list.back())
+            {
+                list.push_back(nums[i]);
+                continue;
+            }
+            listLen = list.size();
+            int left = 0;
+            int right = listLen - 1;
+            int mid = 0;
+            while (left < right)
+            {
+                mid = left + ((right - left) >> 1);
+                if(list[mid] < nums[i])
+                    left = mid + 1;
+                else
+                    right = mid;
+            }
+            list[left] = nums[i];
+        }
+
+        return list.size();
+    }
+};
+```
+
 ### C
 <img src="img/300.gif" width = "898"/>
 

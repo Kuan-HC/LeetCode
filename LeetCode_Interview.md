@@ -80,6 +80,8 @@
 078. [ Medium ] [1705 字母與數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1705.md)
 079. [  Hard  ] [1706 出現的次數](https://github.com/Kuan-HC/LeetCode/blob/main/Aim75/Offer_43.md)
 080. [ Medium ] [1707 嬰兒名字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1707.md)
+081. [  Easy  ] [1710 主要原素](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1710.md)
+082. [ Medium ] [1709 第K個數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1709.md)
 
 
 
