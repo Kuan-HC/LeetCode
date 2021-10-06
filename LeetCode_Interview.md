@@ -84,6 +84,9 @@
 082. [ Medium ] [1709 第K個數](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1709.md)
 083. [ Medium ] [1711 單詞距離](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1711.md)
 084. [ Medium ] [1718 最短超串](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1718.md)
+085. [ Medium ] [1002 變位詞組](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1002.md)
+086. [ Medium ] [1010 數字流的秩](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1010.md)
+
 
 
 
