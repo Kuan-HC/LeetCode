@@ -86,6 +86,10 @@
 084. [ Medium ] [1718 最短超串](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1718.md)
 085. [ Medium ] [1002 變位詞組](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1002.md)
 086. [ Medium ] [1010 數字流的秩](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1010.md)
+087. [ Medium ] [1624 對數和](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1624.md)
+088. [ Medium ] [1621 交換和](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1621.md)
+089. [ Medium ] [1620 T9鍵盤](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1620.md)
+090. [  Hard  ] [1719 消失的兩個數字](https://github.com/Kuan-HC/LeetCode/blob/main/Interview/Interview_1719.md)
 
 
 
