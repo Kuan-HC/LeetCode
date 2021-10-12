@@ -6,11 +6,15 @@
 002. [0163 缺失的區間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/163.md)
 003. [0170 兩數之和 III - 數據結構設計](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/170.md)
 004. [0243 最短單詞距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/243.md)
+005. [0246 中心對稱數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/246.md)
+006. [0252 會議室](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/252.md)
+007. [0266 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/266.md)
 
 
 
 ### Difficulty: Medium
 
+001. [0156 上下翻轉二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/156.md)
 
 ### Difficulty: Hard
 
