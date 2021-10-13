@@ -12,10 +12,14 @@
 008. [0270 最接近的二叉搜索樹值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/270.md)
 009. [0293 翻轉遊戲](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/293.md)
 010. [0346 數據流中的移動平均值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/346.md)
+011. [0359 日志速率限制器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/359.md)
+012. [0408 有效單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/408.md)
+013. [0604 叠代壓縮字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/604.md)
 
 ### Difficulty: Medium
 
 001. [0156 上下翻轉二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/156.md)
+002. [0159 至多包含兩個不同字符的最長子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/159.md)
 
 ### Difficulty: Hard
 
