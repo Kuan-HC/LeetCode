@@ -9,6 +9,7 @@
 005. [0246 中心對稱數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/246.md)
 006. [0252 會議室](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/252.md)
 007. [0266 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/266.md)
+008. [0270 最接近的二叉搜索樹值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/270.md)
 
 
 
