@@ -10,8 +10,8 @@
 006. [0252 會議室](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/252.md)
 007. [0266 回文排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/266.md)
 008. [0270 最接近的二叉搜索樹值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/270.md)
-
-
+009. [0293 翻轉遊戲](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/293.md)
+010. [0346 數據流中的移動平均值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/346.md)
 
 ### Difficulty: Medium
 
