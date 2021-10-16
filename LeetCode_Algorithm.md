@@ -15,6 +15,14 @@
 011. [0359 日志速率限制器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/359.md)
 012. [0408 有效單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/408.md)
 013. [0604 叠代壓縮字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/604.md)
+014. [0716 最大棧](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/716.md)
+015. [0734 句子相似性](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/734.md)
+016. [0760 找出變位映射](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/760.md)
+017. [0800 相似RGB顏色](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/800.md)
+018. [1056 易混淆數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1056.md)
+019. [1064 不動點](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1064.md)
+020. [1086 前五科的均分](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1086.md)
+021. [1065 字符串的索引對](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1065.md)
 
 ### Difficulty: Medium
 
