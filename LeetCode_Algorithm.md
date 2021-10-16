@@ -23,6 +23,11 @@
 019. [1064 不動點](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1064.md)
 020. [1086 前五科的均分](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1086.md)
 021. [1065 字符串的索引對](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1065.md)
+022. [1085 最小元素各數位之和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1085.md)
+023. [1118 一月有多少天](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1118.md)
+024. [1099 小於 K 的兩數之和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1099.md)
+025. [1119 刪去字符串中的元音](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1119.md)
+026. [1134 阿姆斯特朗數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1134.md)
 
 ### Difficulty: Medium
 
