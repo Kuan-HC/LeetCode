@@ -28,6 +28,14 @@
 024. [1099 小於 K 的兩數之和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1099.md)
 025. [1119 刪去字符串中的元音](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1119.md)
 026. [1134 阿姆斯特朗數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1134.md)
+027. [1133 計數排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1133.md)
+028. [1150 檢查一個數是否在數組中占絕大多數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1150.md)
+029. [1165 單行鍵盤](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1165.md)
+030. [1180 統計只含單一字母的子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1180.md)
+031. [1196 最多可以買到的蘋果數量](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1196.md)
+032. [1213 三個有序數組的交集](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1213.md)
+
+
 
 ### Difficulty: Medium
 
