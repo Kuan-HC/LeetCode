@@ -34,6 +34,10 @@
 030. [1180 統計只含單一字母的子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1180.md)
 031. [1196 最多可以買到的蘋果數量](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1196.md)
 032. [1213 三個有序數組的交集](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1213.md)
+033. [1228 等差數列中缺失的數字](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1228.md)
+034. [1243 數組變換](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1243.md)
+035. [1271 十六進制魔術數字](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1271.md)
+036. [1176 健身計劃評估](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1176.md)
 
 
 
