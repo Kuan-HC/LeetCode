@@ -45,6 +45,8 @@
 
 001. [0156 上下翻轉二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/156.md)
 002. [0159 至多包含兩個不同字符的最長子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/159.md)
+003. [0161 相隔為 1 的編輯距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/161.md)
+004. [0186 翻轉字符串里的單詞 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/186.md)
 
 ### Difficulty: Hard
 
