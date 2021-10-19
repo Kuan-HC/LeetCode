@@ -47,6 +47,9 @@
 002. [0159 至多包含兩個不同字符的最長子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/159.md)
 003. [0161 相隔為 1 的編輯距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/161.md)
 004. [0186 翻轉字符串里的單詞 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/186.md)
+005. [244 最短單詞距離 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/244.md)
+006. [245 最短單詞距離 III](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/245.md)
+007. [247 中心對稱數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/247.md)
 
 ### Difficulty: Hard
 
