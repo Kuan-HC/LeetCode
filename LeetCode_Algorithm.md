@@ -39,8 +39,6 @@
 035. [1271 十六進制魔術數字](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1271.md)
 036. [1176 健身計劃評估](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1176.md)
 
-
-
 ### Difficulty: Medium
 
 001. [0156 上下翻轉二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/156.md)
@@ -50,6 +48,9 @@
 005. [244 最短單詞距離 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/244.md)
 006. [245 最短單詞距離 III](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/245.md)
 007. [247 中心對稱數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/247.md)
+008. [249 移位字符串分組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/249.md)
+009. [250 統計同值子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/250.md)
+009. [253 會議室 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/253.md)
 
 ### Difficulty: Hard
 
