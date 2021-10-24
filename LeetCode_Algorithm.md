@@ -51,6 +51,8 @@
 008. [249 移位字符串分組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/249.md)
 009. [250 統計同值子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/250.md)
 009. [253 會議室 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/253.md)
+010. [254 因子的組合](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/254.md)
+011. [255 驗證前序遍歷序列二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/255.md)
 
 ### Difficulty: Hard
 
