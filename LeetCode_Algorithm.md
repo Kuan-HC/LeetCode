@@ -53,6 +53,9 @@
 009. [253 會議室 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/253.md)
 010. [254 因子的組合](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/254.md)
 011. [255 驗證前序遍歷序列二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/255.md)
+012. [256 粉刷房子](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/256.md)
+013. [259 較小的三數之和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/259.md)
+014. [261 以圖判樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/261.md)
 
 ### Difficulty: Hard
 
