@@ -56,6 +56,8 @@
 012. [256 粉刷房子](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/256.md)
 013. [259 較小的三數之和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/259.md)
 014. [261 以圖判樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/261.md)
+015. [271 字符串的編碼與解碼](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/271.md)
+016. [276 柵欄塗色](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/276.md)
 
 ### Difficulty: Hard
 
