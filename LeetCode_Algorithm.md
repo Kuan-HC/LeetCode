@@ -58,6 +58,9 @@
 014. [261 以圖判樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/261.md)
 015. [271 字符串的編碼與解碼](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/271.md)
 016. [276 柵欄塗色](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/276.md)
+017. [277 搜尋名人](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/277.md)
+018. [280 擺動排序](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/280.md)
+019. [281 鋸齒叠代器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/281.md)
 
 ### Difficulty: Hard
 
