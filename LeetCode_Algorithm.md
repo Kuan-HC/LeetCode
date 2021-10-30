@@ -63,6 +63,7 @@
 019. [281 鋸齒叠代器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/281.md)
 020. [285 二叉搜索樹中的中序後繼](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/285.md)
 021. [286 墻與門](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/286.md)
+022. [288 單詞的唯一縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/288.md)
 
 ### Difficulty: Hard
 
