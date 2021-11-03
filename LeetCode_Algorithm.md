@@ -67,6 +67,11 @@
 023. [291 單詞規律 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/291.md)
 024. [298 二叉樹最長連續序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/298.md)
 025. [314 二叉樹的垂直遍歷](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/314.md)
+026. [311 稀疏矩陣的乘法](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/311.md)
+027. [320 列舉單詞的全部縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/320.md)
+028. [325 和等於 k 的最長子數組長度](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/325.md)
+029. [333 最大BST子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/333.md)
+030. [339 嵌套列表權重和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/339.md)
 
 ### Difficulty: Hard
 
