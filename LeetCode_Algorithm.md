@@ -72,6 +72,9 @@
 028. [325 和等於 k 的最長子數組長度](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/325.md)
 029. [333 最大BST子樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/333.md)
 030. [339 嵌套列表權重和](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/339.md)
+030. [340 至多包含 K 個不同字符的最長子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/340.md)
+031. [348 設計井字棋](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/348.md)
+032. [351 安卓系統手勢解鎖](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/351.md)
 
 ### Difficulty: Hard
 
