@@ -75,6 +75,7 @@
 030. [340 至多包含 K 個不同字符的最長子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/340.md)
 031. [348 設計井字棋](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/348.md)
 032. [351 安卓系統手勢解鎖](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/351.md)
+033. [356 直線鏡像](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/356.md)
 
 ### Difficulty: Hard
 
