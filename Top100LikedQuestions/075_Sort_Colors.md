@@ -44,39 +44,30 @@ using namespace std;
 class Solution
 {
 public:
-  void sortColors(vector<int> &nums)
-  {
-    /* we only have three different types*/
-    /* try build a small algorithm*/
-    int len = nums.size();
-    if (len <= 1)
-      return;
-
-    int ptrForTwo = len - 1;
-    int ptrForZero = 0;
-
-    while (ptrForTwo >= 0 && nums[ptrForTwo] == 2)
-      ptrForTwo--;
-    while (ptrForZero < len && nums[ptrForZero] == 0)
-      ptrForZero++;
-
-    int currPtr = ptrForZero;
-
-    while (currPtr < len && currPtr <= ptrForTwo)
+    void sortColors(vector<int> &nums)
     {
-      if (nums[currPtr] == 0)
-      {
-        if (currPtr == ptrForZero)
-          currPtr++;
-        else
-          swap(nums[currPtr], nums[ptrForZero++]);
-      }
-      else if (nums[currPtr] == 1)
-        currPtr++;
-      else
-        swap(nums[currPtr], nums[ptrForTwo--]);
+        int&& len =  nums.size();
+        int&& ptrTwo = len - 1;
+        int ptrZero = 0;
+        int ptr = 0;
+        while( ptr <= ptrTwo)
+        {
+            while(ptrTwo >= 0 && nums[ptrTwo] == 2)
+                ptrTwo--;
+            while(ptrZero < len && nums[ptrZero] == 0)
+                ptrZero++;
+
+            if(nums[ptr] == 0 && ptr > ptrZero)
+                swap(nums[ptr], nums[ptrZero++]);
+            if(nums[ptr] == 2 && ptr < ptrTwo)
+                swap(nums[ptr], nums[ptrTwo--]);
+            
+            if(nums[ptr] == 1 || ptr < ptrZero)
+                ptr++;
+        
+        }       
+        
     }
-  }
 };
 
 int main()
