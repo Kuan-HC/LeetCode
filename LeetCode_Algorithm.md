@@ -77,6 +77,8 @@
 032. [351 安卓系統手勢解鎖](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/351.md)
 033. [356 直線鏡像](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/356.md)
 034. [360 有序轉化數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/360.md)
+035. [361 轟炸敵人](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/361.md)
+036. [362 敲擊計數器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/362.md)
 
 ### Difficulty: Hard
 
