@@ -79,6 +79,7 @@
 034. [360 有序轉化數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/360.md)
 035. [361 轟炸敵人](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/361.md)
 036. [362 敲擊計數器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/362.md)
+037. [364 加權嵌套序列和 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/364.md)
 
 ### Difficulty: Hard
 
