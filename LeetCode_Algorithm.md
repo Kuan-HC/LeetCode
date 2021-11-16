@@ -80,6 +80,8 @@
 035. [361 轟炸敵人](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/361.md)
 036. [362 敲擊計數器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/362.md)
 037. [364 加權嵌套序列和 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/364.md)
+038. [366 尋找二叉樹的葉子節點](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/366.md)
+039. [369 給單鏈表加一](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/369.md)
 
 ### Difficulty: Hard
 
