@@ -35,74 +35,44 @@ To take course 1 you should have finished course 0, and to take course 0 you sho
 * Breadth-First Search
 <img src="img/207.gif" width = "1200"/>
 
-### C
+### C++
 
 ```
-#include <vector>
-#include <queue>
-
-using std::queue;
-using std::vector;
-
-class Solution
-{
+class Solution {
 public:
-  bool canFinish(int numCourses, vector<vector<int>> &prerequisites)
-  {
-    int reqLen = prerequisites.size();
-    /**
-     * TODO: count prerequisites value of each course
-     *       store the link 
-     * */
-    vector<int> inDegree(numCourses);
-    vector<vector<int>> link(numCourses);
-    for (auto row : prerequisites)
-    {
-      ++inDegree[row[0]];
-      link[row[1]].emplace_back(row[0]);
-    }
+    bool canFinish(int numCourses, vector<vector<int>>& prerequisites) {
+        //建立有向圖，並統記所有的prerequisites，記錄其出現的次數        
+        vector<int> count(numCourses,0);
+        unordered_map<int, vector<int>> map;
+        for(const auto& req : prerequisites)
+        {    
+            count[req[0]]++;
+            map[req[1]].push_back(req[0]);
+        }       
+        //將不用先修課程的入隊
+        queue<int> frontier;
+        for(int i = 0; i < numCourses; ++i)
+        {
+            if(count[i] == 0)
+                frontier.push(i);
+        }
 
-    /**
-     * TODO: Put the course whose prerequisite value is 0 into queue 
-     * */
-    queue<int> frontier;
-    for (int i = 0; i < numCourses; ++i)
-    {
-      if (inDegree[i] == 0)
-        frontier.push(i);
+        // BFS 拓展
+        int&& finished = 0;
+        while(frontier.empty() != true)
+        {
+            ++finished;
+            int temp = frontier.front();
+            frontier.pop();
+            for(const int& val: map[temp])
+            {
+                if(--count[val]== 0)
+                    frontier.push(val); 
+            }   
+        }
+        return finished == numCourses;
     }
-
-    /**
-     * TODO: Process the unit in the frontier, when a prerequisite unit is processed,
-     *       its corresponding course inDegree minus 1, and the reqLen--   
-     * */
-    while (frontier.empty() != true)
-    {
-      int tmp = frontier.front();
-      frontier.pop();
-      for (auto course : link[tmp])
-      {
-        --inDegree[course];
-        --reqLen;
-        if (inDegree[course] == 0)
-          frontier.push(course);
-      }
-    }
-
-    return reqLen == 0;
-  }
 };
-
-int main()
-{
-  int numCourses = 2;
-  vector<vector<int>> prerequisites = {{1, 0}, {0, 1}};
-
-  Solution test;
-  bool ans = test.canFinish(numCourses, prerequisites);
-
-  return 0;
-}
 ```
 
 
