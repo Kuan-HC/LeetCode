@@ -85,6 +85,8 @@
 040. [379 電話目錄管理系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/379.md)
 041. [418 屏幕可顯示句子的數量](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/418.md)
 042. [439 三元表達式解析器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/439.md)
+043. [469 凸多邊型](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/469.md)
+044. [484 尋找排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/484.md)
 
 ### Difficulty: Hard
 
