@@ -87,6 +87,7 @@
 042. [439 三元表達式解析器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/439.md)
 043. [469 凸多邊型](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/469.md)
 044. [484 尋找排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/484.md)
+045. [487 最大連續1的個數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/487.md)
 
 ### Difficulty: Hard
 
