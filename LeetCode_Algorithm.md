@@ -90,6 +90,8 @@
 045. [487 最大連續1的個數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/487.md)
 046. [490 迷宮](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/490.md)
 047. [1059 從始點到終點的所有路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1059.md)
+048. [531 孤獨像素 I](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/531.md)
+
 
 ### Difficulty: Hard
 
