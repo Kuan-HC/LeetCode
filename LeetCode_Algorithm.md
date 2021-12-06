@@ -96,6 +96,7 @@
 051. [544 輸出比賽匹配對](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/544.md)
 052. [545 二叉樹的邊界](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/545.md)
 053. [549 二叉樹中最長的連續序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/549.md)
+054. [555 分割連接字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/555.md)
 
 
 ### Difficulty: Hard
