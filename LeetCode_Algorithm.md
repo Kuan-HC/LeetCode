@@ -95,6 +95,7 @@
 050. [536 從字符串生成二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/536.md)
 051. [544 輸出比賽匹配對](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/544.md)
 052. [545 二叉樹的邊界](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/545.md)
+053. [549 二叉樹中最長的連續序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/549.md)
 
 
 ### Difficulty: Hard
