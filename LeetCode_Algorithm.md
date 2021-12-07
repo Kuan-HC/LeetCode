@@ -97,6 +97,7 @@
 052. [545 二叉樹的邊界](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/545.md)
 053. [549 二叉樹中最長的連續序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/549.md)
 054. [555 分割連接字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/555.md)
+055. [562 矩陣中最長的連續1線段](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/562.md)
 
 
 ### Difficulty: Hard
