@@ -99,6 +99,7 @@
 054. [555 分割連接字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/555.md)
 055. [562 矩陣中最長的連續1線段](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/562.md)
 056. [573 松鼠模擬](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/573.md)
+057. [582 殺掉進程](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/582.md)
 
 
 ### Difficulty: Hard
