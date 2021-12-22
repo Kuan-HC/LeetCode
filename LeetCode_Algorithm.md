@@ -100,9 +100,13 @@
 055. [562 矩陣中最長的連續1線段](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/562.md)
 056. [573 松鼠模擬](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/573.md)
 057. [582 殺掉進程](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/582.md)
-
+058. [616 給字符串添加加粗標簽](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/616.md)
+059. [227 基本計算器 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/227.md)
+060. [624 數組列表中的最大距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/624.md)
 
 ### Difficulty: Hard
+
+001. [224 基本計算器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/224.md)
 
 
 
