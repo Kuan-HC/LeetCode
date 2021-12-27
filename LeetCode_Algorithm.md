@@ -108,6 +108,8 @@
 063. [635 設計日志存儲系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/635.md)
 064. [651 四鍵鍵盤](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/651.md)
 065. [663 均勻樹劃分](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/663.md)
+066. [666 路徑總和 IV](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/666.md)
+067. [681 最近時刻](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/681.md)
 
 ### Difficulty: Hard
 
