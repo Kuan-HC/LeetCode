@@ -110,6 +110,8 @@
 065. [663 均勻樹劃分](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/663.md)
 066. [666 路徑總和 IV](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/666.md)
 067. [681 最近時刻](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/681.md)
+068. [694 不同島嶼的數量](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/694.md)
+069. [723 粉碎糖果](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/723.md)
 
 ### Difficulty: Hard
 
