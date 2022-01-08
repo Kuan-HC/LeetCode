@@ -9,8 +9,11 @@ Output: 2, nums = [1,2]
 Explanation: Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively. It doesn't matter what you leave beyond the returned length.
 ```
 
-# Solution
-## C: Brute Force
+ 
+### C
+
+* 時間複雜度 O(N)
+* 空間複雜度 O(1)
 ```
 int removeDuplicates(int* nums, int numsSize){
     if(numsSize == 0 )
@@ -28,4 +31,29 @@ int removeDuplicates(int* nums, int numsSize){
 
     return j+1;
 }
+```
+
+### C++
+```
+class Solution {
+public:
+    int removeDuplicates(vector<int>& nums)
+    {
+        int&& len = nums.size();
+        if(len <= 1)
+            return len;
+        
+        int ptrL = 0;
+        for(int i = 1; i < len; ++i)
+        {
+            if(nums[i] != nums[ptrL])
+            {
+                ++ptrL;
+                nums[ptrL] = nums[i];
+            }
+        }
+
+        return ptrL + 1;
+    }
+};
 ```

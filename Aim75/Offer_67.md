@@ -12,7 +12,7 @@
 
 [LeetCode](https://leetcode-cn.com/problems/)
 
-假設我們的環境只能存儲 32 位大小的有符號整數，那麽其數值範圍為 [−231,  231 − 1]。如果數值超過這個範圍，請返回  INT_MAX (231 − 1) 或 INT_MIN (−231) 。
+假設我們的環境只能存儲 32 位大小的有符號整數，那麽其數值範圍為[−2<sup>31</sup>, 2<sup>31</sup>− 1]。如果數值超過這個範圍，請返回  INT_MAX (2<sup>31</sup>− 1) 或 INT_MIN (−2<sup>31</sup>) 。
 
 ### Example 1
 ```
