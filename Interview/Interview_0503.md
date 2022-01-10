@@ -12,14 +12,14 @@ You have an integer and you can flip exactly one bit from a 0 to a 1. Write code
 ### Example 1
 
 ```
-Input: num = 1775(110111011112)
+Input: num = 1775(11011101111)
 Output: 8
 ```
 
 ### Example 2
 
 ```
-Input: num = 7(01112)
+Input: num = 7(0111)
 Output: 4
 ```
 

@@ -114,7 +114,12 @@
 069. [723 粉碎糖果](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/723.md)
 070. [737 句子相似性 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/737.md)
 071. [742 二叉樹最近的葉結點](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/742.md)
-072. [751 IP 到 CIDR](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/751.md)
+072. [750 角矩形的數量](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/750.md)
+073. [751 IP 到 CIDR](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/751.md)
+074. [755 倒水](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/755.md)
+075. [426 將二叉搜索樹轉化為排序的雙向鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/426.md)
+076. [758 字符串中的加粗單詞](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/616.md)
+077. [702 搜索長度未知的有序數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/702.md)
 
 ### Difficulty: Hard
 
