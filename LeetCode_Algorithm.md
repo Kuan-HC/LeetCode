@@ -120,6 +120,8 @@
 075. [426 將二叉搜索樹轉化為排序的雙向鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/426.md)
 076. [758 字符串中的加粗單詞](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/616.md)
 077. [702 搜索長度未知的有序數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/702.md)
+078. [708 循环有序列表的插入](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/708.md)
+079. [776 拆分二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/776.md)
 
 ### Difficulty: Hard
 
