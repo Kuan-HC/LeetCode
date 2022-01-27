@@ -122,6 +122,10 @@
 077. [702 搜索長度未知的有序數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/702.md)
 078. [708 循环有序列表的插入](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/708.md)
 079. [776 拆分二叉搜索樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/776.md)
+080. [1055 形成字符串的最短路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1055.md)
+081. [1057 校園自行車分配](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1057.md)
+082. [1058 最小化舍入誤差以滿足目標](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1058.md)
+083. [1061 按字典序排列最小的等效字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1061.md)
 
 ### Difficulty: Hard
 
