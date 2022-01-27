@@ -126,6 +126,7 @@
 081. [1057 校園自行車分配](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1057.md)
 082. [1058 最小化舍入誤差以滿足目標](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1058.md)
 083. [1061 按字典序排列最小的等效字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1061.md)
+084. [1060 有序數組中的缺失元素](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1060.md)
 
 ### Difficulty: Hard
 
