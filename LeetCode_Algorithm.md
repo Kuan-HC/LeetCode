@@ -129,6 +129,9 @@
 084. [1060 有序數組中的缺失元素](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1060.md)
 085. [1062 最長重覆子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1062.md)
 086. [1066 校園自行車分配 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1066.md)
+087. [1087 花括號展開](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1087.md)
+088. [1100 長度為K的無重覆字符子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1100.md)
+
 
 ### Difficulty: Hard
 
