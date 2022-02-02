@@ -132,6 +132,7 @@
 087. [1087 花括號展開](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1087.md)
 088. [1100 長度為K的無重覆字符子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1100.md)
 089. [1101 彼此熟識的最早時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1101.md)
+090. [1120 子樹的最大平均值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1120.md)
 
 
 ### Difficulty: Hard
