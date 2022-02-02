@@ -131,6 +131,7 @@
 086. [1066 校園自行車分配 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1066.md)
 087. [1087 花括號展開](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1087.md)
 088. [1100 長度為K的無重覆字符子串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1100.md)
+089. [1101 彼此熟識的最早時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1101.md)
 
 
 ### Difficulty: Hard
