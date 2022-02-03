@@ -134,6 +134,7 @@
 089. [1101 彼此熟識的最早時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1101.md)
 090. [1120 子樹的最大平均值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1120.md)
 091. [1102 得分最高的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1102.md)
+092. [1135 最低成本聯通所有城市](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1135.md)
 
 
 ### Difficulty: Hard
