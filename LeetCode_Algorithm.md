@@ -135,6 +135,7 @@
 090. [1120 子樹的最大平均值](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1120.md)
 091. [1102 得分最高的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1102.md)
 092. [1135 最低成本聯通所有城市](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1135.md)
+093. [1136 平行課程](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1136.md)
 
 
 ### Difficulty: Hard
