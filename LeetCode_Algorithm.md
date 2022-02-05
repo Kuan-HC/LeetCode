@@ -136,6 +136,7 @@
 091. [1102 得分最高的路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1102.md)
 092. [1135 最低成本聯通所有城市](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1135.md)
 093. [1136 平行課程](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1136.md)
+094. [1151 最少交換次數來組合所有的 1](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1151.md)
 
 
 ### Difficulty: Hard
