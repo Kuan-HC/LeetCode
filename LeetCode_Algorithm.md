@@ -137,6 +137,10 @@
 092. [1135 最低成本聯通所有城市](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1135.md)
 093. [1136 平行課程](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1136.md)
 094. [1151 最少交換次數來組合所有的 1](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1151.md)
+095. [1152 用戶網站訪問行為分析](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1152.md)
+096. [1166 設計文件系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1166.md)
+097. [1167 連接棒材的最低費用](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1167.md)
+
 
 
 ### Difficulty: Hard
