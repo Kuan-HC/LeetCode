@@ -143,6 +143,7 @@
 098. [1181 前後拼接](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1181.md)
 099. [1182 與目標顏色間的最短距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1182.md)
 100. [1197 進擊的騎士](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1197.md)
+101. [1198 找出所有行中最小公共元素](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1198.md)
 
 ### Difficulty: Hard
 
