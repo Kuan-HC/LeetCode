@@ -149,6 +149,9 @@
 104. [1229 安排會議日程](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1229.md)
 105. [1230 拋擲硬幣](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1230.md)
 106. [1236 網路爬蟲](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1236.md)
+107. [1244 力扣排行榜](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1244.md)
+108. [1245 樹的直徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1245.md)
+109. [1256 加密數字](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1256.md)
 
 ### Difficulty: Hard
 
