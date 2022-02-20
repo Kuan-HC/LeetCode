@@ -153,6 +153,8 @@
 108. [1245 樹的直徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1245.md)
 109. [1256 加密數字](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1256.md)
 110. [1257 最小公共區域](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1257.md)
+111. [1258 近義詞句子](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1258.md)
+112. [1265 逆序打印不可變鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1265.md)
 
 ### Difficulty: Hard
 
