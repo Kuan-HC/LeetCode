@@ -152,6 +152,7 @@
 107. [1244 力扣排行榜](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1244.md)
 108. [1245 樹的直徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1245.md)
 109. [1256 加密數字](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1256.md)
+110. [1257 最小公共區域](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1257.md)
 
 ### Difficulty: Hard
 
