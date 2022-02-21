@@ -155,6 +155,8 @@
 110. [1257 最小公共區域](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1257.md)
 111. [1258 近義詞句子](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1258.md)
 112. [1265 逆序打印不可變鏈表](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1265.md)
+113. [1272 刪除區間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1272.md)
+114. [1273 刪除樹節點](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1273.md)
 
 ### Difficulty: Hard
 
