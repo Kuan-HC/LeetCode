@@ -161,6 +161,7 @@
 ### Difficulty: Hard
 
 001. [224 基本計算器](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/224.md)
+002. [158 用 Read4 讀取N个字符II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/158.md)
 
 
 
