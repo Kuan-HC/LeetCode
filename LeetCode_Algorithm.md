@@ -167,6 +167,7 @@
 005. [269 火星詞典](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/269.md)
 006. [272 最接近的二叉搜索樹值 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/272.md)
 007. [296 最佳碰頭地點](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/296.md)
+008. [302 包含全部黑色像素的最小矩形](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/302.md)
 
 
 
