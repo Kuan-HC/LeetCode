@@ -103,7 +103,7 @@
 058. [616 給字符串添加加粗標簽](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/616.md)
 059. [227 基本計算器 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/227.md)
 060. [624 數組列表中的最大距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/624.md)
-061. [425 最小因式分解](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/425.md)
+061. [625 最小因式分解](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/625.md)
 062. [634 尋找數組的錯位排列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/634.md)
 063. [635 設計日志存儲系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/635.md)
 064. [651 四鍵鍵盤](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/651.md)
@@ -173,6 +173,7 @@
 011. [317 離建築物最近的距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/317.md)
 012. [358 K 距離間隔重排字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/358.md)
 013. [411 最短獨佔單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/411.md)
+014. [425 單詞方塊](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/425.md)
 
 
 
