@@ -172,6 +172,7 @@
 010. [308 二維區域和檢索 - 可變](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/308.md)
 011. [317 離建築物最近的距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/317.md)
 012. [358 K 距離間隔重排字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/358.md)
+013. [411 最短獨佔單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/411.md)
 
 
 
