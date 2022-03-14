@@ -174,6 +174,7 @@
 012. [358 K 距離間隔重排字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/358.md)
 013. [411 最短獨佔單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/411.md)
 014. [425 單詞方塊](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/425.md)
+015. [428 序列化和反序列化 N 叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/428.md)
 
 
 
