@@ -175,6 +175,7 @@
 013. [411 最短獨佔單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/411.md)
 014. [425 單詞方塊](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/425.md)
 015. [428 序列化和反序列化 N 叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/428.md)
+016. [431 將 N 叉樹編碼為二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/431.md)
 
 
 
