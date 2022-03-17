@@ -176,6 +176,8 @@
 014. [425 單詞方塊](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/425.md)
 015. [428 序列化和反序列化 N 叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/428.md)
 016. [431 將 N 叉樹編碼為二叉樹](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/431.md)
+017. [465 最優賬單平衡](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/431.md)
+018. [471 編碼最短長度的字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/471.md)
 
 
 
