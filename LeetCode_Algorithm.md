@@ -180,6 +180,10 @@
 018. [471 編碼最短長度的字符串](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/471.md)
 019. [489 掃地機器人](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/489.md)
 020. [499 迷宫 III](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/499.md)
+021. [527 單詞縮寫](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/527.md)
+022. [548 將數組分割成和相等的子數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/548.md)
+023. [568 最大休假天數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/568.md)
+024. [588 設計內存文件系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/588.md)
 
 
 
