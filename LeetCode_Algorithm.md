@@ -184,6 +184,12 @@
 022. [548 將數組分割成和相等的子數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/548.md)
 023. [568 最大休假天數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/568.md)
 024. [588 設計內存文件系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/588.md)
+025. [642 設計搜索自動補全系統](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/642.md)
+026. [631 設計Excel求合公式](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/631.md)
+027. [656 金幣路徑](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/656.md)
+028. [644 子數組最大平均數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/644.md)
+029. [660 移除9](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/660.md)
+030. [683 K個關閉的燈泡](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/683.md)
 
 
 
