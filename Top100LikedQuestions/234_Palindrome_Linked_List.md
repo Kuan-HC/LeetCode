@@ -26,53 +26,41 @@ Output: true
 
 * 時間複雜度 0(1)
 ```
-struct ListNode
-{
-    int val;
-    ListNode *next;
-    ListNode(int x) : val(x), next(NULL) {}
-};
-
-class Solution
-{
+class Solution {
 public:
-    bool isPalindrome(ListNode *head)
-    {
-        /* find the middle*/
+    bool isPalindrome(ListNode* head) {
+
+        //利用快慢指針將鍊懷從切成兩半
+        ListNode* fast = head;
+        ListNode* slow = head;
         bool pause = true;
-        ListNode *savedHead = head;
-        ListNode *slow = head;
 
-        while (head != nullptr)
+        while(fast != nullptr)
         {
-            head = head->next;
-            if (pause != true)
-                slow = slow->next;
-
-            pause = pause == true ? false : true;
+            fast = fast -> next;
+            if(pause != true)
+                slow = slow -> next;
+            pause = pause == true? false : true;
         }
 
-        /* rever the list from slow*/
-        ListNode *revHead = slow;
-        ListNode *tmp = nullptr;
-
-        while (slow != nullptr)
+        // 從slow開始將鍊表逆序
+        ListNode* revHead = nullptr;
+        while(slow != nullptr)
         {
-            revHead = slow;
-            slow = slow->next;
-            revHead->next = tmp;
-            tmp = revHead;
+            ListNode* temp = slow;
+            slow = slow -> next;
+            temp -> next = revHead;
+            revHead = temp;
         }
 
-        while (revHead != nullptr)
+        // 從逆序的鍊表頭開始，一個一個比對
+        while(revHead != nullptr)
         {
-            if (revHead->val == savedHead->val)
-            {
-                revHead = revHead->next;
-                savedHead = savedHead->next;
-            }
-            else
+            if(revHead -> val != head -> val)
                 return false;
+            
+            revHead = revHead -> next;
+            head = head -> next;
         }
 
         return true;

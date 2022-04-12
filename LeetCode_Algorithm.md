@@ -190,6 +190,9 @@
 028. [644 子數組最大平均數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/644.md)
 029. [660 移除9](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/660.md)
 030. [683 K個關閉的燈泡](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/683.md)
+031. [711 不同島嶼數量II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/711.md)
+032. [727 最小窗口子序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/727.md)
+033. [759 員工空閒時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/759.md)
 
 
 
