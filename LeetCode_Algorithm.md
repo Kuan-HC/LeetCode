@@ -193,6 +193,8 @@
 031. [711 不同島嶼數量II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/711.md)
 032. [727 最小窗口子序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/727.md)
 033. [759 員工空閒時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/759.md)
+034. [774 最小化去加油站的最大距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/774.md)
+035. [1063 有效子數組的數目](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1063.md)
 
 
 
