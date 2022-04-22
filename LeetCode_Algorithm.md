@@ -195,6 +195,12 @@
 033. [759 員工空閒時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/759.md)
 034. [774 最小化去加油站的最大距離](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/774.md)
 035. [1063 有效子數組的數目](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1063.md)
+036. [1067 範圍內的數字計數](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1067.md)
+037. [1088 易混淆數 II](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1088.md)
+038. [1121 將數組分成幾個遞增序列](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1121.md)
+039. [1153 字符串轉化](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1153.md)
+040. [1168 水資源分配優化](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1168.md)
+
 
 
 
