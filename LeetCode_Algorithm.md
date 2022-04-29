@@ -201,7 +201,11 @@
 039. [1153 字符串轉化](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1153.md)
 040. [1168 水資源分配優化](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1168.md)
 041. [1183 矩陣中 1 的最大數量](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1183.md)
-
+042. [1199 建造街區的最短時間](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1199.md)
+043. [1216 驗證回文字符串 III](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1216.md)
+044. [1231 分享巧克力](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1231.md)
+045. [1246 刪除回文子數組](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1246.md)
+045. [1274 矩形內船只的數目](https://github.com/Kuan-HC/LeetCode/blob/main/Algorithm/1274.md)
 
 
 

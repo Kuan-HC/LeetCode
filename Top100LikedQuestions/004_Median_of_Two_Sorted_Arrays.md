@@ -33,76 +33,51 @@ Output: 0.00000
 
 ### C++
 
+* 時間複雜度 O(log(min(m,n)))
+
 ```
-#include <vector>
-#include <cmath>
-
-using namespace std;
-
-class Solution
-{
+class Solution {
 public:
-    double findKthElement(vector<int> &nums1, vector<int> &nums2, int target)
-    {
-        int len1 = nums1.size();
-        int len2 = nums2.size();
-        int startId1 = 0;
-        int startId2 = 0;
+    double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2) {
+        int&& nums1Len = nums1.size();
+        int&& nums2Len = nums2.size();
+        /* 中位數將一個數組切成兩半，若該數組是奇數，將中位數歸給左邊，同時左邊數組的最大值即為 中位數*/
+        int&& odd = (nums1Len + nums2Len) & 1;
+        const int targetLeftLen = (nums1Len + nums2Len) / 2 + odd;
 
-        while (true)
-        {
-            /* cases break while loop*/
-            if (startId1 == len1)
-                return nums2[startId2 + target - 1];
-            else if (startId2 == len2)
-                return nums1[startId1 + target - 1];
-            else if (target == 1)
-                return min(nums1[startId1], nums2[startId2]);
+        vector<int>& shortVec = nums1Len <= nums2Len? nums1 : nums2;
+        vector<int>& longVec = nums2Len >= nums1Len? nums2 : nums1;
 
-            /* remove target/2 elements from the list*/
-            int offset = target / 2 - 1; /* compare offset th element in each vector  */
-            int tmpId1 = min(startId1 + offset, len1 - 1);
-            int tmpId2 = min(startId2 + offset, len2 - 1);
-            if (nums1[tmpId1] <= nums2[tmpId2])
-            {
-                target = target - (tmpId1 - startId1 + 1);
-                startId1 = tmpId1 + 1;
-            }
-            else
-            {
-                target = target - (tmpId2 - startId2 + 1);
-                startId2 = tmpId2 + 1;
-            }
-        }
+        /* Binary Search，猜有多少個在short中屬於左邊*/
+        int left = 0;
+        int right = shortVec.size();
+        int mid = 0;
+        int leftTop = 0;
+        int rightTop = 0;
+        while(left <= right){
+            mid = left + (right - left) / 2;
+            int&& shortLeftMax = mid == 0? INT_MIN : shortVec[mid - 1];
+            int&& shortRightMin = mid == shortVec.size()? INT_MAX : shortVec[mid];
+            int&& restLeft = targetLeftLen - mid;
+            int&& longLeftMax = restLeft == 0 ? INT_MIN : longVec[restLeft -1];
+            int&& longRightMin = restLeft == longVec.size()? INT_MAX : longVec[restLeft];
 
-        return 0.0;
-    }
+            if(shortLeftMax > longRightMin)
+                right = mid - 1;
+            else if(shortRightMin < longLeftMax)
+                left = mid + 1;  
+            else{
+                leftTop = max(shortLeftMax, longLeftMax);
+                rightTop = min(shortRightMin, longRightMin);
+                if(odd == 1)
+                    return leftTop;
+                else
+                    return (leftTop + rightTop) * 0.5;
+            }      
 
-    double findMedianSortedArrays(vector<int> &nums1, vector<int> &nums2)
-    {
+        }       
 
-        int totalLen = nums1.size() + nums2.size();
-        double ret = 0.0;
-
-        /* if totalLen is odd*/
-        int KthElement = totalLen / 2 + 1;
-        if (totalLen % 2 == 1)
-            ret = findKthElement(nums1, nums2, totalLen / 2 + 1);
-        else
-            ret = (findKthElement(nums1, nums2, totalLen / 2) + findKthElement(nums1, nums2, totalLen / 2 + 1)) / 2;
-
-        return ret;
+        return 0;
     }
 };
-
-int main()
-{
-    vector<int> input1 = {2, 3, 4, 5, 6};
-    vector<int> input2 = {1};
-
-    Solution test;
-    double res = test.findMedianSortedArrays(input1, input2);
-
-    return 0;
-}
 ```
