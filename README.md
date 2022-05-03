@@ -1,5 +1,17 @@
 # LeetCode Problems
 
+## LeetCode Practice
+
+* [其他練習](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Practice.md)
+
+## LeetCode 精選算法 Algorithm
+
+* [精選算法](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Algorithm.md)
+
+## LeetCode 程序員面試金典
+
+* [面試金典](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Interview.md)
+
 ## LeetCode 熱题 Hot 100
 
 * [Top 100](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Top100.md)
@@ -12,11 +24,8 @@
 
 * [數據結構](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_DataStructure_Study.md)
 
-## LeetCode 程序員面試金典
 
-* [面試金典](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Interview.md)
 
-## LeetCode 精選算法 Algorithm
 
-* [精選算法](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Algorithm.md)
+
 
