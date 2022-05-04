@@ -14,6 +14,10 @@
 002. [081 搜索旋轉排序數組 II ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/081.md)
 003. [091 解碼方法 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/091.md)
 004. [092 返轉鍊表 II ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/092.md)
+005. [130 被圍繞的區域 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/130.md)
+006. [143 被圍繞的區域 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/143.md)
+007. [153 尋找旋轉排序數組中的最小值 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/153.md)
+
 
 
 
