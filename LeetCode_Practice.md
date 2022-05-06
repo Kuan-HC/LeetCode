@@ -17,8 +17,9 @@
 005. [130 被圍繞的區域 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/130.md)
 006. [143 被圍繞的區域 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/143.md)
 007. [153 尋找旋轉排序數組中的最小值 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/153.md)
-
-
+008. [199 二叉樹的右視圖 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/199.md)
+009. [222 完全二叉樹的節點個數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/222.md)
+010. [006 Z字形變換 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/006.md)
 
 
 ### Difficulty: Hard
