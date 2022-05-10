@@ -27,6 +27,7 @@
 015. [450 刪除二叉搜索樹中的節點 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/450.md)
 016. [468 驗證IP地址 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/468.md)
 017. [532 數組中的 k-diff 數對 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/532.md)
+018. [792 匹配子序列的單詞數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/792.md)
 
 
 ### Difficulty: Hard
