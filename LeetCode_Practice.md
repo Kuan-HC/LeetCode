@@ -22,6 +22,11 @@
 010. [006 Z字形變換 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/006.md)
 011. [386 字典樹排序 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/386.md)
 012. [274 H 指數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/274.md)
+013. [397 整數替換 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/397.md)
+014. [421 數組中兩個數的最大異或值 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/421.md)
+015. [450 刪除二叉搜索樹中的節點 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/450.md)
+016. [468 驗證IP地址 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/468.md)
+017. [532 數組中的 k-diff 數對 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/532.md)
 
 
 ### Difficulty: Hard
