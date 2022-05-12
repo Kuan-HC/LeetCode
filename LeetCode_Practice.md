@@ -28,6 +28,9 @@
 016. [468 驗證IP地址 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/468.md)
 017. [532 數組中的 k-diff 數對 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/532.md)
 018. [792 匹配子序列的單詞數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/792.md)
+019. [838 推多米諾 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/838.md)
+020. [863 二叉樹中所有距離為 K 的結點 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/863.md)
+021. [973 最接近原點的 K 個點 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/973.md)
 
 
 ### Difficulty: Hard
