@@ -36,6 +36,8 @@
 024. [1438 絕對差不超過限制的最長連續子數組 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1438.md)
 025. [1522 N 叉樹的直徑 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1522.md)
 026. [1676 二叉樹的最近公共祖先 IV ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1676.md)
+027. [1824 最小側跳次數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1824.md)
+
 
 
 ### Difficulty: Hard
