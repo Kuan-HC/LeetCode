@@ -37,10 +37,12 @@
 025. [1522 N 叉樹的直徑 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1522.md)
 026. [1676 二叉樹的最近公共祖先 IV ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1676.md)
 027. [1824 最小側跳次數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1824.md)
-
+028. [1838 最高頻元素的頻數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1834.md)
 
 
 ### Difficulty: Hard
+
+001. [044 通配符匹配 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/044.md)
 
 
 
