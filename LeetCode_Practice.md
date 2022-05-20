@@ -38,11 +38,17 @@
 026. [1676 二叉樹的最近公共祖先 IV ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1676.md)
 027. [1824 最小側跳次數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1824.md)
 028. [1838 最高頻元素的頻數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1834.md)
+029. [0131 分割回文串 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/131.md)
 
 
 ### Difficulty: Hard
 
 001. [044 通配符匹配 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/044.md)
+002. [060 排列序列 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/060.md)
+003. [127 單詞接龍 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/127.md)
+004. [131 分割回文串 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/131.md)
+005. [218 天際線問題 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/218.md)
+006. [273 整數轉換英文表示 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/273.md)
 
 
 
