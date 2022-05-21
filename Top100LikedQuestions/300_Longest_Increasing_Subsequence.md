@@ -46,42 +46,26 @@ Output: 1
 
 * 空間複雜度 O ( n )
 ```
-class Solution
-{
+class Solution {
 public:
-    int lengthOfLIS(vector<int> &nums)
-    {
+    int lengthOfLIS(vector<int>& nums) {
+        int&& len = nums.size();
+        
+        vector<int> lis;
+        lis.push_back(nums[0]);
 
-        int len = nums.size();
-        if (len == 1)
-            return 1;
-
-        vector<int> list;
-        list.push_back(nums[0]);
-        int listLen = 0;
-        for (int i = 1; i < len; i++)
-        {
-            if (nums[i] > list.back())
-            {
-                list.push_back(nums[i]);
-                continue;
+        for(int i = 1; i < len; ++i){
+            const int& num = nums[i];
+            if(num > lis.back()){
+                lis.push_back(num);
             }
-            listLen = list.size();
-            int left = 0;
-            int right = listLen - 1;
-            int mid = 0;
-            while (left < right)
-            {
-                mid = left + ((right - left) >> 1);
-                if(list[mid] < nums[i])
-                    left = mid + 1;
-                else
-                    right = mid;
+            else{
+                vector<int>::iterator itr = lower_bound(lis.begin(), lis.end(), num);
+                *itr = num;
             }
-            list[left] = nums[i];
         }
 
-        return list.size();
+        return lis.size();
     }
 };
 ```

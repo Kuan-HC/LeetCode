@@ -49,6 +49,8 @@
 004. [131 分割回文串 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/131.md)
 005. [218 天際線問題 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/218.md)
 006. [273 整數轉換英文表示 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/273.md)
+007. [295 數據流的中位數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/295.md)
+008. [354 俄羅斯套娃信封問題 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/354.md)
 
 
 
