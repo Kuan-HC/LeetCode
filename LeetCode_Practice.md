@@ -51,6 +51,10 @@
 006. [273 整數轉換英文表示 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/273.md)
 007. [295 數據流的中位數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/295.md)
 008. [354 俄羅斯套娃信封問題 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/354.md)
+009. [440 字典序的第 K 個數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/440.md)
+010. [639 解碼方法 II ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/639.md)
+011. [664 奇怪的打印機 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/664.md)
+012. [689 三個無重疊子數組的最大和 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/689.md)
 
 
 
