@@ -55,7 +55,12 @@
 010. [639 解碼方法 II ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/639.md)
 011. [664 奇怪的打印機 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/664.md)
 012. [689 三個無重疊子數組的最大和 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/689.md)
-
+013. [726 原子的數量 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/726.md)
+014. [786 第 K 個最小的素數分數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/786.md)
+015. [850 矩形面積 II ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/850.md)
+016. [864 獲取所有鑰匙的最短路徑 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/864.md)
+017. [968 監控二叉樹 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/968.md)
+018. [980 不同路径 III ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/980.md)
 
 
 
