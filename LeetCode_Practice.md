@@ -6,6 +6,7 @@
 002. [929 獨特的電子郵件地址](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/929.md)
 003. [1108 IP 地址無效化](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1108.md)
 004. [392 判斷子序列](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/392.md)
+005. [1051 高度檢查器](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1051.md)
 
 
 ### Difficulty: Medium
