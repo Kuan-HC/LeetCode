@@ -40,6 +40,7 @@
 027. [1824 最小側跳次數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1824.md)
 028. [1838 最高頻元素的頻數 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/1834.md)
 029. [0131 分割回文串 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/131.md)
+030. [0890 查找和替换模式 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/890.md)
 
 
 ### Difficulty: Hard

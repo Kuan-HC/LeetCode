@@ -2,6 +2,10 @@
 
 ## LeetCode Practice
 
+* [Tesla](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Tesla.md)
+
+## LeetCode Practice
+
 * [其他練習](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Practice.md)
 
 ## LeetCode 精選算法 Algorithm
