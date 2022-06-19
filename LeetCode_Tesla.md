@@ -7,6 +7,7 @@
 
 ### Difficulty: Medium
 
+006. [038 外觀數列](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/038.md)
 005. [508 出現次數最多的子樹元素和](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/508.md)
 004. [029 兩數相除](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/029.md)
 003. [016 三數之和](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/016.md)
