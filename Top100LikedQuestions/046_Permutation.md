@@ -35,6 +35,43 @@ Output: [[1]]
 Depth First Search
 <img src="img/046.jpg" width = "800"/>
 
+### C++
+```
+class Solution {
+protected:
+    int len{0};
+    vector<vector<int>> ret;
+    void dfs(vector<int>& path, vector<bool> visted, const vector<int>& nums){
+        if(path.size() == len){
+            ret.emplace_back(path);
+            return;
+        }
+
+        for(int i = 0; i < len; ++i){
+            if(visted[i] == true)
+                continue;
+
+            visted[i] = true;
+            path.push_back(nums[i]);
+            dfs(path, visted, nums);
+            path.pop_back();
+            visted[i] = false;
+        }
+    }
+
+public:
+    vector<vector<int>> permute(vector<int>& nums) {
+        len = nums.size();
+        vector<bool> visted(len, false);
+        vector<int> path;
+
+        dfs(path, visted, nums);
+        
+        return ret;
+    }
+};
+```
+
 ### C
 
 ```

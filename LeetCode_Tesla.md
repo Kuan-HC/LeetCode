@@ -7,6 +7,9 @@
 
 ### Difficulty: Medium
 
+009. [047 全排列 II](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/047.md)
+008. [043 字符串相乘](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/043.md)
+007. [040 組合總和 II](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/040.md)
 006. [038 外觀數列](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/038.md)
 005. [508 出現次數最多的子樹元素和](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/508.md)
 004. [029 兩數相除](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/029.md)
@@ -16,4 +19,5 @@
 
 ### Difficulty: Hard
 
+041. [041 缺失的第一個正數](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/041.md)
 001. [719 找出第 K 小的數對距離](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/719.md)
