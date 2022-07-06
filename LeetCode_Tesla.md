@@ -7,6 +7,7 @@
 
 ### Difficulty: Medium
 
+010. [729 我的日程安排表 I](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/729.md)
 009. [047 全排列 II](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/047.md)
 008. [043 字符串相乘](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/043.md)
 007. [040 組合總和 II](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/040.md)
@@ -19,5 +20,6 @@
 
 ### Difficulty: Hard
 
-041. [041 缺失的第一個正數](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/041.md)
+003. [051 皇后](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/051.md)
+002. [041 缺失的第一個正數](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/041.md)
 001. [719 找出第 K 小的數對距離](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/719.md)
