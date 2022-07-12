@@ -1,4 +1,5 @@
 # 739. Daily Temperatures
+
 Given a list of daily temperatures T, return a list such that, for each day in the input, tells you how many days you would have to wait until a warmer temperature. If there is no future day for which this is possible, put 0 instead.
 
 For example, given the list of temperatures T = [73, 74, 75, 71, 69, 72, 76, 73], your output should be [1, 1, 4, 2, 1, 1, 0, 0].
@@ -8,6 +9,7 @@ Note: The length of temperatures will be in the range [1, 30000]. Each temperatu
 [LeetCode](https://leetcode.com/problems/daily-temperatures)
 
 # 739. 每日溫度
+
 請根據每日 氣溫 列表，重新生成一個列表。對應位置的輸出為：要想觀測到更高的氣溫，至少需要等待的天數。如果氣溫在這之後都不會升高，請在該位置用 0 來代替。
 
 例如，給定一個列表 temperatures = [73, 74, 75, 71, 69, 72, 76, 73]，你的輸出應該是 [1, 1, 4, 2, 1, 1, 0, 0]。
