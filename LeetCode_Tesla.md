@@ -2,11 +2,13 @@
 
 ### Difficulty: Easy
 
+003. [069 x 的平方根 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/069.md)
 002. [035 搜索插入位置](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/035.md)
 001. [014 最長公共前綴](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/014.md)
 
 ### Difficulty: Medium
 
+012. [057 插入區間](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/057.md)
 011. [054 螺旋矩陣](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/054.md)
 010. [729 我的日程安排表 I](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/729.md)
 009. [047 全排列 II](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/047.md)
