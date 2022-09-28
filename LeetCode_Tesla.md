@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+004. [125 驗証回文串](./Tesla/125.md)
 003. [069 x 的平方根 ](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/069.md)
 002. [035 搜索插入位置](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/035.md)
 001. [014 最長公共前綴](https://github.com/Kuan-HC/LeetCode/blob/main/Problems/014.md)
