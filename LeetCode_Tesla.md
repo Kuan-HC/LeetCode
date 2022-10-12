@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+005 [190 顛倒二進制位](./Tesla/190.md) 
 005 [168 Excel表列名稱](./Tesla/168.md) 
 004 [125 驗証回文串](./Tesla/125.md)  
 003 [069 x 的平方根 ](./Tesla/069.md)  
