@@ -25,6 +25,7 @@
 
 ### Difficulty: Medium
 
+051 [994 腐爛的橘子](./Tesla/994.md)
 050 [904 水果成籃](./Tesla/904.md)
 049 [885 螺旋矩陣 III](./Tesla/885.md)
 048 [853 車隊](./Tesla/853.md)
