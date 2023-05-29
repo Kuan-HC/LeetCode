@@ -1,6 +1,10 @@
 # LeetCode Problems
 
-## LeetCode Practice
+## LeetCode Google
+
+* [Google](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Google.md)
+
+## LeetCode Tesla
 
 * [Tesla](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Tesla.md)
 
