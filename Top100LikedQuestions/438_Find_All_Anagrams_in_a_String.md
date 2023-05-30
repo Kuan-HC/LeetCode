@@ -41,84 +41,47 @@ The substring with start index = 2 is "ab", which is an anagram of "ab".
 * sliding window
 
 ```
-#include <unordered_map>
-#include <string>
-#include <vector>
-#include <iostream>
-
-using namespace std;
-
-class Solution
-{
-
+class Solution {
 public:
-    vector<int> findAnagrams(string s, string p)
-    {
-        unordered_map<char, int> targetMap;
-        unordered_map<char, int> sourceMap;
-        vector<int> ret(0);
-
-        int sLength = s.length();
-        int pLength = p.length();
-
-        if(pLength > sLength)
+    vector<int> findAnagrams(string s, string p) {
+        /*
+            滑動窗口
+            1. 先統計p中的字母的出現次數在unordered_map中，令gap = p.length()
+            2. 以滑動窗口，若新的字母在unorder_map中次數不為 0, --gap
+            3. 當gap為0時，縮小窗口
+        */
+        vector<int> ret;
+        if(p.length() > s.length())
             return ret;
-        
-        for (const char &c : p)
-            targetMap[c]++;
 
-        /*sliding windows*/
-        int left = 0;
-        int right = 0;
-        bool identical;
-        
-        while (right < sLength)
-        {
-            /** 
-             * Add s[right] to the sourceMap
-             * also slide right boundary one unit to the right*/
-            sourceMap[s[right++]]++;
+        int&& gap = p.length();
+        unordered_map <char, int> cnt;
+        for(const char& chr : p)
+            cnt[chr]++;
 
-            if ((right - left) == pLength)
-            {
-                /*check map*/
-                identical = true;
-                for (auto key : targetMap)
-                {
-                    if (sourceMap[key.first] != targetMap[key.first])
-                    {
-                        identical = false;
-                        break;
-                    }
+        //滑動窗口
+        int lPtr = 0;
+        for(int i = 0; i < s.length(); ++i){
+            const char& tmpChr = s[i];
+            if(cnt.find(tmpChr) != cnt.end()){
+                if(--cnt[tmpChr] >= 0)
+                    --gap;
+            }
+
+            while(gap == 0){
+                if(i - lPtr + 1 == p.length())
+                    ret.push_back(lPtr);
+
+                const char& lChr = s[lPtr++];
+                if(cnt.find(lChr) != cnt.end()){
+                    if(++cnt[lChr] > 0)
+                        ++gap;
                 }
-                /* record current windows start position in the vector*/
-                if (identical == true)
-                    ret.push_back(left);
-
-                /**
-                 *  remove the most left element from the sourceMap,
-                 *  also slide left boundary one step right
-                 */
-                sourceMap[s[left++]]--;
             }
         }
-
+        
         return ret;
+
     }
 };
-
-int main()
-{
-    string input = "aabb";
-    string target = "bb";
-
-    Solution test;
-    vector<int> res = test.findAnagrams(input, target);
-
-    for (int &i : res)
-        cout << i << ' ';
-    cout << endl;
-
-    return 0;
-}
 ```
