@@ -2,8 +2,8 @@
 
 ### Difficulty: Easy
 
+002 [067 二進制求和](./Google/067.md)  
 001 [066 加一](./Google/066.md)  
-
 
 ### Difficulty: Medium
 
