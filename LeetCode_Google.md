@@ -8,6 +8,7 @@
 
 ### Difficulty: Medium
 
+005 [061 旋轉鍊表](./Google/061.md)  
 004 [063 不同路徑II](./Google/063.md)  
 003 [071 簡化路徑](./Google/071.md)  
 002 [024 兩兩交換鍊表中的節點](./Google/024.md)  
@@ -15,5 +16,7 @@
 
 ### Difficulty: Hard
 
+004 [065 有效數字](./Google/065.md)  
+003 [068 N皇后II](./Google/068.md)  
 002 [052 N皇后II](./Google/052.md)  
 001 [030 串聯所有單詞的子串](./Google/030.md)  
