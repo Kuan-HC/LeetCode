@@ -9,6 +9,7 @@
 
 ### Difficulty: Medium
 
+009 [089 格雷編碼](./Google/089.md) 
 008 [086 分隔鍊表](./Google/086.md) 
 007 [082 刪除排序鏈表中的重覆元素 II](./Google/082.md) 
 006 [080 刪除數組中的重覆項 II](./Google/080.md)  
@@ -20,6 +21,7 @@
 
 ### Difficulty: Hard
 
+005 [087 擾亂字符串](./Google/087.md)  
 004 [065 有效數字](./Google/065.md)  
 003 [068 文本左右對齊](./Google/068.md)  
 002 [052 N皇后II](./Google/052.md)  
