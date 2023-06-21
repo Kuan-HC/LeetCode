@@ -9,6 +9,9 @@
 
 ### Difficulty: Medium
 
+013 [097 交錯字符串](./Google/097.md) 
+012 [095 不同的二叉搜索樹](./Google/095.md) 
+011 [093 復原IP地址](./Google/093.md) 
 010 [090 子集 II](./Google/090.md) 
 009 [089 格雷編碼](./Google/089.md) 
 008 [086 分隔鍊表](./Google/086.md) 
