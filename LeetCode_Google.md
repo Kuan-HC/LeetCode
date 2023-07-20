@@ -14,6 +14,7 @@
 
 ### Difficulty: Medium
 
+030 [166 分數到小數](./Google/166.md)  
 030 [165 比較版本號](./Google/165.md)   
 029 [162 尋找峰值](./Google/162.md)   
 028 [147 對鍊表進行插入排序](./Google/147.md)   
