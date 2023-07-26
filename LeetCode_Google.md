@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+010 [191 位1的個數 ](./Google/191.md)  
 009 [119 楊輝三角II](./Google/119.md)  
 008 [111 二叉樹的最小深度](./Google/111.md)  
 007 [110 平衡二叉樹](./Google/110.md)  
@@ -14,7 +15,7 @@
 
 ### Difficulty: Medium
 
-035 [189 輪轉數組](./Google/189.md)  
+035 [189 輪轉數組](./Google/189.md)   
 034 [173 二叉搜索樹叠代器](./Google/173.md)  
 033 [172 階乖後的零](./Google/172.md)  
 032 [167 兩數之和 II](./Google/167.md)  
