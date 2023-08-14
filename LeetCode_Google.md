@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+012 [205 同構字符串 ](./Google/205.md)  
 011 [202 快樂數 ](./Google/202.md)  
 010 [191 位1的個數 ](./Google/191.md)  
 009 [119 楊輝三角II](./Google/119.md)  
@@ -16,6 +17,7 @@
 
 ### Difficulty: Medium
 
+036 [209 長度最小的字數組](./Google/209.md)   
 035 [189 輪轉數組](./Google/189.md)   
 034 [173 二叉搜索樹叠代器](./Google/173.md)  
 033 [172 階乖後的零](./Google/172.md)  
