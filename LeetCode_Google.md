@@ -18,6 +18,9 @@
 
 ### Difficulty: Medium
 
+042 [241 為運算表達式設計優先級](./Google/241.md)   
+041 [230 二叉搜索樹中第K小的元素](./Google/230.md)   
+040 [229 多數元素 II](./Google/229.md)   
 039 [223 組合總合 III](./Google/223.md)   
 038 [216 組合總合 III](./Google/216.md)   
 037 [213 打家劫舍 II](./Google/213.md)   
