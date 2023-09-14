@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+017 [268 丟失的數字](./Google/268.md)   
 016 [263 醜數](./Google/263.md)   
 015 [258 各位相加](./Google/258.md)   
 014 [257 二叉樹的所有路徑](./Google/257.md)   
@@ -21,6 +22,7 @@
 
 ### Difficulty: Medium
 
+044 [264 醜數 II](./Google/264.md)   
 043 [260 只出現一次的數字 III](./Google/260.md)   
 042 [241 為運算表達式設計優先級](./Google/241.md)   
 042 [237 刪除鍊表中的節點](./Google/237.md)   
