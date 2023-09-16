@@ -22,6 +22,7 @@
 
 ### Difficulty: Medium
 
+045 [275 H 指数 II](./Google/275.md)   
 044 [264 醜數 II](./Google/264.md)   
 043 [260 只出現一次的數字 III](./Google/260.md)   
 042 [241 為運算表達式設計優先級](./Google/241.md)   
