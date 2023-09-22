@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+018 [292 Nim 遊戲](./Google/292.md)   
 017 [268 丟失的數字](./Google/268.md)   
 016 [263 醜數](./Google/263.md)   
 015 [258 各位相加](./Google/258.md)   
@@ -22,6 +23,7 @@
 
 ### Difficulty: Medium
 
+046 [284 H 頂端叠代器](./Google/284.md) 
 045 [275 H 指数 II](./Google/275.md)   
 044 [264 醜數 II](./Google/264.md)   
 043 [260 只出現一次的數字 III](./Google/260.md)   
