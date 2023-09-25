@@ -23,7 +23,9 @@
 
 ### Difficulty: Medium
 
-046 [284 H 頂端叠代器](./Google/284.md) 
+048 [299 猜數字遊戲](./Google/299.md) 
+047 [289 生命遊戲](./Google/289.md) 
+046 [284 頂端叠代器](./Google/284.md) 
 045 [275 H 指数 II](./Google/275.md)   
 044 [264 醜數 II](./Google/264.md)   
 043 [260 只出現一次的數字 III](./Google/260.md)   
