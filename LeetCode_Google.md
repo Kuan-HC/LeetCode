@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+019 [303 區域合檢索 - 數組不可變](./Google/303.md)   
 018 [292 Nim 遊戲](./Google/292.md)   
 017 [268 丟失的數字](./Google/268.md)   
 016 [263 醜數](./Google/263.md)   
