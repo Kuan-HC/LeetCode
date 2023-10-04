@@ -24,6 +24,7 @@
 
 ### Difficulty: Medium
 
+050 [306 累加數](./Google/306.md) 
 049 [304 猜數字遊戲](./Google/299.md) 
 048 [299 猜數字遊戲](./Google/299.md) 
 047 [289 生命遊戲](./Google/289.md) 
