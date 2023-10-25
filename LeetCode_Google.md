@@ -24,6 +24,7 @@
 
 ### Difficulty: Medium
 
+056 [324 擺動排序II](./Google/324.md) 
 055 [319 燈炮開關](./Google/319.md) 
 054 [318 最大單詞長度乘積](./Google/318.md) 
 053 [316 去除重覆字母](./Google/316.md) 
