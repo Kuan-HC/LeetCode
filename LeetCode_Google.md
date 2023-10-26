@@ -2,6 +2,8 @@
 
 ### Difficulty: Easy
 
+021 [231 2 的冪](./Google/326.md)   
+020 [326 3 的冪](./Google/326.md)   
 019 [303 區域合檢索 - 數組不可變](./Google/303.md)   
 018 [292 Nim 遊戲](./Google/292.md)   
 017 [268 丟失的數字](./Google/268.md)   
