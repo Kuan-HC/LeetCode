@@ -26,6 +26,7 @@
 
 ### Difficulty: Medium
 
+058 [331 驗證二叉樹的前序序列化](./Google/328.md) 
 057 [328 奇偶鍊表](./Google/328.md) 
 056 [324 擺動排序II](./Google/324.md) 
 055 [319 燈炮開關](./Google/319.md) 
