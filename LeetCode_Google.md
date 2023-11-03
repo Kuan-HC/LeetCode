@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+023 [345 反轉字符串中的元音字母](./Google/345.md)   
 022 [342 4 的冪](./Google/342.md)    
 021 [231 2 的冪](./Google/326.md)    
 020 [326 3 的冪](./Google/326.md)   
@@ -27,6 +28,7 @@
 
 ### Difficulty: Medium
 
+059 [343 整數拆分](./Google/343.md)  
 058 [331 驗證二叉樹的前序序列化](./Google/328.md)  
 057 [328 奇偶鍊表](./Google/328.md)  
 056 [324 擺動排序II](./Google/324.md)  
