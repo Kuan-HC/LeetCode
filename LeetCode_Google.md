@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+032 [441 排列硬幣](./Google/441.md)  
 031 [412 Fizz Buzz](./Google/412.md)  
 030 [409 最長回文串](./Google/409.md)  
 029 [405 數字轉換為十六進制數](./Google/405.md)   
@@ -36,6 +37,7 @@
 
 ### Difficulty: Medium
 
+062 [368 最大整除子集](./Google/368.md) 
 061 [365 水壺問題](./Google/365.md) 
 061 [357 統計各位數字都不同的數字](./Google/357.md) 
 060 [355 設計推特](./Google/355.md) 
