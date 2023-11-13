@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+034 [476 數字的補數](./Google/476.md)  
 033 [455 分發餅乾](./Google/455.md)  
 032 [441 排列硬幣](./Google/441.md)  
 031 [412 Fizz Buzz](./Google/412.md)  
@@ -38,6 +39,8 @@
 
 ### Difficulty: Medium
 
+064 [373 查找和最小的 K 對數字](./Google/373.md) 
+063 [372 超級次方](./Google/372.md) 
 062 [368 最大整除子集](./Google/368.md) 
 061 [365 水壺問題](./Google/365.md) 
 061 [357 統計各位數字都不同的數字](./Google/357.md) 
