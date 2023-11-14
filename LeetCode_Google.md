@@ -2,6 +2,8 @@
 
 ### Difficulty: Easy
 
+035 [492 構造矩形](./Google/492.md)  
+035 [485 最大連續 1 的個數](./Google/485.md)  
 034 [476 數字的補數](./Google/476.md)  
 033 [455 分發餅乾](./Google/455.md)  
 032 [441 排列硬幣](./Google/441.md)  
@@ -39,6 +41,8 @@
 
 ### Difficulty: Medium
 
+066 [377 組合總合 IV](./Google/377.md) 
+065 [375 猜數字大小 II](./Google/375.md) 
 064 [373 查找和最小的 K 對數字](./Google/373.md) 
 063 [372 超級次方](./Google/372.md) 
 062 [368 最大整除子集](./Google/368.md) 
