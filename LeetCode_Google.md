@@ -2,6 +2,8 @@
 
 ### Difficulty: Easy
 
+047 [541 反轉字符串 II](./Google/541.md)
+046 [521 最長的特殊序列 I](./Google/521.md)
 045 [520 檢測大寫字母](./Google/520.md)
 044 [508 完美數](./Google/508.md)
 043 [507 相對名次](./Google/507.md)
