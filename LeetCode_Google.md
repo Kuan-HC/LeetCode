@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+087 [824 山羊拉丁文](./Google/824.md)  
 086 [819 最常見的單詞](./Google/819.md)  
 085 [812 最大三角形面積](./Google/812.md)  
 084 [806 寫字符串需要的行數](./Google/806.md)  
@@ -193,7 +194,8 @@
 
 ### Difficulty: Hard
 
-029 [460 LFU 缓存](./Google/460.md)  
+030 [460 LFU 缓存](./Google/460.md)  
+029 [432 全 O(1) 的數據結構](./Google/432.md)  
 028 [410 分割數組的最大值](./Google/410.md)  
 027 [407 接雨水 II](./Google/407.md)  
 026 [391 完美矩形](./Google/391.md)  
