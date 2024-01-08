@@ -2,6 +2,9 @@
 
 ### Difficulty: Easy
 
+090 [836 矩形重疊](./Google/836.md)  
+089 [832 翻轉圖像](./Google/832.md)  
+088 [830 較大分組的位置](./Google/830.md)  
 087 [824 山羊拉丁文](./Google/824.md)  
 086 [819 最常見的單詞](./Google/819.md)  
 085 [812 最大三角形面積](./Google/812.md)  
@@ -194,7 +197,8 @@
 
 ### Difficulty: Hard
 
-030 [460 LFU 缓存](./Google/460.md)  
+031 [460 LFU 缓存](./Google/460.md)  
+030 [446 等差數列劃分 II - 子序列](./Google/446.md)  
 029 [432 全 O(1) 的數據結構](./Google/432.md)  
 028 [410 分割數組的最大值](./Google/410.md)  
 027 [407 接雨水 II](./Google/407.md)  
