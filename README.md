@@ -2,7 +2,9 @@
 
 ## LeetCode Google
 
-* [Google](https://github.com/Kuan-HC/LeetCode/blob/main/LeetCode_Google.md)
+* [Google Hard](./LeetCode_Google_Hard.md)
+* [Google Medium](./LeetCode_Google_Medium.md)
+* [Google Easy](./LeetCode_Google_Easy.md)
 
 ## LeetCode Tesla
 
