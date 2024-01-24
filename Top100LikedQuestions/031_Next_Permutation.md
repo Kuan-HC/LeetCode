@@ -51,40 +51,32 @@ Output: [1]
 * 空間複雜度：O(1)，只需要常數的空間存放若幹變量。
 
 ```
-class Solution
-{
+class Solution {
 public:
-    void nextPermutation(vector<int> &nums)
-    {
-        int len = nums.size();
-        if (len <= 1)
-            return;
-
-        /* searh the number shall be swap later*/
-        int i = len - 2;
-        for (; i >= 0; --i)
-        {
-            if (nums[i] < nums[i + 1])
+    void nextPermutation(vector<int>& nums) {
+        /*
+            1584 76531
+            1. 從右邊找到第一個升序排列的數值(pivot)
+            2. 找右邊找到第一個比該數值大的(因為是升序排列，也就是比pivot大的最小值)
+            3. 兩者交換
+            4. pivot右邊重新排序 
+        */
+        int i = nums.size() - 2;
+        for(; i >= 0; --i){
+            if(nums[i] < nums[i + 1])
                 break;
         }
 
-        int targetId = i;
-        if (i >= 0)
-        {
-            int target = nums[i];
-            /* searh the number greater than target from the right end - range (i, end]*/
-
-            for (i = len - 1; i > targetId; --i)
-            {
-                if (nums[i] > target)
-                {
-                    swap(nums[targetId], nums[i]);
+        if(i > 0){
+            for(int j = nums.size() - 1; j > i; --j){
+                if(nums[j] > nums[i]){
+                    swap(nums[i], nums[j]);
                     break;
                 }
             }
         }
-        
-        sort(nums.begin() + targetId + 1, nums.end());
+
+        sort(nums.begin() + i + 1, nums.end());
     }
 };
 ```

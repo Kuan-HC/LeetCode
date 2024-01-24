@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+101 [477 漢明距離總和](./Google/477.md)  
 100 [474 一和零](./Google/474.md)  
 099 [698 劃分為k個相等的子集](./Google/698.md)  
 098 [473 火柴拼正方形](./Google/473.md)
