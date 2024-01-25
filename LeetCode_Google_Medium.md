@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+102 [478 在圓內隨機生成點](./Google/478.md)  
 101 [477 漢明距離總和](./Google/477.md)  
 100 [474 一和零](./Google/474.md)  
 099 [698 劃分為k個相等的子集](./Google/698.md)  
