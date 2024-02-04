@@ -2,6 +2,7 @@
 
 ### Difficulty: Hard
 
+033 [472 連接詞](./Google/472.md) 
 032 [466 統計重覆個數](./Google/466.md) 
 031 [460 LFU 缓存](./Google/460.md)  
 031 [458 可憐的小豬](./Google/458.md)  
