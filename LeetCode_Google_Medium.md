@@ -2,6 +2,9 @@
 
 ### Difficulty: Medium
 
+119 [535 TinyURL 的加密與解密](./Google/535.md)  
+118 [529 掃雷遊戲](./Google/529.md)  
+117 [528 按權重隨機選擇](./Google/528.md)  
 116 [526 優美的排列](./Google/526.md)  
 115 [525 連續數組](./Google/525.md)  
 114 [524 通過刪除字母匹配到字典里最長單詞](./Google/524.md)  
