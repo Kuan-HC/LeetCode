@@ -2,6 +2,8 @@
 
 ### Difficulty: Easy
 
+127 [1046 Remove All Adjacent Duplicates In String](./Google/1047.md)  
+126 [1046 最後一堆石頭的重量](./Google/1046.md)  
 125 [1037 有效的回旋鏢](./Google/1037.md)  
 124 [1025 除數博奕](./Google/1025.md)  
 123 [1022 從根到葉的二進制數之和](./Google/1022.md)  
