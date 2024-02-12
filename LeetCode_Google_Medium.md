@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+120 [539 最小時間差](./Google/539.md)  
 119 [535 TinyURL 的加密與解密](./Google/535.md)  
 118 [529 掃雷遊戲](./Google/529.md)  
 117 [528 按權重隨機選擇](./Google/528.md)  
