@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+121 [540 有序數組中的單一元素](./Google/540.md)  
 120 [539 最小時間差](./Google/539.md)  
 119 [535 TinyURL 的加密與解密](./Google/535.md)  
 118 [529 掃雷遊戲](./Google/529.md)  
