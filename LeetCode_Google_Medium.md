@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+124 [554 磚牆](./Google/554.md)  
 123 [553 最優除法](./Google/553.md)  
 122 [547 省份數量](./Google/547.md)  
 121 [540 有序數組中的單一元素](./Google/540.md)  
