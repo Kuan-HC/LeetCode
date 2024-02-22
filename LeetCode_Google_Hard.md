@@ -2,6 +2,7 @@
 
 ### Difficulty: Hard
 
+034 [479 最大回文數乘積](./Google/479.md) 
 033 [472 連接詞](./Google/472.md) 
 032 [466 統計重覆個數](./Google/466.md) 
 031 [460 LFU 缓存](./Google/460.md)  
