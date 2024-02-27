@@ -2,6 +2,9 @@
 
 ### Difficulty: Medium
 
+141 [652 尋找重覆的子樹](./Google/652.md)  
+140 [650 兩個鍵的鍵盤](./Google/650.md)  
+139 [649 Dota2參議院](./Google/649.md)  
 138 [648 單詞替換](./Google/648.md)  
 137 [646 最長數隊鍊](./Google/646.md)  
 136 [641 設計循環雙端隊列](./Google/641.md)  
