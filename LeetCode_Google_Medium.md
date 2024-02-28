@@ -2,6 +2,9 @@
 
 ### Difficulty: Medium
 
+144 [667 優美的排序II](./Google/667.md)  
+143 [655 輸出二叉樹](./Google/655.md)  
+142 [654 最大二叉樹](./Google/654.md)  
 141 [652 尋找重覆的子樹](./Google/652.md)  
 140 [650 兩個鍵的鍵盤](./Google/650.md)  
 139 [649 Dota2參議院](./Google/649.md)  
