@@ -2,6 +2,8 @@
 
 ### Difficulty: Medium
 
+161 [713 乘積小於K的子數組](./Google/712.md)   
+160 [712 兩個字符串的最小ASCII刪除和](./Google/712.md)   
 159 [707 設計鍊表](./Google/707.md)   
 158 [695 島嶼的最大面積](./Google/695.md)   
 157 [690 員工的重要性](./Google/690.md)   
