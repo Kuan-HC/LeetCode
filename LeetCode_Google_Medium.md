@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+173 [754 到達終點數字](./Google/754.md) 
 172 [752 打開轉盤鎖](./Google/752.md) 
 171 [743 網路延遲時間](./Google/743.md) 
 170 [740 刪除並獲得點數](./Google/740.md) 
