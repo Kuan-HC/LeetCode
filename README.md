@@ -3,8 +3,10 @@
 ## LeetCode Google
 
 * [Google Hard](./LeetCode_Google_Hard.md)
-* [Google Medium](./LeetCode_Google_Medium.md)
-* [Google Easy](./LeetCode_Google_Easy.md)
+* [Google Medium I](./LeetCode_Google_Medium.md)
+* [Google Medium II](./LeetCode_Google_Medium_II.md)
+* [Google Easy I](./LeetCode_Google_Easy.md)
+* [Google Easy II](./LeetCode_Google_Easy_II.md)
 
 ## LeetCode Tesla
 
