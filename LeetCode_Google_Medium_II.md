@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+226 [881 救生艇](./Google/881.md) 
 225 [877 石子遊戲](./Google/877.md) 
 224 [875 愛吃香蕉的珂珂](./Google/875.md) 
 223 [874 模擬行走機器人](./Google/874.md) 
