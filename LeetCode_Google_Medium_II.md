@@ -2,6 +2,7 @@
 
 ### Difficulty: Medium
 
+234 [907 子數組的最小值之和](./Google/907.md) 
 233 [901 股票價格跨度](./Google/901.md) 
 232 [900 RLE 迭代器](./Google/900.md) 
 231 [898 子數組按位或操作](./Google/898.md) 
