@@ -2,6 +2,8 @@
 
 ### Difficulty: Medium
 
+237 [911 在線選舉](./Google/911.md) 
+236 [910 最小差值](./Google/910.md) 
 235 [909 蛇梯棋](./Google/909.md) 
 234 [907 子數組的最小值之和](./Google/907.md) 
 233 [901 股票價格跨度](./Google/901.md) 
