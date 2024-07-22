@@ -2,6 +2,11 @@
 
 ### Difficulty: Easy
 
+323 [2859 計算 K 置位下標對應元素的和](./Google/2859.md) 
+322 [2600 K件物品的最大和](./Google/2600.md) 
+321 [LCP33 蓄水](./Google/LCP33.md) 
+320 [LCP07 傳遞信息](./Google/LCP07.md) 
+319 [LCP01 猜數字](./Google/LCP01.md) 
 318 [3038 相同分數的最大操作數目](./Google/3038.md) 
 317 [2864 最大二進制奇數](./Google/2864.md) 
 316 [2769 找出最大的可達成數字](./Google/2769.md) 
