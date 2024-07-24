@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+328 [2651 計算列車到站時間](./Google/2651.md) 
 327 [LCR001 兩數相處](./Google/LCR001.md) 
 326 [2582 遞枕頭](./Google/2582.md) 
 325 [693 交替位二進制數](./Google/693.md) 
