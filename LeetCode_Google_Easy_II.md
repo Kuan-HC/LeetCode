@@ -2,6 +2,10 @@
 
 ### Difficulty: Easy
 
+327 [LCR001 兩數相處](./Google/LCR001.md) 
+326 [2582 遞枕頭](./Google/2582.md) 
+325 [693 交替位二進制數](./Google/693.md) 
+324 [2639 查询網格图中每一列的寬度](./Google/2639.md) 
 323 [2859 計算 K 置位下標對應元素的和](./Google/2859.md) 
 322 [2600 K件物品的最大和](./Google/2600.md) 
 321 [LCP33 蓄水](./Google/LCP33.md) 
