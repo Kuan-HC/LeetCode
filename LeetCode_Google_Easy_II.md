@@ -2,6 +2,7 @@
 
 ### Difficulty: Easy
 
+330 [2678 老人的數目](./Google/2678.md) 
 329 [2652 倍數求和](./Google/2652.md) 
 328 [2651 計算列車到站時間](./Google/2651.md) 
 327 [LCR001 兩數相處](./Google/LCR001.md) 
