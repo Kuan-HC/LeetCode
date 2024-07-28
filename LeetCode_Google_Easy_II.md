@@ -2,6 +2,8 @@
 
 ### Difficulty: Easy
 
+333 [LCR059 數據流中的第K大元素](./Google/LCR059.md) 
+332 [LCR024 反轉鍊表](./Google/LCR024.md) 
 331 [LCR019 驗證回文串](./Google/LCR019.md) 
 330 [2678 老人的數目](./Google/2678.md) 
 329 [2652 倍數求和](./Google/2652.md) 
