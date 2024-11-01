@@ -1,5 +1,9 @@
 ### Easy 
 
+195 [LCP44 開幕式煙火 ](./Easy/LCP044.md)
+194 [LCP40 心算挑戰](./Easy/LCP040.md)
+193 [LCP39 無人機方陣](./Easy/LCP039.md)
+192 [LCP28 採購方案](./Easy/LCP028.md)
 191 [LCP22 黑白方格畫](./Easy/LCP022.md)
 190 [LCP18 早餐組合](./Easy/LCP018.md)
 189 [LCP17 速算機器人](./Easy/LCPO17.md)
