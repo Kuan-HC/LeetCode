@@ -1,5 +1,11 @@
 ### Easy 
 
+201 [LCP51 烹飪料理](./Easy/LCP051.md)
+200 [LCP55 採集果實](./Easy/LCP055.md)
+199 [LCP66 最小展台數量](./Easy/LCP066.md)
+198 [LCP61 氣溫變化趨勢](./Easy/LCP061.md)
+197 [LCP72 補給馬車](./Easy/LCP072.md)
+196 [LCP77 符文儲備](./Easy/LCP077.md)
 195 [LCP44 開幕式煙火 ](./Easy/LCP044.md)
 194 [LCP40 心算挑戰](./Easy/LCP040.md)
 193 [LCP39 無人機方陣](./Easy/LCP039.md)
