@@ -1,5 +1,6 @@
 ### Easy 
 
+202 [3340 平衡字符串](./Easy/3340.md)
 201 [LCP51 烹飪料理](./Easy/LCP051.md)
 200 [LCP55 採集果實](./Easy/LCP055.md)
 199 [LCP66 最小展台數量](./Easy/LCP066.md)
