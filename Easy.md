@@ -1,5 +1,7 @@
 ### Easy 
 
+204 [LCR003 比特位計數](./Easy/LCR003.md)
+203 [LCR002 二進制求和](./Easy/LCR002.md)
 202 [3340 平衡字符串](./Easy/3340.md)
 201 [LCP51 烹飪料理](./Easy/LCP051.md)
 200 [LCP55 採集果實](./Easy/LCP055.md)
