@@ -1,5 +1,7 @@
 ### Easy 
 
+205 [LCR023 相交鍊表](./Easy/LCR018.md)
+205 [LCR018 驗證回文串](./Easy/LCR023.md)
 205 [LCR006 兩數之和](./Easy/LCR006.md)
 204 [LCR003 比特位計數](./Easy/LCR003.md)
 203 [LCR002 二進制求和](./Easy/LCR002.md)
