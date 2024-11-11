@@ -1,7 +1,12 @@
 ### Easy 
 
-205 [LCR023 相交鍊表](./Easy/LCR018.md)
-205 [LCR018 驗證回文串](./Easy/LCR023.md)
+212 [3349 檢測相鄰遞增子數組 I](./Easy/3349.md)
+211 [3345 最小可整除數位乘積I](./Easy/3345.md)
+210 [LCR034 驗證外星語詞典](./Easy/LCR034.md)
+209 [LCR032 有效的字母異位詞](./Easy/LCR032.md)
+208 [LCR027 回文鍊表](./Easy/LCR027.md)
+207 [LCR023 相交鍊表](./Easy/LCR023.md)
+206 [LCR018 驗證回文串](./Easy/LCR018.md)
 205 [LCR006 兩數之和](./Easy/LCR006.md)
 204 [LCR003 比特位計數](./Easy/LCR003.md)
 203 [LCR002 二進制求和](./Easy/LCR002.md)
