@@ -1,5 +1,6 @@
 ### Easy 
 
+217 [LCR069 山脈數組的峰頂索引](./Easy/LCR069.md)
 216 [LCR068 搜索插入位置](./Easy/LCR068.md)
 215 [LCR056 兩數之和](./Easy/LCR056.md)
 214 [LCR052 遞增順序搜索樹](./Easy/LCR052.md)
