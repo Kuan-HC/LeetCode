@@ -1,5 +1,21 @@
 # LeetCode Problems
 
+## LeetCode 
+
+### Algirighm Template
+
+* [Algorithm template](./Algorithms.md)
+
+### Easy
+
+* [Easy](./Easy.md)
+
+### Medium
+
+* [Medium](./Medium.md)
+* [Medium II](./Medium_II.md)
+* [Medium III](./Medium_III.md)
+
 ## LeetCode Google
 
 * [Google Hard](./LeetCode_Google_Hard.md)
