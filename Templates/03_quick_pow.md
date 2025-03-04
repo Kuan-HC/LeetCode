@@ -13,30 +13,17 @@ using namespace std;
  
 
 template <typename T> 
-T fastPow(T base, T exp, T mod) 
-
-{ 
-
-    T result = 1; 
-
-    while (exp > 0) 
-
-    { 
-
+T fastPow(T base, T exp, T mod) { 
+    T result = 1;
+    while (exp > 0){ 
         if (exp & 1) 
-
             result = (result * base) % mod; 
-
  
-
         base = (base * base) % mod; 
-
-        exp = exp / 2; 
-
+        exp >>= 12; 
     } 
 
     return result; 
-
 } 
 
  
