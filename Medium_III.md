@@ -1,5 +1,6 @@
 ### Medium III
 
+300 [2708 e一個小組的最大實力值](./Medium/2708.md)
 299 [LCR013 二維區域和檢索](./Medium/LCR013.md)
 298 [2353 設計食物評分系統](./Medium/2353.md)
 297 [LCP034 二叉樹染色](./Medium/LCP034.md)
