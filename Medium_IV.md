@@ -1,8 +1,12 @@
 ### Medium III
 
-317 [2594 修車的最少時間](./Medium/2594.md) 
-316 [LCR050 路徑總合 III](./Medium/lcr050.md) 
-315 [LCR020 回文字串](./Medium/lcr020.md) 
+321 [LCR081 組合總合](./Medium/LCR081.md)  
+320 [LCR087 復原IP地址](./Medium/LCR087.md)  
+319 [LCR010 和為K的連續子數組](./Medium/LCR010.md)  
+318 [3371 識別數組中的最大異常值](./Medium/3371.md)  
+317 [2594 修車的最少時間](./Medium/2594.md)  
+316 [LCR050 路徑總合 III](./Medium/lcr050.md)  
+315 [LCR020 回文字串](./Medium/lcr020.md)  
 314 [2145 統計隱藏數組數目](./Medium/2145.md)  
 313 [2095 刪除鍊表的中間節點](./Medium/2095.md)  
 312 [3462 提取至多K個元素的最大總合](./Medium/3462.md)  
