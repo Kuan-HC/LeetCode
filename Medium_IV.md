@@ -1,5 +1,7 @@
 ### Medium III
 
+331 [2300 咒語和藥水的成功對數](./Medium/2300.md) 
+330 [LCR099 最小路徑和](./Medium/LCR099.md) 
 329 [LCR070 三數之和](./Medium/LCR070.md) 
 328 [3439 重新安排會議得到最多空餘時間 I](./Medium/3439.md) 
 327 [LCR090 打家劫舍 II](./Medium/lcr090.md) 
