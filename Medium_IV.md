@@ -1,5 +1,7 @@
 ### Medium III
 
+333 [2929 給小朋友分糖果](./Medium/2929.md) 
+332 [3186 施咒的最大傷害](./Medium/3186.md) 
 331 [2300 咒語和藥水的成功對數](./Medium/2300.md) 
 330 [LCR099 最小路徑和](./Medium/LCR099.md) 
 329 [LCR070 三數之和](./Medium/LCR070.md) 
